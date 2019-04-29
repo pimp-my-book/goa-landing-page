@@ -1,29 +1,17 @@
-# goa-landing-page
+# GOA Landing Page
 
-## Project setup
-```
-yarn install
-```
+## Setup Instrustions 
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+Once you've cloned this repo, install the dependaices
 
-### Compiles and minifies for production
 ```
-yarn run build
+$ yarn install
+
 ```
 
-### Run your tests
-```
-yarn run test
-```
+Then you can start the app and navigate to localhost:
 
-### Lints and fixes files
 ```
-yarn run lint
-```
+$ yarn serve
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```
