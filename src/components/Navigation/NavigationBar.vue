@@ -5,3 +5,8 @@
         </div>
     </nav>
 </template>
+<script>
+export default {
+    name: 'NavigationBar'
+}
+</script>
