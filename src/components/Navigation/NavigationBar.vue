@@ -4,9 +4,9 @@
             <h1 class="font-display text-white">GOA</h1>
         </div>
         <div class="block lg:hidden">
-            <span class="flex items-center px-3 py-2">MENU</span>
+            <span @click="toggle" class="flex items-center px-3 py-2">MENU</span>
         </div>
-        <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto">
+        <div :class="open ? 'block':'hidden'" class="w-full flex-grow lg:flex lg:items-center lg:w-auto">
             <div class="text-sm lg:flex-grow">
                 <a href="#" class="block mt-4 no-underline lg:inline-block lg:mt-0 text-white hover:text-bg-green-light mr-4">
                    <p class="font-body"> How It Works</p>
@@ -34,6 +34,16 @@ export default {
     name: 'NavigationBar',
     components: {
         PrimaryButton
+    },
+    data: () =>{
+        return {
+            open: false
+        }
+    },
+    methods: {
+        toggle(){
+            this.open = !this.open
+        }
     }
 }
 </script>
