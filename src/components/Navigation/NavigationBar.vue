@@ -18,12 +18,20 @@
                     Support
                 </a>
             </div>
+            <div>
+               <PrimaryButton/>
+            </div>
         </div>
     </nav>
 </template>
 <script>
+import PrimaryButton from '../Buttons/PrimaryButton';
+
 export default {
-    name: 'NavigationBar'
+    name: 'NavigationBar',
+    components: {
+        PrimaryButton
+    }
 }
 </script>
 
