@@ -1,7 +1,7 @@
 <template>
-    <nav class="flex items-center justify-between flex-wrap bg-teal p-6">
+    <nav class="flex items-center justify-between flex-wrap bg-green-darker p-6">
         <div class="flex items-center flex-no-shrink text">
-            <span>GOA</span>
+            <span class="font-display text-white">GOA</span>
         </div>
     </nav>
 </template>

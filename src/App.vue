@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import { NavigationBar } from "./components/Navigation/NavigationBar";
+import  NavigationBar  from "./components/Navigation/NavigationBar";
 export default {
   name: 'app',
   components: {
@@ -23,6 +23,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+ 
 }
 </style>
