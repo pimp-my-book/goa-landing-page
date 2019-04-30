@@ -1,5 +1,5 @@
 <template>
-    <button class="bg-green text-white font-bold py-2 px-4 rounded">
+    <button class="bg-green font-body text-white  py-2 px-4 rounded">
      Button Text
     </button>
 </template>
