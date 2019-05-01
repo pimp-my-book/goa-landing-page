@@ -47,30 +47,24 @@ let colors = {
   'transparent': 'transparent',
 
   'black': '#22292f',
-  'grey-darkest': '#3d4852',
-  'grey-darker': '#606f7b',
-  'grey-dark': '#8795a1',
-  'grey': '#b8c2cc',
-  'grey-light': '#dae1e7',
-  'grey-lighter': '#f1f5f8',
-  'grey-lightest': '#f8fafc',
+  'grey-darker': '#434343',
+  'grey-dark': '#52524E',
+  'grey': '#9A9B94',
+  'grey-light': '#D4D6C8',
+  'grey-lighter': '#E9E9E5',
   'white': '#ffffff',
 
-  'red-darkest': '#3b0d0c',
-  'red-darker': '#621b18',
-  'red-dark': '#cc1f1a',
-  'red': '#e3342f',
-  'red-light': '#ef5753',
-  'red-lighter': '#f9acaa',
-  'red-lightest': '#fcebea',
+  'red-dark': '#E71D36',
+  'red': '#FF4545',
+  'red-light': '#FF9867',
+  'red-lighter': '#FFBF87',
+  'red-lightest': '#FFEDB2',
 
-  'orange-darkest': '#462a16',
-  'orange-darker': '#613b1f',
-  'orange-dark': '#de751f',
-  'orange': '#f6993f',
-  'orange-light': '#faad63',
-  'orange-lighter': '#fcd9b6',
-  'orange-lightest': '#fff5eb',
+  'orange-darker': '#FF941F',
+  'orange-dark': '#FFA401',
+  'orange': '#FFB300',
+  'orange-light': '#FFBF00', 
+  'orange-lighter': '#FFC516',
 
   'yellow-darkest': '#453411',
   'yellow-darker': '#684f1d',
@@ -80,13 +74,13 @@ let colors = {
   'yellow-lighter': '#fff9c2',
   'yellow-lightest': '#fcfbeb',
 
-  'green-darkest': '#0f2f21',
-  'green-darker': '#1a4731',
-  'green-dark': '#1f9d55',
-  'green': '#38c172',
-  'green-light': '#51d88a',
-  'green-lighter': '#a2f5bf',
-  'green-lightest': '#e3fcec',
+  
+  'green-darker': '#08160A',
+  'green-dark': '#247A2E',
+  'green': '#4ECA5D',
+  'green-light': '#A0FFAB',
+  'green-lighter': '#D7FFF1',
+  
 
   'teal-darkest': '#0d3331',
   'teal-darker': '#20504f',
@@ -194,6 +188,8 @@ module.exports = {
   */
 
   fonts: {
+    'display':['Paytone One'] ,
+    'body': ['Poppins'],
     'sans': [
       'system-ui',
       'BlinkMacSystemFont',
@@ -958,6 +954,14 @@ module.exports = {
       // center: true,
       // padding: '1rem',
     }),
+    function({addComponents}){
+      const boarders = {
+        ".border-top": {
+          borderTop: "#4ECA5D 8px solid"
+        }
+      };
+      addComponents(boarders);
+    }
   ],
 
 
