@@ -1,5 +1,5 @@
 <template>
-<header>
+<header class="Header">
 
 </header>
 
@@ -11,5 +11,10 @@ export default{
 </script>
 
 <style>
+ .Header{
+     position: absolute;
+     width: 1440px;
+     height: 729px;
+ }
 
 </style>
