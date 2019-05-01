@@ -50,7 +50,7 @@ export default {
 
 <style >
 
- @media (min-width: 400px){
+ @media (min-width: 300px){
         .nav__drawer--right{
             margin-top: 10px;
    
