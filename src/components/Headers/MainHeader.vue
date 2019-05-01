@@ -13,7 +13,7 @@ export default{
 <style>
  .Header{
      position: absolute;
-     width: 1440px;
+     width: 90vw;
      height: 729px;
  }
 

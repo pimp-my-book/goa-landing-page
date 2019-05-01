@@ -1,16 +1,19 @@
 <template>
   <div id="app">
    <NavigationBar/>
-   
+   <MainHeader/>
   </div>
 </template>
 
 <script>
 import  NavigationBar  from "./components/Navigation/NavigationBar";
+import MainHeader from "./components/Headers/MainHeader";
+
 export default {
   name: 'app',
   components: {
-    NavigationBar
+    NavigationBar,
+    MainHeader
   }
   
 }
