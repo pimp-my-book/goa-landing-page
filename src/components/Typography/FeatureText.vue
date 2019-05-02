@@ -1,5 +1,5 @@
 <template>
-    <h1 class="text-lg font-body">{{text}}</h1>
+    <p class="text-lg font-body">{{text}}</p>
 </template>
 <script>
 export default {

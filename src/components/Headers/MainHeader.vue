@@ -5,6 +5,10 @@
   text="A 22nd Century Educational Experince"
   class="text-white"
   />
+  <FeatureText
+  text="GOA is platform that allows bursaries to provide universty textbooks to their students, allowing you to save on your budget for your bursary. We focus on sourcing the books, while allowing students to focus on what matters."
+  class="text-white"
+  />
     </div>
   
 </header>
@@ -12,11 +16,13 @@
 </template>
 <script>
 import DisplayXLarge from "../Typography/DisplayXLarge";
+import FeatureText from "../Typography/FeatureText";
 
 export default{
     name: 'MainHeader',
     components: {
-        DisplayXLarge
+        DisplayXLarge,
+        FeatureText
     }
 }
 </script>
