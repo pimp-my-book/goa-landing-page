@@ -15,7 +15,7 @@ export default{
      position: absolute;
      width: 100%;
      height: 729px;
-     background: url('https://s3.amazonaws.com/goa-assets/Images/Home+Image.svg');
+     background: url('https://s3.amazonaws.com/goa-assets/Images/Home__Header-min.png');
      
  }
 
