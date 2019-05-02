@@ -10,6 +10,15 @@
   class="text-white-lighter mt-2"
   />
     </div>
+    <div>
+        <PrimaryButton
+        text="Book Demo"
+        />
+        <SecondaryButton
+        text="Sign Up"
+        class="ml-3"
+        />
+    </div>
   
 </header>
 
@@ -17,12 +26,17 @@
 <script>
 import DisplayXLarge from "../Typography/DisplayXLarge";
 import FeatureText from "../Typography/FeatureText";
+import PrimaryButton from "../Buttons/PrimaryButton";
+import SecondaryButton from "../Buttons/SecondaryButton";
 
 export default{
     name: 'MainHeader',
     components: {
         DisplayXLarge,
-        FeatureText
+        FeatureText,
+        PrimaryButton,
+        SecondaryButton
+        
     }
 }
 </script>

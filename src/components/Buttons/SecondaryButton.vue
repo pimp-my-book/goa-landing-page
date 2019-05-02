@@ -1,5 +1,5 @@
 <template>
-    <button class="bg-green-light font-body text-white  py-2 px-4 rounded">
+    <button class="bg-green-light font-body text-green-darker  py-2 px-4 rounded">
      <a class="no-underline" 
      :href="url">
      {{text}}
