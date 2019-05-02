@@ -10,12 +10,12 @@
   class="text-white-lighter mt-2"
   />
     </div>
-    <div>
+    <div class="flex  mt-10 lg:mr-20 ml-10">
         <PrimaryButton
         text="Book Demo"
         />
         <SecondaryButton
-        text="Sign Up"
+        text="How It Works"
         class="ml-3"
         />
     </div>
