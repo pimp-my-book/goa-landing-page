@@ -1,12 +1,23 @@
 <template>
 <header class="Header">
-
+    <div class="lg:mt-32 lg:mr-20 sm:items-center sm:flex sm:flex-col">
+   <DisplayXLarge 
+  text="A 22nd Century Educational Experince"
+  class="text-white"
+  />
+    </div>
+  
 </header>
 
 </template>
 <script>
+import DisplayXLarge from "../Typography/DisplayXLarge";
+
 export default{
-    name: 'MainHeader'
+    name: 'MainHeader',
+    components: {
+        DisplayXLarge
+    }
 }
 </script>
 
