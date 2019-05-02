@@ -1,5 +1,8 @@
 <template>
-    <button class="bg-green-light font-body text-green-darker  py-2 px-4 rounded">
+    <button  :class="[regular 
+    ? ' hover:text-green-darker hover:bg-transparent bg-green-lighter font-body py-2 px-4 text-green-darker   rounded' 
+    : ' hover:text-green-darker  hover:bg-transparent bg-green-lighter font-body py-4 px-6 text-green-darker rounded']">
+                
      <a class="no-underline" 
      :href="url">
      {{text}}
@@ -11,7 +14,10 @@ export default {
     name: 'SecondaryButton',
     props: {
         text: String,
-        url: String
+        url: String,
+        regular: Boolean,
     }
 }
 </script>
+
+
