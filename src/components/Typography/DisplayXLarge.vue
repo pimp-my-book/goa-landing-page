@@ -1,8 +1,11 @@
 <template>
-    <h1></h1>
+    <h1 class="text-5xl font-display">{{text}}</h1>
 </template>
 <script>
 export default {
-    name:'DisplayXLarge'
+    name:'DisplayXLarge',
+    props: {
+        text: String
+    }
 }
 </script>
