@@ -1,5 +1,5 @@
 <template>
-    <button class="bg-green font-body text-white  py-2 px-4 rounded">
+    <button :class="[regular ? 'bg-green font-body py-2 px-4 text-white   rounded' : 'bg-green font-body py-4 px-6 text-white rounded']">
      <a class="no-underline" 
      :href="url">
      {{text}}
@@ -12,8 +12,11 @@ export default {
     name: 'PrimaryButton',
     props: {
         text: String,
-        url: String
-    }
+        url: String,
+        regular: Boolean,
+        large: Boolean
+    },
+   
 }
 </script>
 

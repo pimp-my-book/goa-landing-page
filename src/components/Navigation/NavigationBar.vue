@@ -22,7 +22,7 @@
                 <p class="text-white font-body mr-4 ">Login</p>
             </div>
             <div class="nav__drawer--right ">
-               <PrimaryButton text="Sign Up"/>
+               <PrimaryButton text="Sign Up" regular="true"/>
             </div>
         </div>
     </nav>
