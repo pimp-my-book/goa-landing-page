@@ -1,13 +1,13 @@
 <template>
 <header class="Header">
-    <div class="lg:text-left sm:text-center ml-3 lg:mt-32 lg:mr-20 sm:items-center sm:flex sm:flex-col">
+    <div class="lg:text-left sm:text-justify ml-3 lg:mt-32 lg:mr-20  sm:flex sm:flex-col">
    <DisplayXLarge 
   text="A 22nd Century Educational Experince"
   class="text-white Header__Text"
   />
   <FeatureText
   text="GOA is platform that allows bursaries to provide universty textbooks to their students, allowing you to save on your budget for your bursary. We focus on sourcing the books, while allowing students to focus on what matters."
-  class="text-white-lighter mt-2"
+  class="text-white-lighter mt-2 "
   />
     </div>
     <div class="flex  mt-10 lg:mr-20 ml-10">
