@@ -2,7 +2,9 @@
 <div>
      <MainHeader/>
       <div class="flex flex-row">
-
+       <SmallCard
+    
+       />
       </div>
 </div>
       
