@@ -7,7 +7,7 @@ Vue.config.productionTip = false
 
 
 Vue.use(VueAnalytics, {
-  id: process.ENV.GA_ID
+  id: process.env.GA_ID
 })
 
 new Vue({
