@@ -14,6 +14,11 @@ export default {
   components: {
     NavigationBar,
     MainHeader
+  },
+  methods: {
+    track(){
+      this.$ga.page('/home')
+    }
   }
   
 }
