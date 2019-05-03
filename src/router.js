@@ -1,8 +1,10 @@
 import VueRouter from 'vue-router'
-import Vue from 'vue'
+//import Vue from 'vue'
+
+import Home from './pages/Home'
 
 const routes = [
-    {path:'/', components: //Home}
+    {path:'/', components: Home}
 ]
 
 const router = new VueRouter({
