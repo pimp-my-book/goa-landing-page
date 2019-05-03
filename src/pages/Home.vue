@@ -1,21 +1,31 @@
 <template>
 <div>
-     <MainHeader/>
-      <div class="flex flex-row">
-       <SmallCard
     
+ 
+     <MainHeader/>
+
+    <div class="container mx-auto mt-30">
+     <div class=" mt-30">
+       <SmallCard
+        cardTitle="Chopstix"
        />
+       <h1 class="text-white">FLOOATING</h1>
       </div>
+ </div>
+    
+      
 </div>
       
 </template>
 <script>
 import MainHeader from "../components/Headers/MainHeader";
+import SmallCard from "../components/Cards/SmallCard";
 
 export default {
     name:'Home',
     components:{
-        MainHeader
+        MainHeader,
+        SmallCard
     }
 }
 </script>

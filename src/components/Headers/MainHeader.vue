@@ -1,5 +1,6 @@
 <template>
-<header class="Header">
+
+    <header class="Header ">
     <div class="lg:text-left sm:text-justify ml-3 lg:mt-32 lg:mr-20  sm:flex sm:flex-col">
    <DisplayXLarge 
   text="A 22nd Century Educational Experince"
@@ -23,6 +24,7 @@
     </div>
   
 </header>
+
 
 </template>
 <script>
