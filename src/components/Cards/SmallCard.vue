@@ -20,7 +20,8 @@ import FeatureText from "../Typography/FeatureText"
 export default {
     name: 'SmallCard',
     components:{
-    DisplaySmall
+    DisplaySmall,
+    FeatureText
     },
     props: {
         img: String,

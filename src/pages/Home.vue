@@ -9,8 +9,9 @@
      <div class=" mt-30">
        <SmallCard
         cardTitle="Chopstix"
+        cardText="Students easily  can see their spending on orders. We also give Bursaries the ability to control their spending budgets."
        />
-       <h1 class="text-green">FLOOATING</h1>
+       
       </div>
  </div>
     
