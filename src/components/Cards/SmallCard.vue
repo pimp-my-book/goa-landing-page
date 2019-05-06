@@ -1,13 +1,18 @@
 <template>
-<div class="max-w-sm overflow-hidden shadow-lg w-1/4 rounded">
-  <img src="https://s3.amazonaws.com/goa-assets/Illustrations/Cash+income.svg"
+<div class= "shadow-lg Card rounded">
+  <img 
+  class="mt-5"
+  src="https://s3.amazonaws.com/goa-assets/Illustrations/Cash+income.svg"
   alt="money"
-  class="" />
+   />
   <div>
-   <DisplaySmall :text="cardTitle"/>
+   <DisplaySmall 
+   class="mt-5"
+   :text="cardTitle"/>
   </div>
   <div>
    <FeatureText
+   class="mt-5"
    :text="cardText"
    />
 
@@ -32,3 +37,11 @@ export default {
     }
 }
 </script>
+
+<style>
+.Card{
+    width: 320px;
+    height: 300px;
+}
+</style>
+
