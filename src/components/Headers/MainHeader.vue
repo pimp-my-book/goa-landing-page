@@ -1,7 +1,7 @@
 <template>
 
 <header class="Header ">
-    <div class="lg:text-left sm:text-justify ml-3 flex flex-wrap pt-32 lg:mr-20  sm:flex sm:flex-col">
+    <div class="lg:text-left sm:text-justify ml-3 lg:flex lg:flex-wrap pt-32 lg:mr-20 sm:text-center  sm:flex sm:flex-col">
    <DisplayXLarge 
   text="A 22nd Century Educational Experince"
   class="text-white Header__Text "
