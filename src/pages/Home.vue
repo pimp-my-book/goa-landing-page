@@ -1,15 +1,16 @@
 <template>
 <div>
     
- 
      <MainHeader/>
 
-    <div class="container mx-auto mt-30">
+ 
+
+    <div class="container relative pin mx-auto mt-30 ">
      <div class=" mt-30">
        <SmallCard
         cardTitle="Chopstix"
        />
-       <h1 class="text-white">FLOOATING</h1>
+       <h1 class="text-green">FLOOATING</h1>
       </div>
  </div>
     
