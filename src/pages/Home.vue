@@ -5,13 +5,12 @@
 
  
 
-    <div class="container relative pin mx-auto mt-30 ">
-     <div class=" mt-30">
+    <div class="container pb-32 pt-32 pl-32">
+     <div class=" flex flex-row">
        <SmallCard
         cardTitle="Chopstix"
         cardText="Students easily  can see their spending on orders. We also give Bursaries the ability to control their spending budgets."
        />
-       
       </div>
  </div>
     

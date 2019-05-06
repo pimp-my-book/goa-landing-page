@@ -1,6 +1,8 @@
 <template>
 <div class="max-w-sm overflow-hidden shadow-lg w-1/4 rounded">
-  <img class="" />
+  <img src="https://s3.amazonaws.com/goa-assets/Illustrations/Cash+income.svg"
+  alt="money"
+  class="" />
   <div>
    <DisplaySmall :text="cardTitle"/>
   </div>
