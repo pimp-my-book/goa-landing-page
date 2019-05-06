@@ -11,6 +11,16 @@
         cardTitle="Chopstix"
         cardText="Students easily  can see their spending on orders. We also give Bursaries the ability to control their spending budgets."
        />
+
+        <SmallCard
+        cardTitle="Chopstix"
+        cardText="Students easily  can see their spending on orders. We also give Bursaries the ability to control their spending budgets."
+       />
+
+        <SmallCard
+        cardTitle="Chopstix"
+        cardText="Students easily  can see their spending on orders. We also give Bursaries the ability to control their spending budgets."
+       />
       </div>
  </div>
     
