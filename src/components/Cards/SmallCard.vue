@@ -13,7 +13,7 @@
   </div>
   <div>
    <FeatureText
-   class="mt-5"
+   class="mt-5 p-3"
    :text="cardText"
    small
    />
@@ -42,7 +42,7 @@ export default {
 
 <style>
 .Card{
-    width: 320px;
+    width: 400px;
     height: 300px;
 }
 </style>
