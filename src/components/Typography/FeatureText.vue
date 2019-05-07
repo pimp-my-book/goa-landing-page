@@ -1,5 +1,5 @@
 <template>
-    <p :class="['small' ? 'text-sm font-body' : 'text-lg font-body' ]">{{text}}</p>
+    <p :class="[small ? 'text-sm font-body' : 'text-lg font-body' ]">{{text}}</p>
 </template>
 <script>
 export default {
