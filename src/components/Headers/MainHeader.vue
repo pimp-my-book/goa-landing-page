@@ -9,6 +9,7 @@
   <FeatureText
   text="GOA is platform that allows bursaries to provide universty textbooks to their students, allowing you to save on your budget for your bursary. We focus on sourcing the books, while allowing students to focus on what matters."
   class="text-white-lighter mt-2 "
+  
   />
     </div>
     <div class="flex  mt-10 lg:mr-20 ml-10">

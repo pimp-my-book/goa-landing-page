@@ -15,6 +15,7 @@
    <FeatureText
    class="mt-5"
    :text="cardText"
+   small
    />
 
   </div>
