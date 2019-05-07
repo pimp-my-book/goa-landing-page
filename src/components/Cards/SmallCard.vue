@@ -7,8 +7,9 @@
    />
   <div>
    <DisplaySmall 
-   class="mt-5"
-   :text="cardTitle"/>
+   class="mt-5 text-blue-dark"
+   :text="cardTitle"
+   />
   </div>
   <div>
    <FeatureText

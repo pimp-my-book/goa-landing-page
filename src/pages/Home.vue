@@ -14,13 +14,15 @@
        />
 
         <SmallCard
-        cardTitle="Chopstix"
-        cardText="Students easily  can see their spending on orders. We also give Bursaries the ability to control their spending budgets."
+        img="https://s3.amazonaws.com/goa-assets/Illustrations/Award.svg"
+        cardTitle="Dedicated Support Staff"
+        cardText="You can rest assured that our friendly staff are doing all the heavy lifting of managing students’ orders."
        />
 
         <SmallCard
-        cardTitle="Chopstix"
-        cardText="Students easily  can see their spending on orders. We also give Bursaries the ability to control their spending budgets."
+        img="https://s3.amazonaws.com/goa-assets/Illustrations/Safe.svg"
+        cardTitle="Centeralized Data"
+        cardText="All your students data is centralized with us. Which enables you get an overview what content they are purchasing. "
        />
       </div>
  </div>
