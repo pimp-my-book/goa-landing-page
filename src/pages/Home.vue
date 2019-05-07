@@ -8,7 +8,8 @@
     <div class="container pb-32 pt-32 pl-32">
      <div class=" flex flex-row">
        <SmallCard
-        cardTitle="Chopstix"
+       img="https://s3.amazonaws.com/goa-assets/Illustrations/Cash+income.svg"
+        cardTitle="Insight Into Spending"
         cardText="Students easily  can see their spending on orders. We also give Bursaries the ability to control their spending budgets."
        />
 
