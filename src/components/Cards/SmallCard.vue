@@ -1,10 +1,37 @@
 <template>
+<div class= "shadow-lg Card rounded-lg lg:mr-10">
+  <img 
+  class="mt-5"
+  :src="img"
+  alt="money"
+   />
+  <div>
+   <DisplaySmall 
+   class="mt-5 text-blue-dark"
+   :text="cardTitle"
+   />
+  </div>
+  <div>
+   <FeatureText
+   class="mt-5 p-3"
+   :text="cardText"
+   small
+   />
 
-    
+  </div>
+</div>
 </template>
+
 <script>
+import DisplaySmall from "../Typography/DisplaySmall"
+import FeatureText from "../Typography/FeatureText"
+
 export default {
     name: 'SmallCard',
+    components:{
+    DisplaySmall,
+    FeatureText
+    },
     props: {
         img: String,
         cardTitle: String,
@@ -12,3 +39,11 @@ export default {
     }
 }
 </script>
+
+<style>
+.Card{
+    width: 400px;
+    height: 300px;
+}
+</style>
+

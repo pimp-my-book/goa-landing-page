@@ -1,24 +1,21 @@
 <template>
   <div id="app">
    <NavigationBar/>
-   <MainHeader/>
+   <Home/>
+   <router-view></router-view>
   </div>
 </template>
 
 <script>
 import  NavigationBar  from "./components/Navigation/NavigationBar";
-import MainHeader from "./components/Headers/MainHeader";
+import Home from "./pages/Home"
 
 export default {
   name: 'app',
   components: {
     NavigationBar,
-    MainHeader
-  },
-  methods: {
-    track(){
-      this.$ga.page('/home')
-    }
+    Home
+    
   }
   
 }
