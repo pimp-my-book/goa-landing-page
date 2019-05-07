@@ -44,5 +44,11 @@ export default {
         MainHeader,
         SmallCard
     }
+    ,
+  methods: {
+    track(){
+      this.$ga.page('/home')
+    }
+  }
 }
 </script>

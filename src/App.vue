@@ -16,11 +16,6 @@ export default {
     NavigationBar,
     Home
     
-  },
-  methods: {
-    track(){
-      this.$ga.page('/home')
-    }
   }
   
 }

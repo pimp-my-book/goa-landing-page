@@ -1,5 +1,5 @@
 import VueRouter from 'vue-router'
-//import Vue from 'vue'
+import Vue from 'vue'
 
 import Home from './pages/Home'
 
