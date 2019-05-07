@@ -1,5 +1,5 @@
 <template>
-<div class= "shadow-lg Card rounded-lg mr-10">
+<div class= "shadow-lg Card rounded-lg lg:mr-10">
   <img 
   class="mt-5"
   :src="img"
