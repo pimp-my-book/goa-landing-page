@@ -2,7 +2,7 @@
 <div class= "shadow-lg Card rounded-lg mr-10">
   <img 
   class="mt-5"
-  src="https://s3.amazonaws.com/goa-assets/Illustrations/Cash+income.svg"
+  :src="img"
   alt="money"
    />
   <div>
