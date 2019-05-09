@@ -56,7 +56,7 @@
    />
   
 
-  
+  <!-- start of ul -->
      <ul>
    <li>
      <FeatureText
@@ -78,8 +78,10 @@
    text="Delivery at their destination of choice"
    />
    </li>
-     
+       <!-- end of ul -->
    </ul>
+
+
    <!-- End of text-part of div -->
    </div>
    
