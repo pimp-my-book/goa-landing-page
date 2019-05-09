@@ -45,6 +45,7 @@
    </div>
 <!-- End of img -->
 
+<!-- start of text-part of div -->
 <div>
    
    <DisplaySmall
@@ -79,6 +80,7 @@
    </li>
      
    </ul>
+   <!-- End of text-part of div -->
    </div>
    
    
