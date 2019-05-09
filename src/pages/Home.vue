@@ -30,25 +30,30 @@
       </div>
  </div>
 
- <div class="container">
+ <div class="container ">
+   <!-- Start of container -->
    <div class=" flex flex-row">
 
 
      <div>
      <img 
-     class="w-3/5 h-64"
+     class="w-img h-img"
      alt="students" 
      src="https://s3.amazonaws.com/goa-assets/Illustrations/undraw_High_five_u364.svg"
      />
    </div>
-   <div>
+
+<div>
+   
    <DisplaySmall
    text="Your Students’ Needs Sorted"
    />
    <FeatureText
    text="We created an easy to use experince that allows students to order what they need and have records of their order history. They also get notified about the stages of their order."
    />
-   <div>
+  
+
+  
      <ul>
    <li>
      <FeatureText
@@ -73,8 +78,9 @@
      
    </ul>
    </div>
+   
    </div>
-   </div>
+   <!-- End  of container -->
  </div>
     
       
