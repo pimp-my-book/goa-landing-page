@@ -35,6 +35,7 @@
    <div class=" flex flex-row">
 <!-- Start of flex-row -->
 
+<!-- start of img -->
      <div>
      <img 
      class="w-img h-img"
@@ -42,6 +43,7 @@
      src="https://s3.amazonaws.com/goa-assets/Illustrations/undraw_High_five_u364.svg"
      />
    </div>
+<!-- End of img -->
 
 <div>
    
