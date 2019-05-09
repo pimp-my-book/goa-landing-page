@@ -33,7 +33,7 @@
  <div class="container ">
    <!-- Start of container -->
    <div class=" flex flex-row">
-
+<!-- Start of flex-row -->
 
      <div>
      <img 
@@ -79,10 +79,11 @@
    </ul>
    </div>
    
+   
    </div>
-   <!-- End  of container -->
+   <!-- end of flex-row -->
  </div>
-    
+   <!-- End  of container --> 
       
 </div>
       
