@@ -1,5 +1,5 @@
 <template>
-<div class= "shadow-lg Card rounded-lg lg:mr-10">
+<div class= "shadow-lg  Card rounded-lg lg:mr-10">
   <img 
   class="mt-5"
   :src="img"
@@ -42,8 +42,10 @@ export default {
 
 <style>
 .Card{
-    width: 400px;
+    width: 300px;
     height: 300px;
 }
+
+
 </style>
 
