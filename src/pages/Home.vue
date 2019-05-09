@@ -46,21 +46,28 @@
 <!-- End of img -->
 
 <!-- start of text-part of div -->
-<div>
+<div class="text-left w-3/4 pl-32">
    
-   <DisplaySmall
+ 
+     <DisplaySmall
    text="Your Students’ Needs Sorted"
    />
    <FeatureText
    text="We created an easy to use experince that allows students to order what they need and have records of their order history. They also get notified about the stages of their order."
    />
-  
 
+
+
+
+
+   
   <!-- start of ul -->
-     <ul>
+  <div class="p-12 text-left ">
+ <ul>
    <li>
      <FeatureText
    text="Order History"
+  
    />
    </li>
    <li>
@@ -78,12 +85,18 @@
    text="Delivery at their destination of choice"
    />
    </li>
-       <!-- end of ul -->
    </ul>
+          <!-- end of ul -->
 
-
-   <!-- End of text-part of div -->
+  </div>
+    
+ 
+     <!-- End of text-part of div -->
    </div>
+
+
+
+
    
    
    </div>
