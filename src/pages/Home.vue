@@ -31,7 +31,10 @@
  </div>
 
  <div class="container">
-   <div>
+   <div class=" flex flex-row">
+
+
+     <div>
      <img 
      class="w-3/5 h-64"
      alt="students" 
@@ -69,6 +72,7 @@
    </li>
      
    </ul>
+   </div>
    </div>
    </div>
  </div>
