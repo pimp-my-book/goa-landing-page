@@ -32,7 +32,7 @@
 
  <div class="container ">
    <!-- Start of container -->
-   <div class=" flex flex-row">
+   <div class=" sm:flex lg:flex-row sm:flex-col">
 <!-- Start of flex-row -->
 
 <!-- start of img -->
