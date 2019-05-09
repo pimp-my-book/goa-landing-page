@@ -47,8 +47,8 @@
    />
    <div>
      <ul>
-      
-   <li><FeatureText
+   <li>
+     <FeatureText
    text="Order History"
    />
    </li>
@@ -99,3 +99,12 @@ export default {
   }
 }
 </script>
+
+<style >
+ul li {
+  list-style-image: url('https://s3.amazonaws.com/goa-assets/Icons/bullet_point.svg');
+  margin:0;
+  padding:0;
+}
+</style>
+
