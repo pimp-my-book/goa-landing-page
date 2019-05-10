@@ -15,15 +15,16 @@
 <!-- End of img -->
 
 <!-- start of text-part of div -->
-<div class="text-left w-3/4 pl-32">
+<div class="text-left w-3/4 pl-32 ">
      <DisplaySmall
    text="Your Students’ Needs Sorted"
+   class="mb-5 text-blue-dark"
    />
    <FeatureText
    text="We created an easy to use experince that allows students to order what they need and have records of their order history. They also get notified about the stages of their order."
    />
   <!-- start of ul -->
-  <div class="p-12 text-left ">
+  <div class="p-12 text-left pr-32">
  <ul class="mx-auto">
    <li>
      <FeatureText
