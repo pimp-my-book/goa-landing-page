@@ -216,34 +216,29 @@
 <!-- start of text-part of div -->
 <div class="lg:text-left lg:w-3/4 lg:pl-32 s:text-center">
      <DisplaySmall
-   text="Your Students’ Needs Sorted"
+   text="We Do The Boring Stuff For You"
    class="mb-5 text-blue-dark"
    />
    <FeatureText
-   text="We created an easy to use experince that allows students to order what they need and have records of their order history. They also get notified about the stages of their order."
+   text="One thing that makes managing the activity of over a 100 group of eager studentd hard is manaing the adim that comes with it. "
    />
   <!-- start of ul -->
   <div class="lg:p-12 lg:text-left lg:pr-32">
  <ul class="mx-auto">
    <li>
      <FeatureText
-   text="Order History"
+   text="No need to process payments with multiple students"
    
    />
    </li>
    <li>
      <FeatureText
-   text="Restriction on Book Orders"
+   text="Do not stress about quotes"
    />
    </li>
    <li>
      <FeatureText
-   text="Get Books for all degrees"
-   />
-   </li>
-   <li>
-      <FeatureText
-   text="Delivery at their destination of choice"
+   text="We complie detailed reports on your behalf"
    />
    </li>
    </ul>
