@@ -24,10 +24,11 @@
    />
   <!-- start of ul -->
   <div class="p-12 text-left ">
- <ul>
+ <ul class="mx-auto">
    <li>
      <FeatureText
    text="Order History"
+   
    />
    </li>
    <li>
@@ -82,8 +83,9 @@ export default {
 
 <style >
 ul li {
-  list-style-image: url('https://s3.amazonaws.com/goa-assets/Icons/bullet_point.svg');
-  margin:0;
-  padding:0;
+  list-style-image: url('https://s3.amazonaws.com/goa-assets/Icons/Group+48.1.svg');
+  padding: 10px;
 }
+
+
 </style>
