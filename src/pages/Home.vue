@@ -6,7 +6,7 @@
  
 
     <div class="container pb-32 pt-32  lg:pl-32">
-     <div class=" sm:flex lg:flex-row sm:flex-col">
+     <div class=" sm:flex lg:flex-row sm:flex-col items-center">
        <SmallCard
        img="https://s3.amazonaws.com/goa-assets/Illustrations/Cash+income.svg"
         cardTitle="Insight Into Spending"
@@ -29,20 +29,23 @@
        />
       </div>
  </div>
-    
-      
+
+<LandingBody/>
 </div>
       
 </template>
 <script>
 import MainHeader from "../components/Headers/MainHeader";
 import SmallCard from "../components/Cards/SmallCard";
+import LandingBody from "../components/Bodies/LandingBody";
 
 export default {
     name:'Home',
     components:{
         MainHeader,
-        SmallCard
+        SmallCard,
+        LandingBody
+        
     }
     ,
   methods: {
@@ -52,3 +55,6 @@ export default {
   }
 }
 </script>
+
+
+
