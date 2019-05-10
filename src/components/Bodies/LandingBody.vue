@@ -68,8 +68,8 @@
 
 <script>
 
-import DisplaySmall from "../components/Typography/DisplaySmall";
-import FeatureText from "../components/Typography/FeatureText";
+import DisplaySmall from "../Typography/DisplaySmall";
+import FeatureText from "../Typography/FeatureText";
 
 export default {
     name: 'LandingBody',

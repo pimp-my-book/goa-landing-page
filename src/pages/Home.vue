@@ -30,19 +30,21 @@
       </div>
  </div>
 
-
+<LandingBody/>
 </div>
       
 </template>
 <script>
 import MainHeader from "../components/Headers/MainHeader";
 import SmallCard from "../components/Cards/SmallCard";
+import LandingBody from "../components/Bodies/LandingBody";
 
 export default {
     name:'Home',
     components:{
         MainHeader,
         SmallCard,
+        LandingBody
         
     }
     ,
