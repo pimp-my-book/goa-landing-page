@@ -32,7 +32,7 @@
 
 <LandingBody/>
 
-<div class="container flex justify-center">
+<div class="flex justify-center mt-20 pl-32 ">
 <LargeCard
 img="https://s3.amazonaws.com/goa-assets/Illustrations/stock.svg"
 cardTitle="Make managing student need easier"
@@ -65,6 +65,13 @@ export default {
   }
 }
 </script>
+
+<style>
+.CardDiv{
+ width: 30vw;
+}
+</style>
+
 
 
 
