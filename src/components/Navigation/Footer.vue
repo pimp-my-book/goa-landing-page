@@ -15,7 +15,7 @@ export default {
 <style>
 footer {
     clip-path: polygon(59% 21%, 100% 1%, 100% 100%, 0 100%, 0 49%);
-    height: 400px;
+    height: 500px;
     /*transform: matrix(0.98, -0.2, 0.21, 0.98,0,0);*/
 }
 </style>
