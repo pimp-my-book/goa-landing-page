@@ -32,7 +32,7 @@
 
 <LandingBody/>
 
-<div class="container">
+<div class="container flex justify-center">
 <LargeCard
 img="https://s3.amazonaws.com/goa-assets/Illustrations/stock.svg"
 cardTitle="Make managing student need easier"
