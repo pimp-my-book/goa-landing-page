@@ -11,7 +11,16 @@
    :text="cardTitle"
    />
   </div>
-  <div>
+  <div class="flex flex-row mt-5 p-5 ml-32">
+      <PrimaryButton
+      text="Request Demo"
+      regular
+      class="mr-2"
+      />
+      <SecondaryButton
+      text="Contact Sales"
+      regular
+      />
    
 
   </div>
@@ -20,11 +29,15 @@
 <script>
 
 import DisplaySmall from "../Typography/DisplaySmall"
+import PrimaryButton from "../Buttons/PrimaryButton"
+import SecondaryButton from "../Buttons/SecondaryButton"
 
 export default {
     name: 'LargeCard',
     components: {
-        DisplaySmall
+        DisplaySmall,
+        PrimaryButton,
+        SecondaryButton
     },
     props: {
         img: String,
