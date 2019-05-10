@@ -2,17 +2,35 @@
     <footer class="bg-green-darker mt-32 w-full ">
       <div class="container relative">
           <div class="flex absolute mt-32 pt-32">
-           <p class="text-white">Hello</p>
-          <p>Hello</p>
-          <p>Hello</p>
+           <FeatureText
+           text="Contact Us"
+           class="mr-4 text-white"
+           />
+            <FeatureText
+           text="Support"
+           class="mr-4 text-white"
+           />
+           <FeatureText
+           text="Privacy"
+           class="mr-4 text-white"
+           />
+           <FeatureText
+           text="Terms of Service"
+           class="mr-4 text-white"
+           />
           </div>
         
       </div>
     </footer>
 </template>
 <script>
+import FeatureText from "../Typography/FeatureText"
+
 export default {
-    name:'Footer'
+    name:'Footer',
+    components: {
+        FeatureText
+    }
 }
 </script>
 <style>
@@ -23,7 +41,7 @@ footer {
 }
 
 .flex{
-    left:50vw;
+    left:35vw;
 }
 </style>
 
