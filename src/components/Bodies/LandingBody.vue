@@ -68,10 +68,10 @@
   <div class=" sm:flex lg:flex-row sm:flex-col">
 <!-- Start of flex-row 2-->
 
-<!-- start of img -->
+<!-- start of img for sm devices-->
      <div>
      <img 
-     class="w-img h-img"
+     class="w-img h-img lg:hidden"
      alt="students" 
      src="https://s3.amazonaws.com/goa-assets/Illustrations/undraw_wallet_aym5+(1).svg"
      />
@@ -120,6 +120,15 @@
      <!-- End of text-part of div -->
    </div>
 
+<!-- start of img -->
+     <div>
+     <img 
+     class="w-img h-img  s:hidden lg:block"
+     alt="students" 
+     src="https://s3.amazonaws.com/goa-assets/Illustrations/undraw_wallet_aym5+(1).svg"
+     />
+   </div>
+<!-- End of img -->
 
 
 
