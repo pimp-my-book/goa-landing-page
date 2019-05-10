@@ -37,16 +37,13 @@
 <script>
 import MainHeader from "../components/Headers/MainHeader";
 import SmallCard from "../components/Cards/SmallCard";
-import DisplaySmall from "../components/Typography/DisplaySmall";
-import FeatureText from "../components/Typography/FeatureText";
 
 export default {
     name:'Home',
     components:{
         MainHeader,
         SmallCard,
-        DisplaySmall,
-        FeatureText
+        
     }
     ,
   methods: {

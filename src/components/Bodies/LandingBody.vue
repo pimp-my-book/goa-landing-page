@@ -67,7 +67,15 @@
 </template>
 
 <script>
+
+import DisplaySmall from "../components/Typography/DisplaySmall";
+import FeatureText from "../components/Typography/FeatureText";
+
 export default {
-    name: 'LandingBody'
+    name: 'LandingBody',
+    components: {
+        DisplaySmall,
+        FeatureText
+    }
 }
 </script>
