@@ -1,6 +1,6 @@
 import VueRouter from 'vue-router'
 //import Vue from 'vue'
-import App from './App'
+//import App from './App'
 import Home from './pages/Home'
 
 const routes = [

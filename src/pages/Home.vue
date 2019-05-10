@@ -31,12 +31,21 @@
  </div>
 
 <LandingBody/>
+
+<div class="container">
+<LargeCard
+img="https://s3.amazonaws.com/goa-assets/Illustrations/stock.svg"
+cardTitle="Make managing student need easier"
+/>
+
+</div>
 </div>
       
 </template>
 <script>
 import MainHeader from "../components/Headers/MainHeader";
 import SmallCard from "../components/Cards/SmallCard";
+import LargeCard from "../components/Cards/LargeCard";
 import LandingBody from "../components/Bodies/LandingBody";
 
 export default {
@@ -44,7 +53,8 @@ export default {
     components:{
         MainHeader,
         SmallCard,
-        LandingBody
+        LandingBody,
+        LargeCard
         
     }
     ,
