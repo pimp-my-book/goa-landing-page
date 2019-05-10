@@ -81,34 +81,39 @@
 <!-- start of text-part of div -->
 <div class="lg:text-left lg:w-3/4 lg:pl-32 s:text-center">
      <DisplaySmall
-   text="Your Students’ Needs Sorted"
+   text="Reduce Your Overall Spend"
    class="mb-5 text-blue-dark"
    />
    <FeatureText
-   text="We created an easy to use experince that allows students to order what they need and have records of their order history. They also get notified about the stages of their order."
+   text="GOA was birthed with the purpose reducing the amount you allow your students to spend on unnecessary items that are related to their educational success.  We easily allow you set a budget for students. You can also decied whether to suppky your students new or useds books"
    />
   <!-- start of ul -->
   <div class="lg:p-12 lg:text-left lg:pr-32">
  <ul class="mx-auto">
    <li>
      <FeatureText
-   text="Order History"
+   text="Set a budget"
    
    />
    </li>
    <li>
      <FeatureText
-   text="Restriction on Book Orders"
+   text="Approval Requests for over budget orders"
    />
    </li>
    <li>
      <FeatureText
-   text="Get Books for all degrees"
+   text="No cash in students bank accounts"
    />
    </li>
    <li>
       <FeatureText
-   text="Delivery at their destination of choice"
+   text="no over/under paying"
+   />
+   </li>
+   <li>
+      <FeatureText
+   text="Return and resupply the books students used previously "
    />
    </li>
    </ul>
