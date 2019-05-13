@@ -26,6 +26,7 @@
       <div class="container relative py-32">
           <div class="flex absolute mt-32 pt-32">
            <Credits/>
+           <Copyright/>
           </div>
       </div>
     </footer>
@@ -33,12 +34,14 @@
 <script>
 import FeatureText from "../Typography/FeatureText"
 import Credits from "../Typography/Credits"
+import Copyright from "../Typography/Copyright"
 
 export default {
     name:'Footer',
     components: {
         FeatureText,
-        Credits 
+        Credits,
+        Copyright
     }
 }
 </script>
