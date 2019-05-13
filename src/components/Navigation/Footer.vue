@@ -23,7 +23,7 @@
         
       </div>
 
-      <div class="container relative">
+      <div class="container relative py-32">
           <div class="flex absolute mt-32 pt-32">
            <Credits/>
           </div>
