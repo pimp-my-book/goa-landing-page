@@ -10,3 +10,9 @@ export default {
     
 }
 </script>
+<style scoped>
+img{
+    height:20px;
+}
+</style>
+

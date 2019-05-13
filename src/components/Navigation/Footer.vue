@@ -23,8 +23,8 @@
         
       </div>
 
-      <div class="container">
-          <div class="flex">
+      <div class="container relative">
+          <div class="flex absolute mt-32 pt-32">
            <Credits/>
           </div>
       </div>
