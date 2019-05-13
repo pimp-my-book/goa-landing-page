@@ -2,7 +2,7 @@
     <footer class="bg-green-darker mt-32 w-full z-0 relative">
         
       <div class="container relative">
-          <div class="flex absolute mt-32 pt-32">
+          <div class="flex Links__Container absolute mt-32 pt-32">
            <FeatureText
            text="Contact Us"
            class="mr-4 text-white"
@@ -24,7 +24,7 @@
       </div>
 
       <div class="container relative py-32">
-          <div class="flex absolute mt-32 pt-32">
+          <div class="flex Copyright__Container absolute mt-32 pt-32">
            <Credits/>
            <Copyright/>
           </div>
@@ -53,7 +53,7 @@ footer {
     
 }
 
-.flex{
+.Links__Container, .Copyright__Container{
     left:35vw;
 }
 </style>

@@ -1,7 +1,8 @@
 <template>
     <p class="text-sm font-body text-white pl-32">
      &copy;{{new Date().getFullYear()}}, a 
-     <a href="www.pimpmybook.co.za"
+     <a 
+     href="www.pimpmybook.co.za"
      class="no-underline">
      <img 
      alt="PMB Logo"
