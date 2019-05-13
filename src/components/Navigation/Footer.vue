@@ -24,7 +24,7 @@
       </div>
 
       <div class="container relative py-32">
-          <div class="flex justify-between  Copyright__Container absolute mt-32 pt-32">
+          <div class="flex   Copyright__Container absolute mt-32 pt-32">
            <Credits/>
            <Copyright/>
           </div>
