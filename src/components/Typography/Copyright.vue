@@ -1,6 +1,6 @@
 <template>
     <p class="text-sm font-body text-white">
-     
+     &copy;{{new Date().getFullYear()}}
     </p>
 </template>
 <script>
