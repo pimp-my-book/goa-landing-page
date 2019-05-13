@@ -22,15 +22,23 @@
           </div>
         
       </div>
+
+      <div class="container">
+          <div class="flex">
+           <Credits/>
+          </div>
+      </div>
     </footer>
 </template>
 <script>
 import FeatureText from "../Typography/FeatureText"
+import Credits from "../Typography/Credits"
 
 export default {
     name:'Footer',
     components: {
-        FeatureText
+        FeatureText,
+        Credits 
     }
 }
 </script>
