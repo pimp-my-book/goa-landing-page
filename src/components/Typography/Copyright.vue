@@ -1,5 +1,5 @@
 <template>
-    <p class="text-sm font-body text-white">
+    <p class="text-sm font-body text-white pl-32">
      &copy;{{new Date().getFullYear()}}
     </p>
 </template>
