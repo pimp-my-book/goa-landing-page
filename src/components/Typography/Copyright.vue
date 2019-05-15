@@ -15,8 +15,7 @@
 </template>
 <script>
 export default {
-    name:'Copywright',
-    
+    name:'Copywright'
 }
 </script>
 <style scoped>
