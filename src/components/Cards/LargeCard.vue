@@ -1,5 +1,5 @@
 <template>
-    <div class= "shadow-lg-card  LargeCard rounded-lg lg:mr-10">
+    <div class= "shadow-lg-card   LargeCard rounded-lg lg:mr-10">
   <img 
   class="mt-5"
   :src="img"
@@ -11,7 +11,7 @@
    :text="cardTitle"
    />
   </div>
-  <div class="flex flex-row mt-5 p-5 ml-32">
+  <div class="flex lg:flex-row lg:mt-5 p-5 x:mr-10 justify-center lg:ml-32">
       <PrimaryButton
       text="Request Demo"
       regular

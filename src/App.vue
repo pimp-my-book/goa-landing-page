@@ -2,19 +2,22 @@
   <div id="app">
    <NavigationBar/>
    <Home/>
+   <Footer/>
    <router-view></router-view>
   </div>
 </template>
 
 <script>
 import  NavigationBar  from "./components/Navigation/NavigationBar";
+import  Footer  from "./components/Navigation/Footer";
 import Home from "./pages/Home"
 
 export default {
   name: 'app',
   components: {
     NavigationBar,
-    Home
+    Home,
+    Footer
     
   }
   
