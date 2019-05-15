@@ -11,7 +11,7 @@
    :text="cardTitle"
    />
   </div>
-  <div class="flex lg:flex-row lg:mt-5 p-5  lg:ml-32">
+  <div class="flex lg:flex-row lg:mt-5 p-5 x:mr-10 justify-center lg:ml-32">
       <PrimaryButton
       text="Request Demo"
       regular
