@@ -5,26 +5,26 @@
           <div class="flex lg:flex-row s:flex-col  Links__Container absolute mt-32 pt-32">
            <FeatureText
            text="Contact Us"
-           class="mr-4 text-white"
+           class="mr-4 mt-3 text-white"
            />
             <FeatureText
            text="Support"
-           class="mr-4 text-white"
+           class="mr-4 mt-3 text-white"
            />
            <FeatureText
            text="Privacy"
-           class="mr-4 text-white"
+           class="mr-4 mt-3 text-white"
            />
            <FeatureText
            text="Terms of Service"
-           class="mr-4 text-white"
+           class="mr-4 mt-3 text-white"
            />
           </div>
         
       </div>
 
-      <div class="container relative py-32">
-          <div class="flex lg:flex-row s:flex-col Copyright__Container absolute mt-32 s:pt-20 lg:pt-32">
+      <div class="container relative py-32  ">
+          <div class="flex lg:flex-row s:flex-col pt-10 Copyright__Container absolute mt-32 s:pt-20 lg:pt-32">
            <Credits/>
            <Copyright/>
           </div>
