@@ -1,17 +1,14 @@
 import VueRouter from 'vue-router'
 //import Vue from 'vue'
-import App from './App.vue'
+//import App from './App.vue'
 import Home from './pages/Home'
 import Contact from  './pages/Contact'
 
 const routes = [
     {
         path:'/', 
-        component: App,
-        children: [{
-            path: '',
-            component: Home
-        }]
+        component: Home,
+        
     }, 
     {
         path: '/contact',
