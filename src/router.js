@@ -7,13 +7,13 @@ import Contact from  './pages/Contact'
 const routes = [
     {
         path:'/', 
-        components: Home,
+        component: Home,
         name: 'home'
     }, 
     {
         path: '/contact',
-        components: Contact,
-        name: Contact
+        component: Contact,
+        name: 'contact'
     }
 ]
 

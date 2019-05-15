@@ -12,7 +12,13 @@
                    <p class="font-body"> How It Works</p>
                  </a>
                 <a href="#" class="block mt-4 no-underline sm:inline-block sm:mt-0 text-white hover:text-bg-green-light mr-4">
-                    <p class="font-body">Contact</p>
+                    <router-link to="/contact">
+                    <p class="font-body">
+                        
+                        Contact
+                        
+                        </p>
+                        </router-link>
                 </a>
                 <a href="#" class="block mt-4 no-underline sm:inline-block sm:mt-0 text-white hover:text-bg-green-light mr-4">
                     <p class="font-body">Support</p>
