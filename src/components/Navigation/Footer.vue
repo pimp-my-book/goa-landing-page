@@ -23,7 +23,7 @@
         
       </div>
 
-      <div class="container relative py-32">
+      <div class="container relative py-32 s:py-38">
           <div class="flex lg:flex-row s:flex-col pt-10 self-end Copyright__Container absolute mt-32 s:pt-20 lg:pt-32">
            <Credits/>
            
