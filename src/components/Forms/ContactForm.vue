@@ -9,7 +9,7 @@
     <div class="flex flex-wrap -m3 mb-6 mt-5">
         <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
         <FeatureText
-        class="block uppercase tracking-wide text-gray-700 font-bold pr-10"
+        class="block uppercase tracking-wide text-gray-700  pr-10"
          text="First Name"
         />
         <Input
@@ -18,7 +18,7 @@
         </div>
         <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
         <FeatureText
-        class="block uppercase tracking-wide text-gray-700 font-bold pr-10"
+        class="block uppercase tracking-wide text-gray-700  pr-10"
          text="Last Name"
         />
         <Input
@@ -30,7 +30,7 @@
      <div class="flex flex-wrap -m3 mb-6 mt-5">
         <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
         <FeatureText
-        class="block uppercase tracking-wide text-gray-700 font-bold pr-10"
+        class="block uppercase tracking-wide text-gray-700  pr-10"
          text="Bursary Name"
         />
         <Input
@@ -39,7 +39,7 @@
         </div>
         <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
         <FeatureText
-        class="block uppercase tracking-wide text-gray-700 font-bold pr-10"
+        class="block uppercase tracking-wide text-gray-700  pr-10"
          text="Email Address"
         />
         <Input
@@ -51,7 +51,7 @@
      <div class="flex flex-wrap -m3 mb-6 mt-5">
         <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
         <FeatureText
-        class="block uppercase tracking-wide text-gray-700 font-bold pr-10"
+        class="block uppercase tracking-wide text-gray-700  pr-10"
          text="Website (Optional)"
         />
         <Input
@@ -60,7 +60,7 @@
         </div>
         <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
         <FeatureText
-        class="block uppercase tracking-wide text-gray-700 font-bold pr-10"
+        class="block uppercase tracking-wide text-gray-700  pr-10"
          text="Number of Students"
         />
         <Input
@@ -72,7 +72,7 @@
      <div class="flex flex-wrap -m3 mb-6 mt-5">
         <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
         <FeatureText
-        class="block uppercase tracking-wide text-gray-700 font-bold pr-10"
+        class="block uppercase tracking-wide text-gray-700  pr-10"
          text="Telephone Number"
         />
         <Input
