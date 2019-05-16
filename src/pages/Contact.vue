@@ -5,8 +5,11 @@
        BodyText="Below is a contact form that you can fill out and send to us. Then someone will get in touch with you to help you with an queries."
        />
 
-<div class="container">
-    <ContactForm/>
+<div class="container lg:py-10 lg:px-10 s:px-5">
+    <div class="lg:flex lg:justify-center">
+      <ContactForm/>
+    </div>
+    
 </div>
 </div>
 </template>
