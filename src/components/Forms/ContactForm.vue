@@ -81,6 +81,15 @@
         </div>
         
     </div>
+
+    <div class="flex flex-wrap -m3 mb-6 mt-5">
+        <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+        <PrimaryButton
+        text="Contact Sales"
+        />
+        </div>
+        
+    </div>
 </form>
     
 </template>
@@ -88,13 +97,15 @@
 import DisplayLarge from '../Typography/DisplayLarge'
 import FeatureText from '../Typography/FeatureText'
 import Input from '../Inputs/Input'
+import PrimaryButton from '../Buttons/PrimaryButton'
 
 export default {
     name: 'ContactForm',
      components:{
         DisplayLarge,
         FeatureText,
-        Input
+        Input,
+        PrimaryButton
     },
 }
 </script>
