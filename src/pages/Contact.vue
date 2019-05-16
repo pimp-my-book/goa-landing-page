@@ -1,6 +1,9 @@
 <template>
 <div>
-       <BoarderHeader/>
+       <BoarderHeader
+       HeaderText="Looking For More Info?"
+       BodyText="Below is a contact form that you can fill out and send to us. Then someone will get in touch with you to help you with an queries."
+       />
 
 </div>
 </template>
