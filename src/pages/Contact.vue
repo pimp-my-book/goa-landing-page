@@ -1,9 +1,14 @@
 <template>
-    <h1>Hi Contact!</h1>
+   <BoarderHeader/>
 </template>
 <script>
+import BoarderHeader from './components/Headers/BoarderHeader'
+
 export default {
-    name: 'Contact'
+    name: 'Contact',
+    components:{
+        BoarderHeader
+    }
 }
 </script>
 
