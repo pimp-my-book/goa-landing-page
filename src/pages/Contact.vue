@@ -1,5 +1,8 @@
 <template>
-   <BoarderHeader/>
+<div>
+       <BoarderHeader/>
+
+</div>
 </template>
 <script>
 import BoarderHeader from '../components/Headers/BoarderHeader'

@@ -1,5 +1,5 @@
 <template>
-    <header class="w-screen h-64 bg-pink-400">
+    <header class="w-full h-64 bg-pink">
 
     </header>
 </template>
