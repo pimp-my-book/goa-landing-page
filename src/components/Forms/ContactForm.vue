@@ -6,17 +6,17 @@
         class="text-black"
         />
     </div>
-    <div class="flex flex-wrap -m3 mb-6">
+    <div class="flex flex-wrap -m3 mb-6 mt-5">
         <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
         <FeatureText
-        class="block uppercase tracking-wide text-gray-700 font-bold"
+        class="block uppercase tracking-wide text-gray-700 font-bold pr-10"
          text="First Name"
         />
         <Input />
         </div>
         <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
         <FeatureText
-        class="block uppercase tracking-wide text-gray-700 font-bold"
+        class="block uppercase tracking-wide text-gray-700 font-bold pr-10"
          text="Last Name"
         />
         <Input/>
