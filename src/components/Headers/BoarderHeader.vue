@@ -4,8 +4,19 @@
     </header>
 </template>    
 <script> 
+import DisplayXLarge from '../Typography/DisplayXLarge'
+import FeatureText from '../Typography/FeatureText'
+
 export default {
-    name: 'BoarderHeader'
+    name: 'BoarderHeader',
+    components:{
+        DisplayXLarge,
+        FeatureText
+    },
+    props: {
+        HeaderText: String,
+        BodyText: String
+    }
 }
 </script>
 
