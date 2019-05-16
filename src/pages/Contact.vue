@@ -2,7 +2,7 @@
    <BoarderHeader/>
 </template>
 <script>
-import BoarderHeader from './components/Headers/BoarderHeader'
+import BoarderHeader from '../components/Headers/BoarderHeader'
 
 export default {
     name: 'Contact',

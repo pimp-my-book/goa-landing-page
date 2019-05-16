@@ -1,5 +1,5 @@
 <template>
-    <header>
+    <header class="w-screen h-64 bg-pink-400">
 
     </header>
 </template>
