@@ -6,7 +6,7 @@
    />
     <FeatureText
     :text="BodyText"
-    class="text-white pt-5 Feature__Text"
+    class="text-black pt-5 lg:px-32 Feature__Text"
     />
     </header>
 </template>    
