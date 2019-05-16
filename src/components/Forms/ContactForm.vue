@@ -8,10 +8,16 @@
     </div>
     <div class="flex flex-wrap -m3 mb-6">
         <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-        
+        <FeatureText
+        class="block uppercase tracking-wide text-gray-700 font-bold"
+         text="First Name"
+        />
         </div>
         <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-        
+        <FeatureText
+        class="block uppercase tracking-wide text-gray-700 font-bold"
+         text="Last Name"
+        />
         </div>
     </div>
 
