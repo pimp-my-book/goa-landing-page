@@ -458,7 +458,8 @@ module.exports = {
     default: '.25rem',
     'lg': '25px',
     'full': '9999px',
-    'header-border': '0px 0px 220px 220px'
+    'header-border': '0px 0px 220px 220px',
+    'header-border-sm': '0px 0px 120px 120px'
   },
 
 

@@ -1,5 +1,5 @@
 <template>
-    <header class="w-full h-64 bg-green-gradient">
+    <header class="w-full h-64 bg-green-gradient rounded-header-border">
 
     </header>
 </template>
