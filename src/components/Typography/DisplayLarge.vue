@@ -1,5 +1,5 @@
 <template>
-    <p class="text-3xl font-display">{{text}}</p>
+    <p class="text-2xl font-display">{{text}}</p>
 </template>
 <script>
 export default {
