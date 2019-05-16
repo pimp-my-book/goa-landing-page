@@ -1,11 +1,11 @@
 <template>
     <header class="w-full h-64 bg-green-gradient text-center lg:rounded-header-border s:header-border-sm">
    <DisplayXLarge
-   text="Looking For More Info?"
+   :text="HeaderText"
    class="text-white pt-5"
    />
     <FeatureText
-    text="Below is a contact form that you can fill out and send to us. Then someone will get in touch with you to help you with an queries."
+    :text="BodyText"
     class="text-white pt-5"
     />
     </header>
