@@ -81,6 +81,7 @@ let colors = {
   'green': '#4ECA5D',
   'green-light': '#A0FFAB',
   'green-lighter': '#D7FFF1',
+  'green-gradient': 'linear-gradient(179.9deg, #A0FFAB 23.23%, #94B5E3 99.68%)',
   
 
   'teal-darkest': '#0d3331',
@@ -122,6 +123,8 @@ let colors = {
   'pink-light': '#fa7ea8',
   'pink-lighter': '#ffbbca',
   'pink-lightest': '#ffebef',
+
+
 }
 
 module.exports = {
