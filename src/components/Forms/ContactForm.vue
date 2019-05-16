@@ -47,6 +47,40 @@
         />
         </div>
     </div>
+
+     <div class="flex flex-wrap -m3 mb-6 mt-5">
+        <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+        <FeatureText
+        class="block uppercase tracking-wide text-gray-700 font-bold pr-10"
+         text="Website (Optional)"
+        />
+        <Input
+        placeholder="www.purplecow.co.za" 
+        />
+        </div>
+        <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+        <FeatureText
+        class="block uppercase tracking-wide text-gray-700 font-bold pr-10"
+         text="Number of Students"
+        />
+        <Input
+         placeholder="200"
+        />
+        </div>
+    </div>
+
+     <div class="flex flex-wrap -m3 mb-6 mt-5">
+        <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+        <FeatureText
+        class="block uppercase tracking-wide text-gray-700 font-bold pr-10"
+         text="Telephone Number"
+        />
+        <Input
+        placeholder="021 087 4322" 
+        />
+        </div>
+        
+    </div>
 </form>
     
 </template>
