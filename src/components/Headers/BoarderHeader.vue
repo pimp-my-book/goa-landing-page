@@ -6,7 +6,7 @@
    />
     <FeatureText
     :text="BodyText"
-    class="text-white pt-5"
+    class="text-white pt-5 Feature__Text"
     />
     </header>
 </template>    
@@ -31,5 +31,7 @@ export default {
 header{
     background: linear-gradient(179.9deg, #A0FFAB 23.23%, #94B5E3 99.68%);
 }
+
+
 </style>
 
