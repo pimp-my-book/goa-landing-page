@@ -12,14 +12,18 @@
         class="block uppercase tracking-wide text-gray-700 font-bold pr-10"
          text="First Name"
         />
-        <Input />
+        <Input
+        placeholder="Miles" 
+        />
         </div>
         <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
         <FeatureText
         class="block uppercase tracking-wide text-gray-700 font-bold pr-10"
          text="Last Name"
         />
-        <Input/>
+        <Input
+         placeholder="Davis"
+        />
         </div>
     </div>
 
