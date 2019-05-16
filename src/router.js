@@ -1,13 +1,19 @@
 import VueRouter from 'vue-router'
 //import Vue from 'vue'
-//import App from './App'
+//import App from './App.vue'
 import Home from './pages/Home'
+import Contact from  './pages/Contact'
 
 const routes = [
     {
         path:'/', 
-        components: Home,
-        name: 'home'
+        component: Home,
+        
+    }, 
+    {
+        path: '/contact',
+        component: Contact,
+        name: 'contact'
     }
 ]
 

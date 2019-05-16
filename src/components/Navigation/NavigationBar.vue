@@ -9,17 +9,23 @@
         <div :class="open ? 'block':'hidden'" class="w-full flex-grow sm:flex sm:items-center sm:w-auto ">
             <div class=" text-md sm:flex-grow ">
                 <a href="#" class="block mt-4 no-underline sm:inline-block sm:mt-0 text-white hover:text-bg-green-light mr-4">
-                   <p class="font-body"> How It Works</p>
+                   <p class="font-body hover:text-green"> How It Works</p>
                  </a>
-                <a href="#" class="block mt-4 no-underline sm:inline-block sm:mt-0 text-white hover:text-bg-green-light mr-4">
-                    <p class="font-body">Contact</p>
+                <a href="#" class="block mt-4  no-underline sm:inline-block sm:mt-0 text-white hover:text-bg-green-light mr-4">
+                    <router-link class="text-white no-underline" to="/contact">
+                    <p class="font-body hover:text-green">
+                        
+                        Contact
+                        
+                        </p>
+                        </router-link>
                 </a>
                 <a href="#" class="block mt-4 no-underline sm:inline-block sm:mt-0 text-white hover:text-bg-green-light mr-4">
-                    <p class="font-body">Support</p>
+                    <p class="font-body hover:text-green">Support</p>
                 </a>
             </div>
             <div class="nav__drawer--right">
-                <p class="text-white font-body mr-4 ">Login</p>
+                <p class="text-white font-body mr-4 hover:text-green">Login</p>
             </div>
             <div class="nav__drawer--right ">
                <PrimaryButton text="Sign Up" regular/>
