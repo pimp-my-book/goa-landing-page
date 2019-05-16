@@ -1,9 +1,9 @@
 <template>
-    <header class="w-full h-64 bg-green-gradient rounded-header-border">
+    <header class="w-full h-64 bg-green-gradient lg:rounded-header-border s:header-border-sm">
 
     </header>
-</template>
-<script>
+</template>    
+<script> 
 export default {
     name: 'BoarderHeader'
 }
