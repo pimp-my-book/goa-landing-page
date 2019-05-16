@@ -1,6 +1,6 @@
 <template>
     <input 
-    class="bg-grey "
+    class="bg-grey-lighter rounded-px py-2"
     />
 </template>
 <script>

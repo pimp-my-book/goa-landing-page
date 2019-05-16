@@ -12,12 +12,14 @@
         class="block uppercase tracking-wide text-gray-700 font-bold"
          text="First Name"
         />
+        <Input />
         </div>
         <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
         <FeatureText
         class="block uppercase tracking-wide text-gray-700 font-bold"
          text="Last Name"
         />
+        <Input/>
         </div>
     </div>
 
@@ -27,13 +29,14 @@
 <script>
 import DisplayLarge from '../Typography/DisplayLarge'
 import FeatureText from '../Typography/FeatureText'
-
+import Input from '../Inputs/Input'
 
 export default {
     name: 'ContactForm',
      components:{
         DisplayLarge,
-        FeatureText
+        FeatureText,
+        Input
     },
 }
 </script>

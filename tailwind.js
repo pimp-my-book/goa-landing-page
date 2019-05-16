@@ -454,7 +454,7 @@ module.exports = {
 
   borderRadius: {
     'none': '0',
-    'px': '1px',
+    'px': '5px',
     'sm': '.125rem',
     default: '.25rem',
     'lg': '25px',
