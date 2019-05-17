@@ -148,7 +148,7 @@ export default {
           .join("&");
         },
         handleSubmit(){
-            fetch("/contact",{
+            fetch("/",{
                 method: "POST",
                 headers: {"Contact-Type":"application/x-www-form-urlencoded"},
                 body: this.encode({
