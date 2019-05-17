@@ -3,6 +3,8 @@ import VueRouter from 'vue-router'
 //import App from './App.vue'
 import Home from './pages/Home'
 import Contact from  './pages/Contact'
+import SubmissionSuccess from './components/Alerts/SubmissionSuccess'
+import SubmissonFailure from './components/Alerts/SubmissonFailure'
 
 const routes = [
     {
@@ -13,7 +15,17 @@ const routes = [
     {
         path: '/contact',
         component: Contact,
-        name: 'contact'
+        name: 'contact',
+        children:[{
+            path: 'SubmissionSuccess',
+            component: SubmissionSuccess
+
+        },
+        {
+            path: 'SubmissonFailure',
+            component: SubmissonFailure
+        }
+    ]
     }
 ]
 
