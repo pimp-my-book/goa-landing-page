@@ -131,6 +131,24 @@ export default {
                telNumber: ""
            }
         }
+    },
+    methods:{
+        handleSubmit(){
+            fetch("/contact",{
+                method: "POST",
+                headers: {"Contact-Type":"application/x-www-form-urlencoded"},
+                body: this.encode({
+                    "form-name":"Contact-Form",
+                    ...this.form
+                })
+            })
+            .then(() => {
+                this.$router.push("SubmissionSuccess");
+            })
+            .catch(() => {
+                this.$router.push("SubmissionFailure");
+            });
+        }
     }
 }
 </script>
