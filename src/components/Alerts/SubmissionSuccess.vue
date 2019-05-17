@@ -2,8 +2,7 @@
     <div>
         <DisplayLarge
         text="Thanks! Someone will get in touch with you!"
-        /><DisplayLarge
-        text="Thanks! Someone will get in touch with you!"
+        class="text-white"
         />
     </div>
 </template>
