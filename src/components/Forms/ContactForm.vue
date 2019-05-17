@@ -4,6 +4,7 @@ name="Contact-Form"
 method="post"
 data-netlify="true"
 data-netlify-honeypot="bot-field"
+@submit.prevent="handleSubmit"
 class="w-full max-w-lg shadow-lg">
     <div class="text-center">
         <DisplayLarge
@@ -19,6 +20,7 @@ class="w-full max-w-lg shadow-lg">
         />
         <Input
         placeholder="Miles" 
+        @input="ev => form.firstName = ev.target.value"
         />
         </div>
         <div class="w-full md:w-1/2 px-3 ">
@@ -28,6 +30,7 @@ class="w-full max-w-lg shadow-lg">
         />
         <Input
          placeholder="Davis"
+         @input="ev => form.lastName = ev.target.value"
         />
         </div>
     </div>
@@ -40,6 +43,7 @@ class="w-full max-w-lg shadow-lg">
         />
         <Input
         placeholder="Purple Cow" 
+        @input="ev => form.bursaryName = ev.target.value"
         />
         </div>
         <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
@@ -49,6 +53,7 @@ class="w-full max-w-lg shadow-lg">
         />
         <Input
          placeholder="miles@purplecow.co.za"
+         @input="ev => form.emailAddress = ev.target.value"
         />
         </div>
     </div>
@@ -61,6 +66,7 @@ class="w-full max-w-lg shadow-lg">
         />
         <Input
         placeholder="www.purplecow.co.za" 
+        @input="ev => form.website = ev.target.value"
         />
         </div>
         <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
@@ -70,6 +76,7 @@ class="w-full max-w-lg shadow-lg">
         />
         <Input
          placeholder="200"
+         @input="ev => form.numOfStudents = ev.target.value"
         />
         </div>
     </div>
@@ -82,6 +89,7 @@ class="w-full max-w-lg shadow-lg">
         />
         <Input
         placeholder="021 087 4322" 
+        @input="ev => form.telNumber = ev.target.value"
         />
         </div>
         
