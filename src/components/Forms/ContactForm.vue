@@ -111,6 +111,19 @@ export default {
         Input,
         PrimaryButton
     },
+    data(){
+        return {
+           form:{
+               firstName: "",
+               lastName: "",
+               bursaryName: "",
+               emailAddress: "",
+               website: "",
+               numOfStudents: 0,
+               telNumber: ""
+           }
+        }
+    }
 }
 </script>
 
