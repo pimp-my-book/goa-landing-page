@@ -4,7 +4,7 @@ import VueRouter from 'vue-router'
 import Home from './pages/Home'
 import Contact from  './pages/Contact'
 import SubmissionSuccess from './components/Alerts/SubmissionSuccess'
-import SubmissonFailure from './components/Alerts/SubmissonFailure'
+import SubmissionFailure from './components/Alerts/SubmissionFailure'
 
 const routes = [
     {
@@ -23,7 +23,7 @@ const routes = [
         },
         {
             path: 'SubmissonFailure',
-            component: SubmissonFailure
+            component: SubmissionFailure
         }
     ]
     }
