@@ -2,6 +2,7 @@
 <form 
 name="Contact-Form"
 method="post"
+netlify
 data-netlify="true"
 data-netlify-honeypot="bot-field"
 @submit.prevent="handleSubmit"
@@ -147,7 +148,7 @@ export default {
           )
           .join("&");
         },
-        handleSubmit(ev){
+        handleSubmit(){
             fetch("/contact",{
                 method: "POST",
                 headers: {"Contact-Type":"application/x-www-form-urlencoded"},
@@ -159,9 +160,6 @@ export default {
             .then(() => {
                 
                 this.$router.push("SubmissionSuccess");
-            })
-            .then(() =>{
-                console.log(data)
             })
             .catch(() => {
                 this.$router.push("SubmissionFailure");
