@@ -147,7 +147,7 @@ export default {
           )
           .join("&");
         },
-        handleSubmit(){
+        handleSubmit(ev){
             fetch("/",{
                 method: "POST",
                 headers: {"Contact-Type":"application/x-www-form-urlencoded"},
@@ -157,7 +157,11 @@ export default {
                 })
             })
             .then(() => {
+                
                 this.$router.push("SubmissionSuccess");
+            })
+            .then(() =>{
+                console.log(data)
             })
             .catch(() => {
                 this.$router.push("SubmissionFailure");
