@@ -20,6 +20,7 @@ class="w-full max-w-lg shadow-lg">
         />
         <Input
         placeholder="Miles" 
+        name="firstName"
         @input="ev => form.firstName = ev.target.value"
         />
         </div>
@@ -30,6 +31,7 @@ class="w-full max-w-lg shadow-lg">
         />
         <Input
          placeholder="Davis"
+         name="lastName"
          @input="ev => form.lastName = ev.target.value"
         />
         </div>
@@ -43,6 +45,7 @@ class="w-full max-w-lg shadow-lg">
         />
         <Input
         placeholder="Purple Cow" 
+        name="bursaryName"
         @input="ev => form.bursaryName = ev.target.value"
         />
         </div>
@@ -53,6 +56,7 @@ class="w-full max-w-lg shadow-lg">
         />
         <Input
          placeholder="miles@purplecow.co.za"
+         name="emailAddress"
          @input="ev => form.emailAddress = ev.target.value"
         />
         </div>
@@ -65,6 +69,7 @@ class="w-full max-w-lg shadow-lg">
          text="Website (Optional)"
         />
         <Input
+        name="website"
         placeholder="www.purplecow.co.za" 
         @input="ev => form.website = ev.target.value"
         />
@@ -76,6 +81,7 @@ class="w-full max-w-lg shadow-lg">
         />
         <Input
          placeholder="200"
+         name="numOfStudents"
          @input="ev => form.numOfStudents = ev.target.value"
         />
         </div>
@@ -89,6 +95,7 @@ class="w-full max-w-lg shadow-lg">
         />
         <Input
         placeholder="021 087 4322" 
+        name="telNumber"
         @input="ev => form.telNumber = ev.target.value"
         />
         </div>
