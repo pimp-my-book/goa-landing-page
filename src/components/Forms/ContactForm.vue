@@ -1,5 +1,10 @@
 <template>
-<form class="w-full max-w-lg shadow-lg">
+<form 
+name="Contact-Form"
+method="post"
+data-netlify="true"
+data-netlify-honeypot="bot-field"
+class="w-full max-w-lg shadow-lg">
     <div class="text-center">
         <DisplayLarge
         text="We'd Like To Get To Know You Better"
