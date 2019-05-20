@@ -171,6 +171,7 @@ module.exports = {
     'md': '768px',
     'lg': '992px',
     'x': '1024px',
+    'lapie': [{'min': '1024px','max':'1366px'}],
     'xl': '1200px',
   },
 
