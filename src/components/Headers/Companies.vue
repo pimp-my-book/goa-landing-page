@@ -1,11 +1,11 @@
 <template>
-    <section class="mt-10" >
+    <section class="mt-10 pl-20" >
     <div class="text-center mb-10">
      <DisplayLarge
      text="We Keep Great Company"
      />
     </div>
-    <div class="flex flex-row pl-20">
+    <div class="flex flex-row ">
      <img 
      class="h-90 mr-5"
      src="https://s3.amazonaws.com/goa-assets/Images/companies/AGOF-Logo.png"
