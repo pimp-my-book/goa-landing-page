@@ -5,7 +5,7 @@
      text="We Keep Great Company"
      />
     </div>
-    <div class="flex flex-row ">
+    <div class="flex flex-row pl-20">
      <img 
      class="h-90 mr-5"
      src="https://s3.amazonaws.com/goa-assets/Images/companies/AGOF-Logo.png"
