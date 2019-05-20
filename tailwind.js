@@ -183,7 +183,7 @@ module.exports = {
   | Here is where you define your project's font stack, or font families.
   | Keep in mind that Tailwind doesn't actually load any fonts for you.
   | If you're using custom fonts you'll need to import them prior to
-  | defining them here.
+  | defining them here.ggggg
   |
   | By default we provide a native font stack that works remarkably well on
   | any device or OS you're using, since it just uses the default fonts
@@ -554,7 +554,8 @@ module.exports = {
     '64': '16rem',
     'full': '100%',
     'screen': '100vh',
-    'img': '500px'
+    'img': '500px',
+    '90': '90px'
   },
 
 

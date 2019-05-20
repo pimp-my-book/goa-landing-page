@@ -3,7 +3,9 @@
     
      <MainHeader/>
 
- 
+ <div class="container">
+   <Companies/>
+ </div>
 
     <div class="container pb-32 pt-32  lg:pl-32">
      <div class=" sm:flex lg:flex-row sm:flex-col items-center">
@@ -47,6 +49,7 @@ import MainHeader from "../components/Headers/MainHeader";
 import SmallCard from "../components/Cards/SmallCard";
 import LargeCard from "../components/Cards/LargeCard";
 import LandingBody from "../components/Bodies/LandingBody";
+import Companies from "../components/Headers/Companies";
 
 export default {
     name:'Home',
@@ -54,7 +57,8 @@ export default {
         MainHeader,
         SmallCard,
         LandingBody,
-        LargeCard
+        LargeCard,
+        Companies
         
     }
     ,
