@@ -1,5 +1,5 @@
 <template>
-     <div class="container ">
+     <div class="container mx-auto ">
    <!-- Start of container -->
    <div class=" sm:flex lg:flex-row sm:flex-col">
 <!-- Start of flex-row 1-->
