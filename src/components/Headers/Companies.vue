@@ -1,5 +1,5 @@
 <template>
-    <section class="mt-10 lg:pl-20" >
+    <section class="mt-10 lg:pl-20 s:pl-5" >
     <div class="text-center mb-10">
      <DisplayLarge
      text="We Keep Great Company"
