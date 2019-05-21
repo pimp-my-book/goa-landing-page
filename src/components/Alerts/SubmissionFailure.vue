@@ -1,7 +1,7 @@
 <template>
 <div class="container mx-auto my-auto pt-20">
 <DisplayLarge
-        text="Whoops! Something is not working"
+        text="Whoops! Something is not working. Check back in a bit and try a again."
         class="text-black mb-5"
         />
          <img
