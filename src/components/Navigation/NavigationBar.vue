@@ -1,7 +1,13 @@
 <template>
     <nav class="border-top flex items-center justify-between flex-wrap bg-green-darker p-6">
         <div class="flex items-center flex-no-shrink text">
-            <h1 class="font-display text-white">GOA</h1>
+            <h1 class="font-display text-white">
+            <a 
+            class="no-underline text-white"
+            href="/">
+            GOA
+            </a>
+            </h1>
         </div>
         <div class="block sm:hidden">
             <span @click="toggle" class="flex items-center px-3 py-2">MENU</span>
