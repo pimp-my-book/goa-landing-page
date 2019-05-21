@@ -22,6 +22,7 @@ class="w-full max-w-lg shadow-lg">
         <Input
         placeholder="Miles" 
         name="firstName"
+        type="text"
         v-model="form.firstName"
         />
         </div>
@@ -33,7 +34,8 @@ class="w-full max-w-lg shadow-lg">
         <Input
          placeholder="Davis"
          name="lastName"
-         v-model="form.lastName "
+         type="text"
+         v-model="form.lastName"
         />
         </div>
     </div>
@@ -47,7 +49,8 @@ class="w-full max-w-lg shadow-lg">
         <Input
         placeholder="Purple Cow" 
         name="bursaryName"
-        v-model="form.bursaryName "
+        type="text"
+        v-model="form.bursaryName"
         />
         </div>
         <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
@@ -58,7 +61,8 @@ class="w-full max-w-lg shadow-lg">
         <Input
          placeholder="miles@purplecow.co.za"
          name="emailAddress"
-         v-model="form.emailAddress"
+         type="text"
+          v-model="form.emailAddress" 
         />
         </div>
     </div>
@@ -71,8 +75,9 @@ class="w-full max-w-lg shadow-lg">
         />
         <Input
         name="website"
+        type="text"
         placeholder="www.purplecow.co.za" 
-        v-model="form.website"
+         v-model="form.website"       
         />
         </div>
         <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
@@ -83,7 +88,8 @@ class="w-full max-w-lg shadow-lg">
         <Input
          placeholder="200"
          name="numOfStudents"
-         v-model="form.numOfStudents"
+         type="text"
+          v-model="form.numOfStudents"
         />
         </div>
     </div>
@@ -94,11 +100,12 @@ class="w-full max-w-lg shadow-lg">
         class="block uppercase tracking-wide text-gray-700  pr-10 mb-2"
          text="Telephone Number"
         />
-        <Input
-        placeholder="021 087 4322" 
-        name="telNumber"
-        v-model="form.telNumber"
-        />
+         <Input
+         placeholder="0987 432 123"
+         name="telNumber"
+         type="text"
+          v-model="form.telNumber"
+/>
         </div>
         
     </div>
@@ -129,13 +136,14 @@ export default {
     },
     data(){
         return {
-           form:{
+           
+              form:{
                firstName: "",
                lastName: "",
                bursaryName: "",
                emailAddress: "",
                website: "",
-               numOfStudents: 0,
+               numOfStudents: "",
                telNumber: ""
            }
         }
