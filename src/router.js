@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import Contact from  './pages/Contact'
 import SubmissionSuccess from './components/Alerts/SubmissionSuccess'
 import SubmissionFailure from './components/Alerts/SubmissionFailure'
+import NotFound from './components/Bodies/NotFound'
 
 const routes = [
     {
@@ -27,6 +28,11 @@ const routes = [
         path: '/SubmissionFailure',
         component: SubmissionFailure,
         name: 'SubmissionFailure'
+    },
+    {
+        path: '*',
+        component: NotFound,
+        name: 'NotFound'
     }
         
 ]
