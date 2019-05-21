@@ -19,12 +19,14 @@ const routes = [
     },
     {
         path: '/SubmissionSuccess',
-        component: SubmissionSuccess
+        component: SubmissionSuccess,
+        name:'SubmissionSuccess'
 
     },
     {
         path: '/SubmissonFailure',
-        component: SubmissionFailure
+        component: SubmissionFailure,
+        name: 'SubmissionFailure'
     }
         
 ]
