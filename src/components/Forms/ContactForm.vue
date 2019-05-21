@@ -23,6 +23,7 @@ class="w-full max-w-lg shadow-lg">
         placeholder="Miles" 
         name="firstName"
         type="text"
+        required
         v-model="form.firstName"
         />
         </div>
@@ -35,6 +36,7 @@ class="w-full max-w-lg shadow-lg">
          placeholder="Davis"
          name="lastName"
          type="text"
+         required
          v-model="form.lastName"
         />
         </div>
@@ -50,6 +52,7 @@ class="w-full max-w-lg shadow-lg">
         placeholder="Purple Cow" 
         name="bursaryName"
         type="text"
+        required
         v-model="form.bursaryName"
         />
         </div>
@@ -62,6 +65,7 @@ class="w-full max-w-lg shadow-lg">
          placeholder="miles@purplecow.co.za"
          name="emailAddress"
          type="text"
+         required
           v-model="form.emailAddress" 
         />
         </div>
@@ -76,12 +80,14 @@ class="w-full max-w-lg shadow-lg">
         <Input
         name="website"
         type="text"
+        required
         placeholder="www.purplecow.co.za" 
          v-model="form.website"       
         />
         </div>
         <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
         <FeatureText
+        
         class="block uppercase tracking-wide text-gray-700  pr-10 mb-2"
          text="Number of Students"
         />
@@ -89,6 +95,7 @@ class="w-full max-w-lg shadow-lg">
          placeholder="200"
          name="numOfStudents"
          type="text"
+         required
           v-model="form.numOfStudents"
         />
         </div>
@@ -104,6 +111,7 @@ class="w-full max-w-lg shadow-lg">
          placeholder="0987 432 123"
          name="telNumber"
          type="text"
+         required
           v-model="form.telNumber"
 />
         </div>
