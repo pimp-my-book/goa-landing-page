@@ -2,7 +2,7 @@
     <div>
         <DisplayLarge
         text="Thanks! Someone will get in touch with you!"
-        class="text-white"
+        class="text-black"
         />
     </div>
 </template>

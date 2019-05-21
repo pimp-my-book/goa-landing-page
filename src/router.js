@@ -16,17 +16,17 @@ const routes = [
         path: '/contact',
         component: Contact,
         name: 'contact',
-        children:[{
-            path: 'SubmissionSuccess',
-            component: SubmissionSuccess
+    },
+    {
+        path: '/SubmissionSuccess',
+        component: SubmissionSuccess
 
-        },
-        {
-            path: 'SubmissonFailure',
-            component: SubmissionFailure
-        }
-    ]
+    },
+    {
+        path: '/SubmissonFailure',
+        component: SubmissionFailure
     }
+        
 ]
 
 const router = new VueRouter({
