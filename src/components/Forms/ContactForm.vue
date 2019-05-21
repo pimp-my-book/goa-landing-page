@@ -22,7 +22,7 @@ class="w-full max-w-lg shadow-lg">
         <Input
         placeholder="Miles" 
         name="firstName"
-        @input="ev => form.firstName = ev.target.value"
+        v-model="form.firstName"
         />
         </div>
         <div class="w-full md:w-1/2 px-3 ">
@@ -33,7 +33,7 @@ class="w-full max-w-lg shadow-lg">
         <Input
          placeholder="Davis"
          name="lastName"
-         @input="ev => form.lastName = ev.target.value"
+         v-model="form.lastName "
         />
         </div>
     </div>
@@ -47,7 +47,7 @@ class="w-full max-w-lg shadow-lg">
         <Input
         placeholder="Purple Cow" 
         name="bursaryName"
-        @input="ev => form.bursaryName = ev.target.value"
+        v-model="form.bursaryName "
         />
         </div>
         <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
@@ -58,7 +58,7 @@ class="w-full max-w-lg shadow-lg">
         <Input
          placeholder="miles@purplecow.co.za"
          name="emailAddress"
-         @input="ev => form.emailAddress = ev.target.value"
+         v-model="form.emailAddress"
         />
         </div>
     </div>
@@ -72,7 +72,7 @@ class="w-full max-w-lg shadow-lg">
         <Input
         name="website"
         placeholder="www.purplecow.co.za" 
-        @input="ev => form.website = ev.target.value"
+        v-model="form.website"
         />
         </div>
         <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
@@ -83,7 +83,7 @@ class="w-full max-w-lg shadow-lg">
         <Input
          placeholder="200"
          name="numOfStudents"
-         @input="ev => form.numOfStudents = ev.target.value"
+         v-model="form.numOfStudents"
         />
         </div>
     </div>
@@ -97,7 +97,7 @@ class="w-full max-w-lg shadow-lg">
         <Input
         placeholder="021 087 4322" 
         name="telNumber"
-        @input="ev => form.telNumber = ev.target.value"
+        v-model="form.telNumber"
         />
         </div>
         
@@ -146,19 +146,19 @@ export default {
           .map(
               key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`
           )
-          .join("&");
+          .join('&');
         },
         handleSubmit(){
-            fetch("/contact",{
-                method: "POST",
-                headers: {"Contact-Type":"application/x-www-form-urlencoded"},
+            fetch('/contact',{
+                method: 'POST',
+                headers: {'Content-Type':'application/x-www-form-urlencoded'},
                 body: this.encode({
-                    "form-name":"Contact-Form",
+                    'form-name':'Contact-Form',
                     ...this.form
                 })
             })
             .then(() => {
-                
+                console.log(this.form)
                 this.$router.push("SubmissionSuccess");
             })
             .catch(() => {
