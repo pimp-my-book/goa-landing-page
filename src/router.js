@@ -24,7 +24,7 @@ const routes = [
 
     },
     {
-        path: '/SubmissonFailure',
+        path: '/SubmissionFailure',
         component: SubmissionFailure,
         name: 'SubmissionFailure'
     }
