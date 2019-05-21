@@ -17,7 +17,7 @@
 import DisplayLarge from '../Typography/DisplayLarge'
 
 export default {
-    name:'404',
+    name:'NotFound',
     components:{
         DisplayLarge
     }
