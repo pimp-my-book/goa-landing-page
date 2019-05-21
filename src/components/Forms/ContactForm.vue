@@ -174,7 +174,6 @@ export default {
                 })
             })
             .then(() => {
-                console.log(this.form)
                 this.$router.push("SubmissionSuccess");
             })
             .catch(() => {
