@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import Contact from  './pages/Contact'
 import SubmissionSuccess from './components/Alerts/SubmissionSuccess'
 import SubmissionFailure from './components/Alerts/SubmissionFailure'
+import NotFound from './components/Bodies/NotFound'
 
 const routes = [
     {
@@ -16,17 +17,24 @@ const routes = [
         path: '/contact',
         component: Contact,
         name: 'contact',
-        children:[{
-            path: 'SubmissionSuccess',
-            component: SubmissionSuccess
+    },
+    {
+        path: '/SubmissionSuccess',
+        component: SubmissionSuccess,
+        name:'SubmissionSuccess'
 
-        },
-        {
-            path: 'SubmissonFailure',
-            component: SubmissionFailure
-        }
-    ]
+    },
+    {
+        path: '/SubmissionFailure',
+        component: SubmissionFailure,
+        name: 'SubmissionFailure'
+    },
+    {
+        path: '*',
+        component: NotFound,
+        name: 'NotFound'
     }
+        
 ]
 
 const router = new VueRouter({

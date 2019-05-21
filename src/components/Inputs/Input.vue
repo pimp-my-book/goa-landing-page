@@ -10,13 +10,26 @@
     focus:bg-white"
     type="text"
     :placeholder="placeholder"
+    @input="handleInput"
     />
 </template>
 <script>
 export default {
     name:'Input',
     props: {
-    placeholder:String
-   }
+    placeholder:String,
+   },
+   data(){
+       return {
+           value: ""
+       }
+      
+   },
+    methods:{
+           handleInput(e){
+               this.$emit('input', e.target.value)
+           }
+       }
+   
 }
 </script>

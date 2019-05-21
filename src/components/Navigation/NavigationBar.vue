@@ -1,7 +1,13 @@
 <template>
     <nav class="border-top flex items-center justify-between flex-wrap bg-green-darker p-6">
         <div class="flex items-center flex-no-shrink text">
-            <h1 class="font-display text-white">GOA</h1>
+            <h1 class="font-display text-white">
+            <a 
+            class="no-underline text-white"
+            href="/">
+            GOA
+            </a>
+            </h1>
         </div>
         <div class="block sm:hidden">
             <span @click="toggle" class="flex items-center px-3 py-2">MENU</span>
@@ -25,7 +31,13 @@
                 </a>
             </div>
             <div class="nav__drawer--right">
-                <p class="text-white font-body mr-4 hover:text-green">Login</p>
+                <p class="text-white font-body mr-4 hover:text-green">
+                    <a 
+                    href="http://webnmobidev.net/pmb/login"
+                    class="no-underline text-white">
+                    Login
+                    </a>
+                </p>
             </div>
             <div class="nav__drawer--right ">
                <PrimaryButton text="Sign Up" regular/>
