@@ -53,9 +53,7 @@ export default {
         PrimaryButton,
         SecondaryButton
     },
-    data: () =>{
-      show: ''
-    },
+   
     props: {
         img: String,
         cardTitle: String,
