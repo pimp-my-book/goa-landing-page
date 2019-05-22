@@ -12,7 +12,10 @@
    />
   </div>
   <div class="flex lg:flex-row lg:mt-5 p-5 x:mr-10 justify-center lg:ml-32">
-      <PrimaryButton
+     
+     <div v-if="show">
+         <div :v-if="show">
+  <PrimaryButton
       text="Request Demo"
       regular
       class="mr-2"
@@ -21,6 +24,17 @@
       text="Contact Sales"
       regular
       />
+         </div>
+    
+     </div>
+     <div v-else>
+         <PrimaryButton
+      text="Request Demo"
+      regular
+      class="mr-2"
+      />
+     </div>
+      
    
 
   </div>
@@ -39,9 +53,13 @@ export default {
         PrimaryButton,
         SecondaryButton
     },
+    data: () =>{
+      show: ''
+    },
     props: {
         img: String,
         cardTitle: String,
+        show: Boolean
     }
 }
 </script>

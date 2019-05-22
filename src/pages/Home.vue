@@ -38,6 +38,7 @@
 <LargeCard
 img="https://s3.amazonaws.com/goa-assets/Illustrations/stock.svg"
 cardTitle="Make managing student need easier"
+show
 />
 
 </div>
