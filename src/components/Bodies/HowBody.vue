@@ -17,7 +17,7 @@
    </div>
 <!-- End of img -->
 <!-- start of text-part of div -->
-<div class="lg:text-left lg:w-3/4 lg:pl-32 s:text-center">
+<div class="lg:text-left lg:w-3/4 lg:pl-32 lg:pt-32 s:text-center">
      <DisplaySmall
    text="Your Students Sign Up"
    class="mb-5 text-blue-dark"
@@ -35,7 +35,7 @@
 
         
 <!-- start of text-part of div -->
-<div class="lg:text-left lg:w-3/4 lg:pl-32 s:text-center">
+<div class="lg:text-left lg:w-3/4 lg:pl-32 lg:pt-32 s:text-center">
      <DisplaySmall
    text=""
    class="mb-5 text-blue-dark"
@@ -70,7 +70,7 @@
    </div>
 <!-- End of img -->
 <!-- start of text-part of div -->
-<div class="lg:text-left lg:w-3/4 lg:pl-32 s:text-center">
+<div class="lg:text-left lg:w-3/4 lg:pl-32 lg:pt-32 s:text-center">
      <DisplaySmall
    text=""
    class="mb-5 text-blue-dark"
@@ -89,7 +89,7 @@
           
 
 <!-- start of text-part of div -->
-<div class="lg:text-left lg:w-3/4 lg:pl-32 s:text-center">
+<div class="lg:text-left lg:w-3/4 lg:pl-32 lg:pt-32 s:text-center">
      <DisplaySmall
    text=""
    class="mb-5 text-blue-dark"
