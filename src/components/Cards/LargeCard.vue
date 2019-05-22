@@ -12,15 +12,30 @@
    />
   </div>
   <div class="flex lg:flex-row lg:mt-5 p-5 x:mr-10 justify-center lg:ml-32">
-      <PrimaryButton
-      text="Request Demo"
+     
+     <div v-if="show">
+         <div :v-if="show">
+  <PrimaryButton
+      :text="primaryText"
       regular
       class="mr-2"
       />
       <SecondaryButton
-      text="Contact Sales"
+      :text="secondaryText"
       regular
       />
+         </div>
+    
+     </div>
+     <div v-else>
+         <PrimaryButton
+      :text="primaryText"
+      regular
+      class="mr-10 "
+      :url="buttonURL"
+      />
+     </div>
+      
    
 
   </div>
@@ -39,9 +54,14 @@ export default {
         PrimaryButton,
         SecondaryButton
     },
+   
     props: {
         img: String,
         cardTitle: String,
+        show: Boolean,
+        primaryText: String,
+        secondaryText:String,
+        buttonURL:String
     }
 }
 </script>

@@ -6,6 +6,7 @@ import Contact from  './pages/Contact'
 import SubmissionSuccess from './components/Alerts/SubmissionSuccess'
 import SubmissionFailure from './components/Alerts/SubmissionFailure'
 import NotFound from './components/Bodies/NotFound'
+import HowItWorks from './pages/HowItWorks'
 
 const routes = [
     {
@@ -19,15 +20,20 @@ const routes = [
         name: 'contact',
     },
     {
-        path: '/SubmissionSuccess',
+        path: '/submission-failure',
         component: SubmissionSuccess,
         name:'SubmissionSuccess'
 
     },
     {
-        path: '/SubmissionFailure',
+        path: '/submission-failure',
         component: SubmissionFailure,
         name: 'SubmissionFailure'
+    },
+    {
+      path: '/how-it-works',
+      component: HowItWorks,
+      name:'HowItWorks'
     },
     {
         path: '*',
