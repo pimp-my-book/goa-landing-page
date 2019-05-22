@@ -37,11 +37,11 @@
 <!-- start of text-part of div -->
 <div class="lg:text-left lg:w-3/4 lg:pl-32 lg:pt-32 s:text-center">
      <DisplaySmall
-   text=""
+   text="We Run A Check"
    class="mb-5 text-blue-dark"
    />
    <FeatureText
-   text=""
+   text="We then run a check to make sure that the student is in fact a valid student on your bursary"
    />
    </div>
      <!-- End of text-part of div -->
@@ -50,8 +50,8 @@
      <div>
      <img 
      class="w-img h-img"
-     alt="students" 
-     src=""
+     alt="Check complete" 
+     src="https://s3.amazonaws.com/goa-assets/Illustrations/undraw_completed_ngx6.svg"
      />
    </div>
 <!-- End of img -->
