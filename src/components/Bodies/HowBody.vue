@@ -81,18 +81,18 @@
      <img 
      class="w-img h-img"
      alt="students" 
-     src=""
+     src="https://s3.amazonaws.com/goa-assets/Illustrations/undraw_add_to_cart_vkjp.svg"
      />
    </div>
 <!-- End of img -->
 <!-- start of text-part of div -->
 <div class="lg:text-left lg:w-3/4 lg:pl-32 lg:pt-32 s:text-center">
      <DisplaySmall
-   text=""
+   text="They Place Orders"
    class="mb-5 text-blue-dark"
    />
    <FeatureText
-   text=""
+   text="After successful verification, students are then able to go ahead and place orders for their books."
    />
    </div>
      <!-- End of text-part of div -->
@@ -102,16 +102,24 @@
         <!--- start of row 4  -->
 
                 <div class="sm:flex lg:flex-row sm:flex-col">
-          
+          <!-- start of img for sm devices -->
+     <div>
+     <img 
+     class="w-img h-img lg:hidden"
+     alt="Check complete" 
+     src="https://s3.amazonaws.com/goa-assets/Illustrations/undraw_deliveries_131a.svg"
+     />
+   </div>
+<!-- End of img -->
 
 <!-- start of text-part of div -->
 <div class="lg:text-left lg:w-3/4 lg:pl-32 lg:pt-32 s:text-center">
      <DisplaySmall
-   text=""
+   text="We Manage The Orders"
    class="mb-5 text-blue-dark"
    />
    <FeatureText
-   text=""
+   text="Pimp My Book takes care of the entire lifecycle of the order. We also access a network of buyers and sellers , as well as vendors to get the best possible deal."
    />
    </div>
      <!-- End of text-part of div -->
@@ -119,14 +127,52 @@
      <!-- start of img -->
      <div>
      <img 
-     class="w-img h-img"
+     class="w-img h-img lg:block s:hidden"
      alt="students" 
-     src=""
+     src="https://s3.amazonaws.com/goa-assets/Illustrations/undraw_deliveries_131a.svg"
      />
    </div>
 <!-- End of img -->
         <!--- End of row 4  -->
+
+
+
+
+
+
                 </div>
+
+
+
+         <!--- start of row 1  -->
+         <div class="sm:flex lg:flex-row sm:flex-col">
+          
+<!-- start of img -->
+     <div>
+     <img 
+     class="w-img h-img"
+     alt="students" 
+     src="https://s3.amazonaws.com/goa-assets/Illustrations/undraw_envelope_n8lc.svg"
+     />
+   </div>
+<!-- End of img -->
+<!-- start of text-part of div -->
+<div class="lg:text-left lg:w-3/4 lg:pl-32 lg:pt-32 s:text-center">
+     <DisplaySmall
+   text="You Get Invoices"
+   class="mb-5 text-blue-dark"
+   />
+   <FeatureText
+   text="You as a bursar get invoices for all the purchase activity of your students."
+   />
+   </div>
+     <!-- End of text-part of div -->
+
+         </div>
+        <!--- End of row 1  -->
+
+
+
     </div>
 </template>
 
