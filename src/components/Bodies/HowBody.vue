@@ -1,6 +1,14 @@
 <template>
+
     <div class="container mx-auto">
+
+
+
          <!--- start of row 1  -->
+         <div class="sm:flex lg:flex-row sm:flex-col">
+         
+
+         </div>
         <!--- End of row 1  -->
 
         <!--- start of row 2  -->
@@ -15,8 +23,16 @@
 </template>
 
 <script>
+import DisplaySmall from "../Typography/DisplaySmall";
+import FeatureText from "../Typography/FeatureText";
+
 export default {
-    name: 'HowBody'
+    name: 'HowBody',
+    components:{
+        FeatureText,
+        DisplaySmall
+
+    }
 }
 </script>
 
