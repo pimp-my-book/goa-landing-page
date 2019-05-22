@@ -31,7 +31,7 @@
          <PrimaryButton
       :text="primaryText"
       regular
-      class="mr-2"
+      class="mr-10 "
       />
      </div>
       
