@@ -144,7 +144,7 @@
 
 
 
-         <!--- start of row 1  -->
+         <!--- start of row 5  -->
          <div class="sm:flex lg:flex-row sm:flex-col">
           
 <!-- start of img -->
@@ -169,7 +169,7 @@
      <!-- End of text-part of div -->
 
          </div>
-        <!--- End of row 1  -->
+        <!--- End of row 5  -->
 
 
 
