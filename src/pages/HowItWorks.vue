@@ -9,7 +9,7 @@
 <LargeCard
 img="https://s3.amazonaws.com/goa-assets/Icons/1.+Envelope+opened.svg"
 cardTitle="Get In Touch With Us"
-
+url="/contact-us"
 primaryText="Contact Sales"
 
 />

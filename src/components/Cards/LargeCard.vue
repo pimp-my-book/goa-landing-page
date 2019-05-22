@@ -32,6 +32,7 @@
       :text="primaryText"
       regular
       class="mr-10 "
+      :url="buttonURL"
       />
      </div>
       
@@ -59,7 +60,8 @@ export default {
         cardTitle: String,
         show: Boolean,
         primaryText: String,
-        secondaryText:String
+        secondaryText:String,
+        buttonURL:String
     }
 }
 </script>
