@@ -1,6 +1,6 @@
 <template>
 
-    <div class="container mx-auto">
+    <div class="container mx-auto mt-32">
 
 
 
@@ -80,6 +80,7 @@
    />
    </div>
      <!-- End of text-part of div -->
+                </div>
         <!--- End of row 3  -->
 
         <!--- start of row 4  -->
@@ -109,6 +110,7 @@
    </div>
 <!-- End of img -->
         <!--- End of row 4  -->
+                </div>
     </div>
 </template>
 
