@@ -1,5 +1,8 @@
 <template>
-    <h1>How it works</h1>
+    <BoarderHeader
+       HeaderText="Need More Clarity?"
+       BodyText="As a student getting textbooks can be an irrtating task. Below we aim to simplify it."
+       />
 </template>
 <script>
 import BoarderHeader from '../components/Headers/BoarderHeader'
