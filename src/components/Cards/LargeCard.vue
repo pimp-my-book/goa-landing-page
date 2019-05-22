@@ -16,12 +16,12 @@
      <div v-if="show">
          <div :v-if="show">
   <PrimaryButton
-      text="Request Demo"
+      :text="primaryText"
       regular
       class="mr-2"
       />
       <SecondaryButton
-      text="Contact Sales"
+      :text="secondaryText"
       regular
       />
          </div>
@@ -29,7 +29,7 @@
      </div>
      <div v-else>
          <PrimaryButton
-      text="Request Demo"
+      :text="primaryText"
       regular
       class="mr-2"
       />
@@ -59,7 +59,9 @@ export default {
     props: {
         img: String,
         cardTitle: String,
-        show: Boolean
+        show: Boolean,
+        primaryText: String,
+        secondaryText:String
     }
 }
 </script>
