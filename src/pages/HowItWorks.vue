@@ -7,8 +7,8 @@
 <HowBody/>
       <div class="flex justify-center mt-20 lg:pl-32 ">
 <LargeCard
-img="https://s3.amazonaws.com/goa-assets/Illustrations/stock.svg"
-cardTitle="Make managing student need easier"
+img="https://s3.amazonaws.com/goa-assets/Icons/1.+Envelope+opened.svg"
+cardTitle="Get In Touch With Us"
 
 primaryText="Contact Sales"
 
