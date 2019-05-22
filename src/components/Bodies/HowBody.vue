@@ -32,8 +32,20 @@
         <!--- End of row 1  -->
 
         <!--- start of row 2  -->
+  <div class=" sm:flex lg:flex-row sm:flex-col">
+<!-- start of img for sm devices -->
+     <div>
+     <img 
+     class="w-img h-img lg:hidden"
+     alt="Check complete" 
+     src="https://s3.amazonaws.com/goa-assets/Illustrations/undraw_completed_ngx6.svg"
+     />
+   </div>
+<!-- End of img -->
 
-        
+
+
+      
 <!-- start of text-part of div -->
 <div class="lg:text-left lg:w-3/4 lg:pl-32 lg:pt-32 s:text-center">
      <DisplaySmall
@@ -49,12 +61,16 @@
      <!-- start of img -->
      <div>
      <img 
-     class="w-img h-img"
+     class="w-img h-img s:hidden lg:block"
      alt="Check complete" 
      src="https://s3.amazonaws.com/goa-assets/Illustrations/undraw_completed_ngx6.svg"
      />
    </div>
 <!-- End of img -->
+
+
+ </div>
+  
         <!--- End of row 2  -->
 
         <!--- start of row 3  -->
