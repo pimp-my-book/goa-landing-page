@@ -14,7 +14,7 @@
        class="mb-2"
         />
         <FeatureText
-        text="GOA enables to you actually focus on enabling your students focus on performing academically. Our team ensures that your students' worries around getting textbooks and other educational material are well taken care of. "
+        text="GOA enables to you actually to focus on enabling your students focus on performing academically. Our team ensures that your students' worries around getting textbooks and other educational material are well taken care of. "
       />
       </div>
      <div class=" sm:flex lg:flex-row sm:flex-col items-center">
