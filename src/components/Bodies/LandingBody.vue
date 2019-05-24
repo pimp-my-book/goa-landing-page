@@ -216,7 +216,7 @@
    class="mb-5 text-blue-dark"
    />
    <FeatureText
-   text="One thing that makes managing the activity of over a 100 group of eager studentd hard is manaing the adim that comes with it. "
+   text="One thing that makes managing the activity of over a 100 eager students hard, is the actual management of the admin that comes with it. "
    />
   <!-- start of ul -->
   <div class="lg:p-12 lg:text-left lg:pr-32">
