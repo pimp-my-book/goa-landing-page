@@ -85,7 +85,7 @@
    class="mb-5 text-blue-dark"
    />
    <FeatureText
-   text="GOA was birthed with the purpose reducing the amount you allow your students to spend on unnecessary items that are related to their educational success.  We easily allow you set a budget for students. You can also decied whether to suppky your students new or useds books"
+   text="GOA was birthed with the purpose of reducing the amount you allow your students to spend on unnecessary items that are related to their educational success.  We easily allow you set a budget for students. You can also decide whether to supply your students new or used books"
    />
   <!-- start of ul -->
   <div class="lg:p-12 lg:text-left lg:pr-32">
