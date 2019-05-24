@@ -21,7 +21,7 @@
    class="mb-5 text-blue-dark"
    />
    <FeatureText
-   text="We created an easy to use experince that allows students to order what they need and have records of their order history. They also get notified about the stages of their order."
+   text="We created an easy to use experience that allows students to order what they need and have records of their order history. They also get notified about the stages of their order."
    />
   <!-- start of ul -->
   <div class="lg:p-12 lg:text-left lg:pr-32">
@@ -85,7 +85,7 @@
    class="mb-5 text-blue-dark"
    />
    <FeatureText
-   text="GOA was birthed with the purpose reducing the amount you allow your students to spend on unnecessary items that are related to their educational success.  We easily allow you set a budget for students. You can also decied whether to suppky your students new or useds books"
+   text="GOA was birthed with the purpose of reducing the amount you allow your students to spend on unnecessary items that are related to their educational success.  We easily allow you set a budget for students. You can also decide whether to supply your students new or used books"
    />
   <!-- start of ul -->
   <div class="lg:p-12 lg:text-left lg:pr-32">
@@ -160,7 +160,7 @@
    class="mb-5 text-blue-dark"
    />
    <FeatureText
-   text="Instead of having information all over the place and in many forms, we are able to give your records of purchases. Allowing you to understand what your studnets have spent on your rands."
+   text="Instead of having information all over the place and in many forms, we are able to give your records of purchases. Allowing you to understand what your students have spent on your rands."
    />
   <!-- start of ul -->
   <div class="lg:p-12 lg:text-left lg:pr-32">
@@ -176,11 +176,7 @@
    text="Student order histories"
    />
    </li>
-   <li>
-     <FeatureText
-   text="Student order histories"
-   />
-   </li>
+ 
    </ul>
           <!-- end of ul -->
 
@@ -220,7 +216,7 @@
    class="mb-5 text-blue-dark"
    />
    <FeatureText
-   text="One thing that makes managing the activity of over a 100 group of eager studentd hard is manaing the adim that comes with it. "
+   text="One thing that makes managing the activity of over a 100 eager students hard, is the actual management of the admin that comes with it. "
    />
   <!-- start of ul -->
   <div class="lg:p-12 lg:text-left lg:pr-32">

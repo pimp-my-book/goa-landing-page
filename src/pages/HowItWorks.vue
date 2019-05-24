@@ -2,7 +2,7 @@
        <div>
     <BoarderHeader
        HeaderText="Need More Clarity?"
-       BodyText="As a student getting textbooks can be an irrtating task. Below we aim to simplify it."
+       BodyText="As a student getting textbooks can be an irritating task. Below we aim to simplify it."
        />
 <HowBody/>
       <div class="flex justify-center mt-20 lg:pl-32 ">

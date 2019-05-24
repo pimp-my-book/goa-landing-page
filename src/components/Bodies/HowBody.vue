@@ -163,7 +163,7 @@
    class="mb-5 text-blue-dark"
    />
    <FeatureText
-   text="You as a bursar get invoices for all the purchase activity of your students."
+   text="You as a bursary get invoices for all the purchase activity of your students."
    />
    </div>
      <!-- End of text-part of div -->

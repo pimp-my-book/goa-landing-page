@@ -8,12 +8,21 @@
  </div>
 
     <div class="container pb-32 pt-32  lg:pl-20 mx-auto">
+      <div  class="mb-20 ">
+        <DisplayLarge
+        text="All the tools you need to make admin simple."
+       class="mb-2"
+        />
+        <FeatureText
+        text="GOA enables to you actually to focus on enabling your students focus on performing academically. Our team ensures that your students' worries around getting textbooks and other educational material are well taken care of. "
+      />
+      </div>
      <div class=" sm:flex lg:flex-row sm:flex-col items-center">
        <SmallCard
        img="https://s3.amazonaws.com/goa-assets/Illustrations/Cash+income.svg"
         cardTitle="Insight Into Spending"
         class="ml-5 mb-5"
-        cardText="Students easily  can see their spending on orders. We also give Bursaries the ability to control their spending budgets."
+        cardText="Students are able to easily observe their spending on orders. We also give Bursary Foundations the ability to control students' spending budgets."
        />
 
         <SmallCard
@@ -27,7 +36,7 @@
          class="ml-5 mb-5"
         img="https://s3.amazonaws.com/goa-assets/Illustrations/Safe.svg"
         cardTitle="Centeralized Data"
-        cardText="All your students data is centralized with us. Which enables you get an overview what content they are purchasing. "
+        cardText="All your students data is centralized with us. Which enables you to get an overview of what content they are purchasing. "
        />
       </div>
  </div>
@@ -53,6 +62,8 @@ import SmallCard from "../components/Cards/SmallCard";
 import LargeCard from "../components/Cards/LargeCard";
 import LandingBody from "../components/Bodies/LandingBody";
 import Companies from "../components/Headers/Companies";
+import DisplayLarge from "../components/Typography/DisplayLarge";
+import FeatureText from "../components/Typography/FeatureText";
 
 export default {
     name:'Home',
@@ -61,7 +72,9 @@ export default {
         SmallCard,
         LandingBody,
         LargeCard,
-        Companies
+        Companies,
+        DisplayLarge,
+        FeatureText
         
     }
     ,

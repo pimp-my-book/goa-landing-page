@@ -15,3 +15,7 @@ Then you can start the app and navigate to localhost:
 $ yarn serve
 
 ```
+
+
+## How is this app structured?
+
