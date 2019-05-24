@@ -160,7 +160,7 @@
    class="mb-5 text-blue-dark"
    />
    <FeatureText
-   text="Instead of having information all over the place and in many forms, we are able to give your records of purchases. Allowing you to understand what your studnets have spent on your rands."
+   text="Instead of having information all over the place and in many forms, we are able to give your records of purchases. Allowing you to understand what your students have spent on your rands."
    />
   <!-- start of ul -->
   <div class="lg:p-12 lg:text-left lg:pr-32">
