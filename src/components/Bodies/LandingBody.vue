@@ -176,11 +176,7 @@
    text="Student order histories"
    />
    </li>
-   <li>
-     <FeatureText
-   text="Student order histories"
-   />
-   </li>
+ 
    </ul>
           <!-- end of ul -->
 
