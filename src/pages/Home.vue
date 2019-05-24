@@ -8,10 +8,10 @@
  </div>
 
     <div class="container pb-32 pt-32  lg:pl-20 mx-auto">
-      <div  class="mb-20">
+      <div  class="mb-20 ">
         <DisplayLarge
         text="All the tools you need to make admin simple."
-       
+       class="mb-2"
         />
         <FeatureText
         text="GOA enables to you actually focus on enabling your students focus on performing academically. Our team ensures that your students' worries around getting textbooks and other educational material are well taken care of. "
