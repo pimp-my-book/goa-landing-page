@@ -21,7 +21,7 @@
    class="mb-5 text-blue-dark"
    />
    <FeatureText
-   text="We created an easy to use experince that allows students to order what they need and have records of their order history. They also get notified about the stages of their order."
+   text="We created an easy to use experience that allows students to order what they need and have records of their order history. They also get notified about the stages of their order."
    />
   <!-- start of ul -->
   <div class="lg:p-12 lg:text-left lg:pr-32">
