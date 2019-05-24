@@ -8,6 +8,12 @@
  </div>
 
     <div class="container pb-32 pt-32  lg:pl-20 mx-auto">
+      <div>
+        <DisplayLarge
+        text="All the tools you need to make admin simple."
+        class="mb-20"
+        />
+      </div>
      <div class=" sm:flex lg:flex-row sm:flex-col items-center">
        <SmallCard
        img="https://s3.amazonaws.com/goa-assets/Illustrations/Cash+income.svg"
@@ -53,6 +59,8 @@ import SmallCard from "../components/Cards/SmallCard";
 import LargeCard from "../components/Cards/LargeCard";
 import LandingBody from "../components/Bodies/LandingBody";
 import Companies from "../components/Headers/Companies";
+import DisplayLarge from "../components/Typography/DisplayLarge";
+import DisplaySmall from "../components/Typography/DisplaySmall";
 
 export default {
     name:'Home',
@@ -61,7 +69,9 @@ export default {
         SmallCard,
         LandingBody,
         LargeCard,
-        Companies
+        Companies,
+        DisplayLarge,
+        DisplaySmall
         
     }
     ,
