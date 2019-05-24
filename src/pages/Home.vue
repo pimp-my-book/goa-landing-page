@@ -8,11 +8,14 @@
  </div>
 
     <div class="container pb-32 pt-32  lg:pl-20 mx-auto">
-      <div>
+      <div  class="mb-20">
         <DisplayLarge
         text="All the tools you need to make admin simple."
-        class="mb-20"
+       
         />
+        <FeatureText
+        text="GOA enables to you actually focus on enabling your students focus on performing academically. Our team ensures that your students' worries around getting textbooks and other educational material are well taken care of. "
+      />
       </div>
      <div class=" sm:flex lg:flex-row sm:flex-col items-center">
        <SmallCard
@@ -60,7 +63,7 @@ import LargeCard from "../components/Cards/LargeCard";
 import LandingBody from "../components/Bodies/LandingBody";
 import Companies from "../components/Headers/Companies";
 import DisplayLarge from "../components/Typography/DisplayLarge";
-import DisplaySmall from "../components/Typography/DisplaySmall";
+import FeatureText from "../components/Typography/FeatureText";
 
 export default {
     name:'Home',
@@ -71,7 +74,7 @@ export default {
         LargeCard,
         Companies,
         DisplayLarge,
-        DisplaySmall
+        FeatureText
         
     }
     ,
