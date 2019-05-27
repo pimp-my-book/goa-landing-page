@@ -45,7 +45,10 @@
                 </p>
             </div>
             <div class="nav__drawer--right ">
-               <PrimaryButton text="Sign Up" regular/>
+               <PrimaryButton 
+               text="Sign Up" 
+              
+               regular/>
             </div>
         </div>
     </nav>
