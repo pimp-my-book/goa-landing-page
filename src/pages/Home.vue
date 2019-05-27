@@ -48,6 +48,7 @@
 img="https://s3.amazonaws.com/goa-assets/Illustrations/stock.svg"
 cardTitle="Make managing student need easier"
 show
+buttonURL="/contact"
 primaryText="Contact Sales"
 secondaryText="Book A Demo"
 />
