@@ -45,10 +45,13 @@
                 </p>
             </div>
             <div class="nav__drawer--right ">
+                <a href="http://webnmobidev.net/pmb/login"
+                    class="no-underline text-white">
                <PrimaryButton 
                text="Sign Up" 
-              url="http://webnmobidev.net/pmb/login"
+              
                regular/>
+               </a>
             </div>
         </div>
     </nav>

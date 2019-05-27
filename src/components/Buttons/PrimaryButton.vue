@@ -22,7 +22,7 @@ export default {
     },
     methods:{
          forward(){
-             this.$router.forward(this.url)
+             this.$router.to(this.url)
          }
     }
    
