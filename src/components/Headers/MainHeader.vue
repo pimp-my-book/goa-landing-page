@@ -13,11 +13,14 @@
   />
     </div>
     <div class="flex  mt-10 lg:mr-20 ml-10">
+        
         <PrimaryButton
         text="Book Demo"
+        url="/contact"
         />
         <SecondaryButton
         text="How It Works"
+        url="/how-it-works"
         class="ml-3"
         />
     </div>

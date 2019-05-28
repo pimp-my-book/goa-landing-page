@@ -18,10 +18,12 @@
   <PrimaryButton
       :text="primaryText"
       regular
+      :url="buttonURL"
       class="mr-2"
       />
       <SecondaryButton
       :text="secondaryText"
+      :url="buttonURL"
       regular
       />
          </div>
