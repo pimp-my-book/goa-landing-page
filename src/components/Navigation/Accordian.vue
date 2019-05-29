@@ -24,10 +24,36 @@ export default {
     name: 'Accordian'
 }
 </script>
-<style lang="scss" scoped>
+<style scoped>
 input[type="radio"]{
     position: absolute;
     opacity: 0;
 }
+
+input[type="radio"]:focus + label {
+    color:black;
+    background-color: aliceblue;
+
+}
+
+label {
+    position: relative;
+    display: block;
+    cursor: pointer;
+
+}
+
+section {
+    height: 0;
+    transition: 0.3s all;
+    overflow:hidden;
+}
+
+#toggle1:checked ~ #content1, 
+#toggle2:checked ~ #content2, 
+#toggle3:checked ~ #content3 {
+    height: 200px;
+}
+
 </style>
 
