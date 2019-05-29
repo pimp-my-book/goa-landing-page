@@ -135,6 +135,32 @@
         </section>
         </div>
        <!-- End of FAQ -->
+
+       <!-- Start of FAQ -->
+       <div class="border-b border-gray-500">
+        <input id="toggle6" type="radio" name="toggle"/>
+        <div class="flex flex-row">
+
+            <label for="toggle6" class="w-4/5">
+            <DisplaySmall
+            text="When can I expect to receive my books once after I have placed an order?"
+            />
+            </label>
+
+        <img 
+        class="inline ml-24"
+       
+        src="https://s3.amazonaws.com/goa-assets/Icons/Chevron+Circle.svg" alt="icon"/>
+         
+        </div>
+        
+        <section id="content6" >
+            <FeatureText
+            text="If the book is in stock in our stores or our partner stores you should get the book within 2 – 4 working days. If the book is not in stock it will put “on order” where we order it from a publisher or supplier. This should take 1 -2 weeks. Overseas books which are not available anywhere in the country could take longer than 3 weeks to bring in. In such cases we will try to offer you an e-book or find an alternative."
+            />
+        </section>
+        </div>
+       <!-- End of FAQ -->
         
     </div>
 </template>
