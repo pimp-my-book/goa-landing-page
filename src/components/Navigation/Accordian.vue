@@ -1,26 +1,21 @@
 <template>
     <div class="bg-white shadow-md w-full text-left">
-        <input id="toggle1" type="radio" name="toggle"/>
+        
+        <div class="border-b border-gray-500">
+             <input id="toggle1" type="radio" name="toggle"/>
         <label for="toggle1">
             <FeatureText
             text="Question 1"
             />
         </label>
-        <section id="content1">
+        
+        <section id="content1" >
             <p>Answer to question</p>
         </section>
+        </div>
 
-        <input id="toggle2" type="radio" name="toggle"/>
-        <label for="toggle2">
-            <FeatureText
-            text="Question 2"
-            />
-        </label>
-        <section id="content2">
-            <p>Answer to question</p>
-        </section>
-
-        <input id="toggle3" type="radio" name="toggle"/>
+        <div class="border-b border-gray-500">
+          <input id="toggle3" type="radio" name="toggle"/>
         <label for="toggle3">
            <FeatureText
             text="Question 3"
@@ -29,6 +24,23 @@
         <section id="content3">
             <p>Answer to question</p>
         </section>
+        </div>
+
+         <div class="border-b border-gray-500">
+       <input id="toggle2" type="radio" name="toggle"/>
+        <label for="toggle2">
+            <FeatureText
+            text="Question 2"
+            />
+        </label>
+        <section id="content2">
+            <p>Answer to question</p>
+        </section>
+        </div>
+
+       
+
+        
     </div>
 </template>
 <script>
