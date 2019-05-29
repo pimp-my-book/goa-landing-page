@@ -51,6 +51,7 @@
         
         <section id="content2" >
             <FeatureText
+            class="px-10"
             text="Sometimes the courier delivers the book to the reception at your residence or apartment and not directly to your room. Some residences do not allow the couriers to deliver to the students dormitory rooms. Go to your Res reception and check if the book was delivered there. You can also contact us if you still cannot find your package."
             />
         </section>
@@ -77,6 +78,7 @@
         
         <section id="content3" >
             <FeatureText
+            class="px-10"
             text="Please email us or phone us (065-850-5225). Also chat to us below via the chat widget, to make things fast always tell us your name and surname."
             />
         </section>
@@ -104,6 +106,7 @@
         
         <section id="content4" >
             <FeatureText
+            class="px-10"
             text="Unfortunately not, all orders are processed on gogoa.co.za. Only queries can be communicated on whatsapp/email."
             />
         </section>
@@ -131,6 +134,7 @@
         
         <section id="content5" >
             <FeatureText
+            class="px-10"
             text="Please contact us so we can arrange the best possible solution for both parties"
             />
         </section>
@@ -157,6 +161,7 @@
         
         <section id="content6" >
             <FeatureText
+            class="px-10"
             text="If the book is in stock in our stores or our partner stores you should get the book within 2 – 4 working days. If the book is not in stock it will put “on order” where we order it from a publisher or supplier. This should take 1 -2 weeks. Overseas books which are not available anywhere in the country could take longer than 3 weeks to bring in. In such cases we will try to offer you an e-book or find an alternative."
             />
         </section>
@@ -183,6 +188,7 @@
         
         <section id="content7" >
             <FeatureText
+            class="px-10"
             text="Your bursary decides whether we should supply used or new books, so you cannot chose. For bursaries that have selected used books, we first try to supply the book second hand if it is in stock, otherwise we will supply a new book."
             />
         </section>
