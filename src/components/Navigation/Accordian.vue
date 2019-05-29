@@ -24,3 +24,10 @@ export default {
     name: 'Accordian'
 }
 </script>
+<style lang="scss" scoped>
+input[type="radio"]{
+    position: absolute;
+    opacity: 0;
+}
+</style>
+
