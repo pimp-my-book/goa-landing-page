@@ -88,22 +88,22 @@
         <input id="toggle4" type="radio" name="toggle"/>
         <div class="flex flex-row">
 
-            <label for="toggle3" class="w-4/5">
+            <label for="toggle4" class="w-4/5">
             <DisplaySmall
-            text="I haven’t received my books yet?"
+            text="Can I order on Whatsapp or via email?"
             />
             </label>
 
         <img 
         class="inline ml-24"
-        for="toggle4"
+       
         src="https://s3.amazonaws.com/goa-assets/Icons/Chevron+Circle.svg" alt="icon"/>
          
         </div>
         
-        <section id="content3" >
+        <section id="content4" >
             <FeatureText
-            text="Please email us or phone us (065-850-5225). Also chat to us below via the chat widget, to make things fast always tell us your name and surname."
+            text="Unfortunately not, all orders are processed on gogoa.co.za. Only queries can be communicated on whatsapp/email."
             />
         </section>
         </div>
