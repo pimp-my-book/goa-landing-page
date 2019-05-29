@@ -8,7 +8,7 @@
         <input id="toggle1" type="radio" name="toggle"/>
         <div class="flex flex-row">
 
-            <label for="toggle1" class="w-4/5 mb-5">
+            <label for="toggle1" class="w-4/5  p-10">
             <DisplaySmall
             class="text-bold"
             text="I’m done using the book can I return it for a different one?"
@@ -24,6 +24,7 @@
         
         <section id="content1" >
             <FeatureText
+            class="px-10"
             text="Unfortunately not, the book cannot be returned as more than one book is prescribed for a course and cannot be exchanged for the next book. Book returns only take place at the end of the semester and this will be communicated to you by your bursary."
             />
         </section>
@@ -35,7 +36,7 @@
         <input id="toggle2" type="radio" name="toggle"/>
         <div class="flex flex-row">
 
-            <label for="toggle2" class="w-4/5">
+            <label for="toggle2" class="w-4/5 p-10">
             <DisplaySmall
             text="I haven’t received my book yet but my correspondence with you says it’s been delivered?"
             />
@@ -61,7 +62,7 @@
         <input id="toggle3" type="radio" name="toggle"/>
         <div class="flex flex-row">
 
-            <label for="toggle3" class="w-4/5">
+            <label for="toggle3" class="w-4/5 p-10">
             <DisplaySmall
             text="I haven’t received my books yet?"
             />
@@ -88,7 +89,7 @@
         <input id="toggle4" type="radio" name="toggle"/>
         <div class="flex flex-row">
 
-            <label for="toggle4" class="w-4/5">
+            <label for="toggle4" class="w-4/5 p-10">
             <DisplaySmall
             text="Can I order on Whatsapp or via email?"
             />
@@ -115,7 +116,7 @@
         <input id="toggle5" type="radio" name="toggle"/>
         <div class="flex flex-row">
 
-            <label for="toggle5" class="w-4/5">
+            <label for="toggle5" class="w-4/5 p-10">
             <DisplaySmall
             text="I’m in class, Can I collect afterhours?"
             />
@@ -141,7 +142,7 @@
         <input id="toggle6" type="radio" name="toggle"/>
         <div class="flex flex-row">
 
-            <label for="toggle6" class="w-4/5">
+            <label for="toggle6" class="w-4/5 p-10">
             <DisplaySmall
             text="When can I expect to receive my books once after I have placed an order?"
             />
@@ -167,7 +168,7 @@
         <input id="toggle7" type="radio" name="toggle"/>
         <div class="flex flex-row">
 
-            <label for="toggle7" class="w-4/5">
+            <label for="toggle7" class="w-4/5 p-10">
             <DisplaySmall
             text="Can I choose if I want a new or used book?"
             />
