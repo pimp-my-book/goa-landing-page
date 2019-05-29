@@ -1,7 +1,9 @@
 <template>
     <div class="bg-white shadow-md w-3/4 text-left">
-        <div class="flex flex-row"></div>
+        <!-- Start of FAQ -->
+         <!-- End of FAQ -->
 
+         <!-- Start of FAQ -->
         <div class="border-b border-gray-500">
         <input id="toggle1" type="radio" name="toggle"/>
         <div class="flex flex-row">
@@ -26,7 +28,9 @@
             />
         </section>
         </div>
+        <!-- End of FAQ -->
 
+       <!-- Start of FAQ -->
         <div class="border-b border-gray-500">
         <input id="toggle2" type="radio" name="toggle"/>
         <div class="flex flex-row">
@@ -50,7 +54,9 @@
             />
         </section>
         </div>
+<!-- End of FAQ -->
 
+       <!-- Start of FAQ -->
        <div class="border-b border-gray-500">
         <input id="toggle3" type="radio" name="toggle"/>
         <div class="flex flex-row">
@@ -74,7 +80,7 @@
             />
         </section>
         </div>
-
+       <!-- End of FAQ -->
        
 
         
