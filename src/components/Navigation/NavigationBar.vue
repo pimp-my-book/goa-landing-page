@@ -32,7 +32,11 @@
                         </router-link>
                 </a>
                 <a href="#" class="block mt-4 no-underline sm:inline-block sm:mt-0 text-white hover:text-bg-green-light mr-4">
-                    <p class="font-body hover:text-green">Support</p>
+                    <router-link class="text-white no-underline" to="/support">
+                    <p class="font-body hover:text-green">
+                        Support
+                    </p>
+                    </router-link>
                 </a>
             </div>
             <div class="nav__drawer--right">
