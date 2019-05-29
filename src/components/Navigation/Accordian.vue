@@ -67,7 +67,7 @@
          
         </div>
         
-        <section id="content1" >
+        <section id="content3" >
             <FeatureText
             text="Question 3"
             />
