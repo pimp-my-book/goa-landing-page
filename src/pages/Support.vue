@@ -5,7 +5,10 @@
     BodyText="Below are some FAQs that might get your problem solved. If not we would happliy help you. "
     />
 
-    <div class="container">
+    <div class="container mx-auto pl-32">
+        <div class="text-center">
+
+        </div>
     <Accordian/>
     </div>
 </div>
