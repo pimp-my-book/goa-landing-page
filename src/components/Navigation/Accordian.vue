@@ -1,12 +1,12 @@
 <template>
-    <div class="bg-white shadow-md w-full text-left">
+    <div class="bg-white shadow-md w-3/4 text-left">
         <div class="flex flex-row"></div>
 
         <div class="border-b border-gray-500">
         <input id="toggle1" type="radio" name="toggle"/>
         <div class="flex flex-row">
 
-            <label for="toggle1" class="w-screen">
+            <label for="toggle1" class="w-4/5">
             <DisplaySmall
             text="Question"
             />
@@ -30,7 +30,7 @@
         <input id="toggle2" type="radio" name="toggle"/>
         <div class="flex flex-row">
 
-            <label for="toggle2" class="w-screen">
+            <label for="toggle2" class="w-4/5">
             <DisplaySmall
             text="Question"
             />
@@ -54,7 +54,7 @@
         <input id="toggle3" type="radio" name="toggle"/>
         <div class="flex flex-row">
 
-            <label for="toggle3" class="w-screen">
+            <label for="toggle3" class="w-4/5">
             <DisplaySmall
             text="Question"
             />
