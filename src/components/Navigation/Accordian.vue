@@ -6,9 +6,10 @@
         <input id="toggle1" type="radio" name="toggle"/>
         <div class="flex flex-row">
 
-            <label for="toggle1" class="w-4/5">
+            <label for="toggle1" class="w-4/5 mb-5">
             <DisplaySmall
-            text="Question"
+            class="text-bold"
+            text="I’m done using the book can I return it for a different one?"
             />
             </label>
 
@@ -21,7 +22,7 @@
         
         <section id="content1" >
             <FeatureText
-            text="Question 1"
+            text="Unfortunately not, the book cannot be returned as more than one book is prescribed for a course and cannot be exchanged for the next book. Book returns only take place at the end of the semester and this will be communicated to you by your bursary."
             />
         </section>
         </div>
@@ -82,6 +83,7 @@
 <script>
 import FeatureText from '../Typography/FeatureText'
 import DisplaySmall from '../Typography/DisplaySmall'
+
 
 export default {
     name: 'Accordian',
