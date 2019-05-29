@@ -7,7 +7,9 @@
 
     <div class="container mx-auto pl-32">
         <div class="text-center">
-
+          <DisplayXLarge
+          text="FAQ"
+          />
         </div>
     <Accordian/>
     </div>
@@ -18,12 +20,14 @@
 <script>
 import BoarderHeader from '../components/Headers/BoarderHeader'
 import Accordian from '../components/Navigation/Accordian'
+import DisplayXLarge from '../components/Typography/DisplayXLarge'
 
 export default {
     name: 'Support',
     components:{
         BoarderHeader,
-        Accordian
+        Accordian,
+        DisplayXLarge
     }
 }
 </script>
