@@ -37,7 +37,7 @@
 
             <label for="toggle2" class="w-4/5">
             <DisplaySmall
-            text="Question"
+            text="I haven’t received my book yet but my correspondence with you says it’s been delivered?"
             />
             </label>
 
@@ -50,7 +50,7 @@
         
         <section id="content2" >
             <FeatureText
-            text="Question 2"
+            text="Sometimes the courier delivers the book to the reception at your residence or apartment and not directly to your room. Some residences do not allow the couriers to deliver to the students dormitory rooms. Go to your Res reception and check if the book was delivered there. You can also contact us if you still cannot find your package."
             />
         </section>
         </div>
@@ -63,7 +63,7 @@
 
             <label for="toggle3" class="w-4/5">
             <DisplaySmall
-            text="Question"
+            text="I haven’t received my books yet?"
             />
             </label>
 
@@ -76,12 +76,38 @@
         
         <section id="content3" >
             <FeatureText
-            text="Question 3"
+            text="Please email us or phone us (065-850-5225). Also chat to us below via the chat widget, to make things fast always tell us your name and surname."
             />
         </section>
         </div>
        <!-- End of FAQ -->
        
+       
+       <!-- Start of FAQ -->
+       <div class="border-b border-gray-500">
+        <input id="toggle4" type="radio" name="toggle"/>
+        <div class="flex flex-row">
+
+            <label for="toggle3" class="w-4/5">
+            <DisplaySmall
+            text="I haven’t received my books yet?"
+            />
+            </label>
+
+        <img 
+        class="inline ml-24"
+        for="toggle4"
+        src="https://s3.amazonaws.com/goa-assets/Icons/Chevron+Circle.svg" alt="icon"/>
+         
+        </div>
+        
+        <section id="content3" >
+            <FeatureText
+            text="Please email us or phone us (065-850-5225). Also chat to us below via the chat widget, to make things fast always tell us your name and surname."
+            />
+        </section>
+        </div>
+       <!-- End of FAQ -->
 
         
     </div>
