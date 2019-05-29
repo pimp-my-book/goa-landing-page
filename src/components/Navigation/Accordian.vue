@@ -154,7 +154,9 @@ section {
 #toggle2:checked ~ #content2, 
 #toggle3:checked ~ #content3,
 #toggle4:checked ~ #content4,
-#toggle5:checked ~ #content5  {
+#toggle5:checked ~ #content5,
+#toggle6:checked ~ #content6 ,
+#toggle7:checked ~ #content7   {
     height: 200px;
 }
 
