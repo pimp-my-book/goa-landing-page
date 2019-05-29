@@ -1,40 +1,76 @@
 <template>
     <div class="bg-white shadow-md w-full text-left">
-        
+        <div class="flex flex-row"></div>
+
         <div class="border-b border-gray-500">
-             <input id="toggle1" type="radio" name="toggle"/>
-        <label for="toggle1">
+        <input id="toggle1" type="radio" name="toggle"/>
+        <div class="flex flex-row">
+
+            <label for="toggle1" class="w-screen">
+            <DisplaySmall
+            text="Question"
+            />
+            </label>
+
+        <img 
+        class="inline ml-24"
+        for="toggle1"
+        src="https://s3.amazonaws.com/goa-assets/Icons/Chevron+Circle.svg" alt="icon"/>
+         
+        </div>
+        
+        <section id="content1" >
             <FeatureText
             text="Question 1"
             />
-        </label>
-        
-        <section id="content1" >
-            <p>Answer to question</p>
         </section>
         </div>
 
         <div class="border-b border-gray-500">
-          <input id="toggle3" type="radio" name="toggle"/>
-        <label for="toggle3">
-           <FeatureText
-            text="Question 3"
+        <input id="toggle2" type="radio" name="toggle"/>
+        <div class="flex flex-row">
+
+            <label for="toggle2" class="w-screen">
+            <DisplaySmall
+            text="Question"
             />
             </label>
-        <section id="content3">
-            <p>Answer to question</p>
-        </section>
-        </div>
 
-         <div class="border-b border-gray-500">
-       <input id="toggle2" type="radio" name="toggle"/>
-        <label for="toggle2">
+        <img 
+        class="inline ml-24"
+        for="toggle1"
+        src="https://s3.amazonaws.com/goa-assets/Icons/Chevron+Circle.svg" alt="icon"/>
+         
+        </div>
+        
+        <section id="content2" >
             <FeatureText
             text="Question 2"
             />
-        </label>
-        <section id="content2">
-            <p>Answer to question</p>
+        </section>
+        </div>
+
+       <div class="border-b border-gray-500">
+        <input id="toggle3" type="radio" name="toggle"/>
+        <div class="flex flex-row">
+
+            <label for="toggle3" class="w-screen">
+            <DisplaySmall
+            text="Question"
+            />
+            </label>
+
+        <img 
+        class="inline ml-24"
+        for="toggle3"
+        src="https://s3.amazonaws.com/goa-assets/Icons/Chevron+Circle.svg" alt="icon"/>
+         
+        </div>
+        
+        <section id="content1" >
+            <FeatureText
+            text="Question 3"
+            />
         </section>
         </div>
 
@@ -45,11 +81,13 @@
 </template>
 <script>
 import FeatureText from '../Typography/FeatureText'
+import DisplaySmall from '../Typography/DisplaySmall'
 
 export default {
     name: 'Accordian',
     components:{
-        FeatureText
+        FeatureText,
+        DisplaySmall
     }
 }
 </script>
