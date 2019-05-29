@@ -109,6 +109,32 @@
         </div>
        <!-- End of FAQ -->
 
+
+<!-- Start of FAQ -->
+       <div class="border-b border-gray-500">
+        <input id="toggle5" type="radio" name="toggle"/>
+        <div class="flex flex-row">
+
+            <label for="toggle5" class="w-4/5">
+            <DisplaySmall
+            text="I’m in class, Can I collect afterhours?"
+            />
+            </label>
+
+        <img 
+        class="inline ml-24"
+       
+        src="https://s3.amazonaws.com/goa-assets/Icons/Chevron+Circle.svg" alt="icon"/>
+         
+        </div>
+        
+        <section id="content5" >
+            <FeatureText
+            text="Please contact us so we can arrange the best possible solution for both parties"
+            />
+        </section>
+        </div>
+       <!-- End of FAQ -->
         
     </div>
 </template>
