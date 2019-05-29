@@ -161,6 +161,33 @@
         </section>
         </div>
        <!-- End of FAQ -->
+
+         <!-- Start of FAQ -->
+       <div class="border-b border-gray-500">
+        <input id="toggle7" type="radio" name="toggle"/>
+        <div class="flex flex-row">
+
+            <label for="toggle7" class="w-4/5">
+            <DisplaySmall
+            text="Can I choose if I want a new or used book?"
+            />
+            </label>
+
+        <img 
+        class="inline ml-24"
+       
+        src="https://s3.amazonaws.com/goa-assets/Icons/Chevron+Circle.svg" alt="icon"/>
+         
+        </div>
+        
+        <section id="content7" >
+            <FeatureText
+            text="Your bursary decides whether we should supply used or new books, so you cannot chose. For bursaries that have selected used books, we first try to supply the book second hand if it is in stock, otherwise we will supply a new book."
+            />
+        </section>
+        </div>
+       <!-- End of FAQ -->
+        
         
     </div>
 </template>
