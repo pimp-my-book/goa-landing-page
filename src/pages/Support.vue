@@ -5,13 +5,15 @@
     BodyText="Below are some FAQs that might get your problem solved. If not we would happliy help you. "
     />
 
-    <div class="container mx-auto pl-32">
-        <div class="text-center">
-          <DisplayXLarge
+    <div class="container mx-auto ">
+        <DisplayXLarge
           text="FAQ"
           />
+        <div class="flex justify-center">
+          
+          <Accordian/>
         </div>
-    <Accordian/>
+    
     </div>
 </div>
     
