@@ -6,7 +6,7 @@
     />
 
     <div class="container">
-        
+    <Accordian/>
     </div>
 </div>
     
@@ -14,11 +14,13 @@
 
 <script>
 import BoarderHeader from '../components/Headers/BoarderHeader'
+import Accordian from '../components/Navigation/Accordian'
 
 export default {
     name: 'Support',
     components:{
-        BoarderHeader
+        BoarderHeader,
+        Accordian
     }
 }
 </script>
