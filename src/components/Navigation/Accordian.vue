@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="bg-white shadow-md w-full">
         <input id="toggle1" type="radio" name="toggle"/>
         <label for="toggle1">Question 1</label>
         <section id="content1">
