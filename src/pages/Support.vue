@@ -1,8 +1,15 @@
 <template>
-    <BoarderHeader
+<div>
+<BoarderHeader
     HeaderText="Looking For Some Help?"
     BodyText="Below are some FAQs that might get your problem solved. If not we would happliy help you. "
     />
+
+    <div class="container">
+        
+    </div>
+</div>
+    
 </template>
 
 <script>
