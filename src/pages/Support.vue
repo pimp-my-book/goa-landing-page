@@ -3,7 +3,12 @@
 </template>
 
 <script>
+import BoarderHeader from '../components/Headers/BoarderHeader'
+
 export default {
-    name: 'Support'
+    name: 'Support',
+    components:{
+        BoarderHeader
+    }
 }
 </script>
