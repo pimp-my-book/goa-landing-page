@@ -15,8 +15,9 @@
             />
             </label>
 
+
         <img 
-        class="inline ml-24 s:hidden"
+        class=" ml-24 s:hidden sm:block"
         for="toggle1"
         src="https://s3.amazonaws.com/goa-assets/Icons/Chevron+Circle.svg" alt="icon"/>
          
