@@ -17,7 +17,7 @@
 
 
         <img 
-        class=" ml-24 s-max:hidden sm:block"
+        class=" ml-20 s-max:hidden "
         for="toggle1"
         src="https://s3.amazonaws.com/goa-assets/Icons/Chevron+Circle.svg" alt="icon"/>
          
@@ -44,7 +44,7 @@
             </label>
 
         <img 
-        class="inline ml-24 s:hidden"
+        class="inline ml-24 s-max:hidden"
         for="toggle1"
         src="https://s3.amazonaws.com/goa-assets/Icons/Chevron+Circle.svg" alt="icon"/>
          
@@ -71,7 +71,7 @@
             </label>
  
         <img 
-        class="inline ml-24 s:hidden"
+        class="inline ml-24 s-max:hidden"
         for="toggle3"
         src="https://s3.amazonaws.com/goa-assets/Icons/Chevron+Circle.svg" alt="icon"/>
          
@@ -99,7 +99,7 @@
             </label>
 
         <img 
-        class="inline ml-24 s:hidden"
+        class="inline ml-24 s-max:hidden"
        
         src="https://s3.amazonaws.com/goa-assets/Icons/Chevron+Circle.svg" alt="icon"/>
          
@@ -127,7 +127,7 @@
             </label>
 
         <img 
-        class="inline ml-24 s:hidden"
+        class="inline ml-24 s-max:hidden"
        
         src="https://s3.amazonaws.com/goa-assets/Icons/Chevron+Circle.svg" alt="icon"/>
          
@@ -154,7 +154,7 @@
             </label>
 
         <img 
-        class="inline ml-24 s:hidden"
+        class="inline ml-24 s-max:hidden"
        
         src="https://s3.amazonaws.com/goa-assets/Icons/Chevron+Circle.svg" alt="icon"/>
          
@@ -181,7 +181,7 @@
             </label>
 
         <img 
-        class="inline ml-24 s:hidden"
+        class="inline ml-24 s-max:hidden"
        
         src="https://s3.amazonaws.com/goa-assets/Icons/Chevron+Circle.svg" alt="icon"/>
          
