@@ -8,7 +8,7 @@
         <input id="toggle1" type="radio" name="toggle"/>
         <div class="flex flex-row">
 
-            <label for="toggle1" class="lg:w-4/5 s:w-64  s:mb-5 lg:p-10">
+            <label for="toggle1" class="lg:w-4/5 s:w-64 sm-land:w-4/5 s:mb-5 lg:p-10">
             <DisplaySmall
             class="text-bold "
             text="I’m done using the book can I return it for a different one?"
@@ -37,7 +37,7 @@
         <input id="toggle2" type="radio" name="toggle"/>
         <div class="flex flex-row">
 
-            <label for="toggle2" class="lg:w-4/5 s:w-64  s:mb-5 lg:p-10">
+            <label for="toggle2" class="lg:w-4/5 s:w-64 sm-land:w-4/5  s:mb-5 lg:p-10">
             <DisplaySmall
             text="I haven’t received my book yet but my correspondence with you says it’s been delivered?"
             />
@@ -64,7 +64,7 @@
         <input id="toggle3" type="radio" name="toggle"/>
         <div class="flex flex-row">
 
-            <label for="toggle3" class="lg:w-4/5 s:w-64  s:mb-5 lg:p-10">
+            <label for="toggle3" class="lg:w-4/5 s:w-64 sm-land:w-4/5  s:mb-5 lg:p-10">
             <DisplaySmall
             text="I haven’t received my books yet?"
             />
@@ -92,7 +92,7 @@
         <input id="toggle4" type="radio" name="toggle"/>
         <div class="flex flex-row">
 
-            <label for="toggle4" class="lg:w-4/5 s:w-64  s:mb-5 lg:p-10">
+            <label for="toggle4" class="lg:w-4/5 s:w-64 sm-land:w-4/5  s:mb-5 lg:p-10">
             <DisplaySmall
             text="Can I order on Whatsapp or via email?"
             />
@@ -120,7 +120,7 @@
         <input id="toggle5" type="radio" name="toggle"/>
         <div class="flex flex-row">
 
-            <label for="toggle5" class="lg:w-4/5 s:w-64  s:mb-5 lg:p-10">
+            <label for="toggle5" class="lg:w-4/5 s:w-64 sm-land:w-4/5  s:mb-5 lg:p-10">
             <DisplaySmall
             text="I’m in class, Can I collect afterhours?"
             />
@@ -147,7 +147,7 @@
         <input id="toggle6" type="radio" name="toggle"/>
         <div class="flex flex-row">
 
-            <label for="toggle6" class="lg:w-4/5 s:w-64  s:mb-5 lg:p-10">
+            <label for="toggle6" class="lg:w-4/5 s:w-64 sm-land:w-4/5  s:mb-5 lg:p-10">
             <DisplaySmall
             text="When can I expect to receive my books once after I have placed an order?"
             />
@@ -174,7 +174,7 @@
         <input id="toggle7" type="radio" name="toggle"/>
         <div class="flex flex-row">
 
-            <label for="toggle7" class="lg:w-4/5 s:w-64  s:mb-5 lg:p-10">
+            <label for="toggle7" class="lg:w-4/5 s:w-64 sm-land:w-4/5  s:mb-5 lg:p-10">
             <DisplaySmall
             text="Can I choose if I want a new or used book?"
             />

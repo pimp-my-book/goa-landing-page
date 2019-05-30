@@ -169,7 +169,7 @@ module.exports = {
     's-max': [{'max':'320px'}],
     'sl': '375px',
     'sm': '576px',
-    'sm-land':[{'max':'667px'}],
+    'sm-land':[{'min':'667px'}],
     'md': '768px',
     'lg': '992px',
     'x': '1024px',
