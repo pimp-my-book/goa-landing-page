@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white shadow-md w-3/4 text-left">
+    <div class="bg-white shadow-md lg:w-3/4 lg:text-left s:text-center">
         <!-- Start of FAQ -->
          <!-- End of FAQ -->
 
@@ -8,15 +8,15 @@
         <input id="toggle1" type="radio" name="toggle"/>
         <div class="flex flex-row">
 
-            <label for="toggle1" class="lg:w-4/5 s:w-16 p-10">
+            <label for="toggle1" class="lg:w-4/5 s:w-16 lg:p-10">
             <DisplaySmall
-            class="text-bold"
+            class="text-bold s:text-justified"
             text="I’m done using the book can I return it for a different one?"
             />
             </label>
 
         <img 
-        class="inline ml-24 lg:hidden"
+        class="inline ml-24 s:hidden"
         for="toggle1"
         src="https://s3.amazonaws.com/goa-assets/Icons/Chevron+Circle.svg" alt="icon"/>
          
@@ -24,7 +24,7 @@
         
         <section id="content1" >
             <FeatureText
-            class="px-10"
+            class="px-10 mb-10"
             text="Unfortunately not, the book cannot be returned as more than one book is prescribed for a course and cannot be exchanged for the next book. Book returns only take place at the end of the semester and this will be communicated to you by your bursary."
             />
         </section>
@@ -55,7 +55,7 @@
             text="Sometimes the courier delivers the book to the reception at your residence or apartment and not directly to your room. Some residences do not allow the couriers to deliver to the students dormitory rooms. Go to your Res reception and check if the book was delivered there. You can also contact us if you still cannot find your package."
             />
         </section>
-        </div>
+        </div>  
 <!-- End of FAQ -->
 
        <!-- Start of FAQ -->
@@ -68,7 +68,7 @@
             text="I haven’t received my books yet?"
             />
             </label>
-
+ 
         <img 
         class="inline ml-24"
         for="toggle3"
@@ -243,7 +243,7 @@ section {
 #toggle5:checked ~ #content5,
 #toggle6:checked ~ #content6 ,
 #toggle7:checked ~ #content7   {
-    height: 200px;
+    height: 300px;
 }
 
 </style>
