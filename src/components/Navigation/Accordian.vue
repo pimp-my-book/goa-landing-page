@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white shadow-md lg:w-3/4 lg:text-left s:text-center">
+    <div class="bg-white shadow-md mt-5 lg:w-3/4 lg:text-left s:text-center">
         <!-- Start of FAQ -->
          <!-- End of FAQ -->
 
@@ -8,9 +8,9 @@
         <input id="toggle1" type="radio" name="toggle"/>
         <div class="flex flex-row">
 
-            <label for="toggle1" class="lg:w-4/5 s:w-16 lg:p-10">
+            <label for="toggle1" class="lg:w-4/5 s:w-64  s:mb-5 lg:p-10">
             <DisplaySmall
-            class="text-bold s:text-justified"
+            class="text-bold "
             text="I’m done using the book can I return it for a different one?"
             />
             </label>
@@ -24,7 +24,7 @@
         
         <section id="content1" >
             <FeatureText
-            class="px-10 mb-10"
+            class="px-10 mb-10 s:text-left"
             text="Unfortunately not, the book cannot be returned as more than one book is prescribed for a course and cannot be exchanged for the next book. Book returns only take place at the end of the semester and this will be communicated to you by your bursary."
             />
         </section>
