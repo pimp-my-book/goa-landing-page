@@ -13,8 +13,8 @@ Vue.use(VueRouter)
 Vue.use(VueAnalytics, {
   id:'UA-131906194-1',
   debug:{
-    enabled: !isProd,
-    sendHitTask: isProd
+   // enabled: !isProd,
+    //sendHitTask: isProd
   }
 })
 
