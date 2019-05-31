@@ -11,7 +11,7 @@ const isProd = process.env.NODE_ENV === 'production'
 
 Vue.use(VueRouter)
 Vue.use(VueAnalytics, {
-  id:'UA-131906195-1',
+  id:'UA-131906194-1',
   debug:{
     enabled: !isProd,
     sendHitTask: isProd
