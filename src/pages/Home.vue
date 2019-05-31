@@ -65,6 +65,7 @@ import LandingBody from "../components/Bodies/LandingBody";
 import Companies from "../components/Headers/Companies";
 import DisplayLarge from "../components/Typography/DisplayLarge";
 import FeatureText from "../components/Typography/FeatureText";
+import {page} from 'vue-analytics'
 
 export default {
     name:'Home',
@@ -81,7 +82,7 @@ export default {
     ,
   methods: {
     track(){
-      this.$ga.page('/')
+     page('/')
     }
   }
 }
