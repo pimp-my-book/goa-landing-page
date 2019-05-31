@@ -1,5 +1,6 @@
 import VueRouter from 'vue-router'
-//import Vue from 'vue'
+import VueAnalytics from 'vue-analytics'
+import Vue from 'vue'
 //import App from './App.vue'
 import Home from './pages/Home'
 import Contact from  './pages/Contact'
@@ -48,6 +49,12 @@ const routes = [
     }
         
 ]
+
+
+Vue.use(VueAnalytics, {
+    id:'UA-131906194-1'
+  })
+
 
 const router = new VueRouter({
     routes,
