@@ -28,6 +28,11 @@ export default {
         BoarderHeader,
         HowBody,
         LargeCard
+    },
+    methods: {
+    track(){
+      this.$ga.page('/how-it-works')
     }
+  }
 }
 </script>
