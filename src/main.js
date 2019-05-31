@@ -7,9 +7,15 @@ import '@/assets/css/tailwind.css'
 import router from './router'
 Vue.config.productionTip = false
 
+const isProd = process.env.NODE_ENV === 'production'
+
 Vue.use(VueRouter)
 Vue.use(VueAnalytics, {
-  id:'UA-131906195-1'
+  id:'UA-131906195-1',
+  debug:{
+    enabled: !isProd,
+    sendHitTask: isProd
+  }
 })
 
 new Vue({

@@ -22,7 +22,12 @@ export default {
     components:{
         BoarderHeader,
         ContactForm
+    },
+    methods: {
+    track(){
+      this.$ga.page('/contact')
     }
+  }
 }
 </script>
 

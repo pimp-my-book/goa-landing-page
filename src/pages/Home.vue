@@ -81,7 +81,7 @@ export default {
     ,
   methods: {
     track(){
-      this.$ga.page('/home')
+      this.$ga.page('/')
     }
   }
 }

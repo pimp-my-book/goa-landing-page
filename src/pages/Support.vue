@@ -30,6 +30,11 @@ export default {
         BoarderHeader,
         Accordian,
         DisplayXLarge
+    },
+    methods: {
+    track(){
+      this.$ga.page('/support')
     }
+  }
 }
 </script>
