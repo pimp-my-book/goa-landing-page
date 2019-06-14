@@ -39,8 +39,8 @@
      <div>
      <img 
      class="w-img h-img lg:hidden"
-     alt="Check complete" 
-     src="https://s3.amazonaws.com/goa-assets/Illustrations/undraw_completed_ngx6.svg"
+     alt="activity" 
+     src="https://goa-assets.s3.amazonaws.com/Illustrations/undraw_task_31wc.svg"
      />
    </div>
 <!-- End of img -->
@@ -64,8 +64,8 @@
      <div>
      <img 
      class="w-img h-img s:hidden lg:block"
-     alt="Check complete" 
-     src="https://s3.amazonaws.com/goa-assets/Illustrations/undraw_completed_ngx6.svg"
+     alt="activity" 
+     src="https://goa-assets.s3.amazonaws.com/Illustrations/undraw_task_31wc.svg"
      />
    </div>
 <!-- End of img -->
