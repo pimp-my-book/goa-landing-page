@@ -35,8 +35,8 @@
         <SmallCard
          class="ml-5 mb-5"
         img="https://s3.amazonaws.com/goa-assets/Illustrations/Safe.svg"
-        cardTitle="Centeralized Data"
-        cardText="All your students data is centralized with us. Which enables you to get an overview of what content they are purchasing. "
+        cardTitle="Control"
+        cardText="Our platform removes abuse of allocated funds by ensuring that your students only receive prescribed materials and approved items."
        />
       </div>
  </div>
