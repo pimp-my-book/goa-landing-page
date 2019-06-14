@@ -12,7 +12,7 @@
      <img 
      class="w-img h-img"
      alt="students" 
-     src="https://s3.amazonaws.com/goa-assets/Illustrations/undraw_hello_aeia.svg"
+     src="https://goa-assets.s3.amazonaws.com/Illustrations/undraw_analyze_17kw.svg"
      />
    </div>
 <!-- End of img -->
