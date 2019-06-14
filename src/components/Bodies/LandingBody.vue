@@ -156,7 +156,7 @@
    class="mb-5 text-blue-dark"
    />
    <FeatureText
-   text="Instead of having information all over the place and in many forms, we are able to give your records of purchases. Allowing you to understand what your students have spent on your rands."
+   text="Get access to real time information about your student’s orders. Pull reports that help you to understand exactly how your students are spending your money."
    />
   <!-- start of ul -->
   <div class="lg:p-12 lg:text-left lg:pr-32">
@@ -169,10 +169,14 @@
    </li>
    <li>
      <FeatureText
-   text="Student order histories"
+   text="Order History"
    />
    </li>
- 
+ <li>
+     <FeatureText
+   text="Indicators (Average spend per student, no. of items per student, average price, ETA’s and more)"
+   />
+   </li>
    </ul>
           <!-- end of ul -->
 
