@@ -216,30 +216,18 @@
         <!--- End of row 6  -->
 
 
-
-
-
-
-
-
-
-
-
-
-
-        <!--- start of row 7  -->
-
-                <div class="sm:flex lg:flex-row sm:flex-col">
-          <!-- start of img for sm devices -->
+  <!--- start of row 7  -->
+         <div class="sm:flex lg:flex-row sm:flex-col">
+          
+<!-- start of img -->
      <div>
      <img 
-     class="w-img h-img lg:hidden"
-     alt="Check complete" 
+     class="w-img h-img"
+     alt="students" 
      src="https://s3.amazonaws.com/goa-assets/Illustrations/undraw_deliveries_131a.svg"
      />
    </div>
 <!-- End of img -->
-
 <!-- start of text-part of div -->
 <div class="lg:text-left lg:w-3/4 lg:pl-32 lg:pt-32 s:text-center">
      <DisplaySmall
@@ -252,23 +240,10 @@
    </div>
      <!-- End of text-part of div -->
 
-     <!-- start of img -->
-     <div>
-     <img 
-     class="w-img h-img lg:block s:hidden"
-     alt="students" 
-     src="https://s3.amazonaws.com/goa-assets/Illustrations/undraw_deliveries_131a.svg"
-     />
-   </div>
-<!-- End of img -->
+         </div>
         <!--- End of row 7  -->
 
 
-
-
-
-
-                </div>
 
 
 
