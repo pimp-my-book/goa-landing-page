@@ -22,7 +22,7 @@
        img="https://s3.amazonaws.com/goa-assets/Illustrations/Cash+income.svg"
         cardTitle="Insight Into Spending"
         class="ml-5 mb-5"
-        cardText="Students are able to easily observe their spending on orders. We also give Bursary Foundations the ability to control students' spending budgets."
+        cardText="Get real time information regarding student orders, spending and deliveries. Download reports for your clients and seniors."
        />
 
         <SmallCard
