@@ -282,7 +282,32 @@
 </div>
         <!--- End of row 8  -->
 
+  <!--- start of row 9  -->
+         <div class="sm:flex lg:flex-row sm:flex-col">
+          
+<!-- start of img -->
+     <div>
+     <img 
+     class="w-img h-img"
+     alt="students" 
+     src="https://goa-assets.s3.amazonaws.com/Illustrations/undraw_financial_data_es63.svg"
+     />
+   </div>
+<!-- End of img -->
+<!-- start of text-part of div -->
+<div class="lg:text-left lg:w-3/4 lg:pl-32 lg:pt-32 s:text-center">
+     <DisplaySmall
+   text="Reports & Insights"
+   class="mb-5 text-blue-dark"
+   />
+   <FeatureText
+   text="Bursaries have access to the portal where they can see orders as they come in. They can follow up on order statuses and amounts spent. Bursaries are also able to pull insightful reports showing how their money was spent."
+   />
+   </div>
+     <!-- End of text-part of div -->
 
+         </div>
+        <!--- End of row 9  -->
     </div>
 </template>
 
