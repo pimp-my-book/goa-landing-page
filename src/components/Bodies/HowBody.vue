@@ -177,18 +177,20 @@
 
    
 
-        <!--- start of row 7  -->
+
+  <!--- start of row 6  -->
+
                 <div class="sm:flex lg:flex-row sm:flex-col">
-          
-<!-- start of img -->
+          <!-- start of img for sm devices -->
      <div>
      <img 
-     class="w-img h-img"
-     alt="students" 
+     class="w-img h-img lg:hidden"
+     alt="Check complete" 
      src="https://s3.amazonaws.com/goa-assets/Illustrations/undraw_add_to_cart_vkjp.svg"
      />
    </div>
 <!-- End of img -->
+
 <!-- start of text-part of div -->
 <div class="lg:text-left lg:w-3/4 lg:pl-32 lg:pt-32 s:text-center">
      <DisplaySmall
@@ -200,10 +202,32 @@
    />
    </div>
      <!-- End of text-part of div -->
-                </div>
-        <!--- End of row 7  -->
 
-        <!--- start of row 8  -->
+     <!-- start of img -->
+     <div>
+     <img 
+     class="w-img h-img lg:block s:hidden"
+     alt="students" 
+     src="https://s3.amazonaws.com/goa-assets/Illustrations/undraw_add_to_cart_vkjp.svg"
+     />
+   </div>
+<!-- End of img -->
+</div>
+        <!--- End of row 6  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--- start of row 7  -->
 
                 <div class="sm:flex lg:flex-row sm:flex-col">
           <!-- start of img for sm devices -->
@@ -237,7 +261,7 @@
      />
    </div>
 <!-- End of img -->
-        <!--- End of row 8  -->
+        <!--- End of row 7  -->
 
 
 
@@ -248,7 +272,7 @@
 
 
 
-         <!--- start of row 9  -->
+         <!--- start of row 8  -->
          <div class="sm:flex lg:flex-row sm:flex-col">
           
 <!-- start of img -->
@@ -273,7 +297,7 @@
      <!-- End of text-part of div -->
 
          </div>
-        <!--- End of row 9  -->
+        <!--- End of row 8  -->
 
 
 
