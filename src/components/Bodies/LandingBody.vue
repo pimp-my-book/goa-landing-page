@@ -216,25 +216,25 @@
    class="mb-5 text-blue-dark"
    />
    <FeatureText
-   text="One thing that makes managing the activity of over a 100 eager students hard, is the actual management of the admin that comes with it. "
+   text="We remove the admin time and costs of trying to ensure that your students use your money appropriately."
    />
   <!-- start of ul -->
   <div class="lg:p-12 lg:text-left lg:pr-32">
  <ul class="mx-auto">
    <li>
      <FeatureText
-   text="No need to process payments with multiple students"
+   text="No need to pay multiple students"
    
    />
    </li>
    <li>
      <FeatureText
-   text="Do not stress about quotes"
+   text="No need to check and approve quotes"
    />
    </li>
    <li>
      <FeatureText
-   text="We complie detailed reports on your behalf"
+   text="Don’t stress about reports"
    />
    </li>
    </ul>
