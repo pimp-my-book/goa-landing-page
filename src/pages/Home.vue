@@ -19,7 +19,7 @@
       </div>
      <div class=" sm:flex lg:flex-row sm:flex-col items-center">
        <SmallCard
-       img="https://s3.amazonaws.com/goa-assets/Illustrations/Cash+income.svg"
+       img="https://goa-assets.s3.amazonaws.com/Illustrations/16.+Cash+income.svg"
         cardTitle="Insight Into Spending"
         class="ml-5 mb-5"
         cardText="Get real time information regarding student orders, spending and deliveries. Download reports for your clients and seniors."
