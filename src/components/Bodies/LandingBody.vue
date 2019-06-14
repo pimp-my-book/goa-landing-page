@@ -21,30 +21,35 @@
    class="mb-5 text-blue-dark"
    />
    <FeatureText
-   text="We created an easy to use experience that allows students to order what they need and have records of their order history. They also get notified about the stages of their order."
+   text="Students simply place orders online through the GOA platform, no need to waste time at bookshops."
    />
   <!-- start of ul -->
   <div class="lg:p-12 lg:text-left lg:pr-32">
  <ul class="mx-auto">
    <li>
      <FeatureText
-   text="Order History"
+   text="View Order History"
    
    />
    </li>
    <li>
      <FeatureText
-   text="Restriction on Book Orders"
+   text="Track orders "
    />
    </li>
    <li>
      <FeatureText
-   text="Get Books for all degrees"
+   text="View/download invoices"
    />
    </li>
    <li>
       <FeatureText
-   text="Delivery at their destination of choice"
+   text="Returns & Exchanges"
+   />
+   </li>
+   <li>
+      <FeatureText
+   text="Deliveries on campus or residence"
    />
    </li>
    </ul>
