@@ -3,11 +3,11 @@
 <header class="Header ">
     <div class="lg:text-left sm:text-justify ml-3 lg:flex lg:flex-wrap pt-32 lg:mr-20 sm:text-center  sm:flex sm:flex-col">
    <DisplayXLarge 
-  text="A 22nd Century Educational Experince"
+  text="Making your funds go further."
   class="text-white Header__Text "
   />
   <FeatureText
-  text="GOA a is platform that allows bursaries to provide universty textbooks to their students, allowing you to save on your budget for your bursary. We focus on sourcing the books, while allowing students to focus on what matters."
+  text="GOA helps bursaries to manage and control cash allowances, while gaining control, removing wasteful expenditure, reducing overall book allowances budget and getting real time order data."
   class="text-white-lighter mt-2 "
   
   />
