@@ -10,11 +10,11 @@
     <div class="container pb-32 pt-32  lg:pl-20 mx-auto">
       <div  class="mb-20 ">
         <DisplayLarge
-        text="All the tools you need to make admin simple."
+        text="Making Book Allowances Admin Go Away."
        class="mb-2"
         />
         <FeatureText
-        text="GOA enables to you actually to focus on enabling your students focus on performing academically. Our team ensures that your students' worries around getting textbooks and other educational material are well taken care of. "
+        text="Our clients have reduced their budgets by 30% while still providingstudents with all the tools which they need to succeed."
       />
       </div>
      <div class=" sm:flex lg:flex-row sm:flex-col items-center">
