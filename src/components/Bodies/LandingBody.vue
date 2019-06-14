@@ -86,41 +86,32 @@
 <!-- start of text-part of div -->
 <div class="lg:text-left lg:w-3/4 lg:pl-32 s:text-center">
      <DisplaySmall
-   text="Reduce Your Overall Spend"
+   text="Removing Wastage from your Allowances"
    class="mb-5 text-blue-dark"
    />
    <FeatureText
-   text="GOA was birthed with the purpose of reducing the amount you allow your students to spend on unnecessary items that are related to their educational success.  We easily allow you set a budget for students. You can also decide whether to supply your students new or used books"
+   text="Bursaries lose a lot of money due to wastage at the hands of students. Giving student’s cash is very risky and tempts students to abuse their allowances. Similarly providing an account at a bookstore cannot ensure that students only purchase prescribed textbooks or products."
    />
   <!-- start of ul -->
   <div class="lg:p-12 lg:text-left lg:pr-32">
  <ul class="mx-auto">
    <li>
      <FeatureText
-   text="Set a budget"
+   text="Set a budget limit"
    
    />
    </li>
    <li>
      <FeatureText
-   text="Approval Requests for over budget orders"
+   text="Set a product limit (Prescribed/Recommended/New/Used)"
    />
    </li>
    <li>
      <FeatureText
-   text="No cash in students bank accounts"
+   text="Approve Requests for over budget orders"
    />
    </li>
-   <li>
-      <FeatureText
-   text="no over/under paying"
-   />
-   </li>
-   <li>
-      <FeatureText
-   text="Return and resupply the books students used previously "
-   />
-   </li>
+   
    </ul>
           <!-- end of ul -->
 
