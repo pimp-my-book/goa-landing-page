@@ -4,7 +4,35 @@
 
 
 
-         <!--- start of row 1  -->
+ <!--- start of row 1  -->
+         <div class="sm:flex lg:flex-row sm:flex-col">
+          
+<!-- start of img -->
+     <div>
+     <img 
+     class="w-img h-img"
+     alt="students" 
+     src="https://s3.amazonaws.com/goa-assets/Illustrations/undraw_hello_aeia.svg"
+     />
+   </div>
+<!-- End of img -->
+<!-- start of text-part of div -->
+<div class="lg:text-left lg:w-3/4 lg:pl-32 lg:pt-32 s:text-center">
+     <DisplaySmall
+   text="Needs Analysis"
+   class="mb-5 text-blue-dark"
+   />
+   <FeatureText
+   text="We schedule a meeting with you to best understand your organization and what you aim to achieve."
+   />
+   </div>
+     <!-- End of text-part of div -->
+
+         </div>
+        <!--- End of row 1  -->
+
+
+         <!--- start of row 5  -->
          <div class="sm:flex lg:flex-row sm:flex-col">
           
 <!-- start of img -->
@@ -29,9 +57,9 @@
      <!-- End of text-part of div -->
 
          </div>
-        <!--- End of row 1  -->
+        <!--- End of row 5  -->
 
-        <!--- start of row 2  -->
+        <!--- start of row 6  -->
   <div class=" sm:flex lg:flex-row sm:flex-col">
 <!-- start of img for sm devices -->
      <div>
@@ -71,9 +99,9 @@
 
  </div>
   
-        <!--- End of row 2  -->
+        <!--- End of row 6  -->
 
-        <!--- start of row 3  -->
+        <!--- start of row 7  -->
                 <div class="sm:flex lg:flex-row sm:flex-col">
           
 <!-- start of img -->
@@ -97,9 +125,9 @@
    </div>
      <!-- End of text-part of div -->
                 </div>
-        <!--- End of row 3  -->
+        <!--- End of row 7  -->
 
-        <!--- start of row 4  -->
+        <!--- start of row 8  -->
 
                 <div class="sm:flex lg:flex-row sm:flex-col">
           <!-- start of img for sm devices -->
@@ -133,7 +161,7 @@
      />
    </div>
 <!-- End of img -->
-        <!--- End of row 4  -->
+        <!--- End of row 8  -->
 
 
 
@@ -144,7 +172,7 @@
 
 
 
-         <!--- start of row 5  -->
+         <!--- start of row 9  -->
          <div class="sm:flex lg:flex-row sm:flex-col">
           
 <!-- start of img -->
@@ -169,7 +197,7 @@
      <!-- End of text-part of div -->
 
          </div>
-        <!--- End of row 5  -->
+        <!--- End of row 9  -->
 
 
 
