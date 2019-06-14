@@ -167,7 +167,7 @@
    class="mb-5 text-blue-dark"
    />
    <FeatureText
-   text="Your students simply enter their details and sign up for GOA."
+   text="They will receive a link where they will sign up to the GOA online portal. Our system will check that they are an approved student on your bursary."
    />
    </div>
      <!-- End of text-part of div -->
@@ -232,11 +232,11 @@
 <!-- start of text-part of div -->
 <div class="lg:text-left lg:w-3/4 lg:pl-32 lg:pt-32 s:text-center">
      <DisplaySmall
-   text="They Place Orders"
+   text="Students Place Orders"
    class="mb-5 text-blue-dark"
    />
    <FeatureText
-   text="After successful verification, students are then able to go ahead and place orders for their books."
+   text="Students place orders by selecting the courses which they are registered for. Our system will present the products which are prescribed by their university for that particular course. This process makes sure that student do not use your money to purchase items which they do not need."
    />
    </div>
      <!-- End of text-part of div -->
