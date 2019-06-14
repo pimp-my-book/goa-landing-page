@@ -41,7 +41,7 @@
 
        <SmallCard
          class="ml-5 mb-5"
-        img="https://s3.amazonaws.com/goa-assets/Illustrations/Safe.svg"
+        img="https://goa-assets.s3.amazonaws.com/Illustrations/48.+Cart.svg"
         cardTitle="Wide Product Range"
         cardText="We provide a wide range of textbooks (new & used), e-books, laptops, bags, medical accessories, engineering equipment and more. We have partnered with a wide range of vendors including publishers, bookstores & electronics distributors."
        />
