@@ -38,6 +38,13 @@
         cardTitle="Control"
         cardText="Our platform removes abuse of allocated funds by ensuring that your students only receive prescribed materials and approved items."
        />
+
+       <SmallCard
+         class="ml-5 mb-5"
+        img="https://s3.amazonaws.com/goa-assets/Illustrations/Safe.svg"
+        cardTitle="Wide Product Range"
+        cardText="We provide a wide range of textbooks (new & used), e-books, laptops, bags, medical accessories, engineering equipment and more. We have partnered with a wide range of vendors including publishers, bookstores & electronics distributors."
+       />
       </div>
  </div>
 
