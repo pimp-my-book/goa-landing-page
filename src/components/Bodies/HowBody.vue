@@ -75,7 +75,32 @@
   
         <!--- End of row 2  -->
 
+ <!--- start of row 3  -->
+         <div class="sm:flex lg:flex-row sm:flex-col">
+          
+<!-- start of img -->
+     <div>
+     <img 
+     class="w-img h-img"
+     alt="students" 
+     src="https://s3.amazonaws.com/goa-assets/Illustrations/undraw_hello_aeia.svg"
+     />
+   </div>
+<!-- End of img -->
+<!-- start of text-part of div -->
+<div class="lg:text-left lg:w-3/4 lg:pl-32 lg:pt-32 s:text-center">
+     <DisplaySmall
+   text="Select Budget Mandate"
+   class="mb-5 text-blue-dark"
+   />
+   <FeatureText
+   text="The bursary selects the products and services which they wish to provide to their students.Budget Limits – this limits the amount of money a student can spend, once limit is used the following order will be sent to the bursary for approval.Product Limit – limits include for new or used textbooks, prescribed or recommended materials and other specifics with regards to products."
+   />
+   </div>
+     <!-- End of text-part of div -->
 
+         </div>
+        <!--- End of row 3  -->
 
          <!--- start of row 5  -->
          <div class="sm:flex lg:flex-row sm:flex-col">
