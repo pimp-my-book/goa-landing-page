@@ -29,7 +29,7 @@
         class="ml-5 mb-5"
         img="https://s3.amazonaws.com/goa-assets/Illustrations/Award.svg"
         cardTitle="Dedicated Support Staff"
-        cardText="You can rest assured that our friendly staff are doing all the heavy lifting of managing students’ orders."
+        cardText="Your students no longer have to run around busy bookshops looking for textbooks. All their orders are placed online and staff are allocated to ensure correct & on time fulfillment."
        />
 
         <SmallCard
