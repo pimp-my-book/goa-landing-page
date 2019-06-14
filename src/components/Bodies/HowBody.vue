@@ -102,6 +102,52 @@
          </div>
         <!--- End of row 3  -->
 
+
+
+        <!--- start of row 4  -->
+  <div class=" sm:flex lg:flex-row sm:flex-col">
+<!-- start of img for sm devices -->
+     <div>
+     <img 
+     class="w-img h-img lg:hidden"
+     alt="activity" 
+     src="https://goa-assets.s3.amazonaws.com/Illustrations/undraw_accept_request_vdsd.svg"
+     />
+   </div>
+<!-- End of img -->
+
+
+
+      
+<!-- start of text-part of div -->
+<div class="lg:text-left lg:w-3/4 lg:pl-32 lg:pt-32 s:text-center">
+     <DisplaySmall
+   text="Send us student list"
+   class="mb-5 text-blue-dark"
+   />
+   <FeatureText
+   text="We want to know who your students are, where they are studying, what they are studying and their year of study. We use this information to determine the books and products that are prescribed or required for their specific courses. We send this information to our vendors who then place orders and have the stock ready for your students."
+   />
+   </div>
+     <!-- End of text-part of div -->
+
+     <!-- start of img -->
+     <div>
+     <img 
+     class="w-img h-img s:hidden lg:block"
+     alt="activity" 
+     src="https://goa-assets.s3.amazonaws.com/Illustrations/undraw_accept_request_vdsd.svg"
+     />
+   </div>
+<!-- End of img -->
+
+
+ </div>
+  
+        <!--- End of row 4  -->
+
+
+
          <!--- start of row 5  -->
          <div class="sm:flex lg:flex-row sm:flex-col">
           
