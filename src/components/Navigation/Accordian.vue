@@ -9,7 +9,7 @@ This comment will recieve an array of FAQs into to display them.
     <div class="bg-white shadow-md mt-5 lg:w-3/4 lg:text-left s:text-center">
         <!-- Start of FAQ -->
 <div class="border-b border-gray-500">
-        <input id="toggleID" type="radio" name="toggle"/>
+        <input id="toggle1" type="radio" name="toggle"/>
         <div class="flex flex-row">
 
             <label for="toggle1" class="lg:w-4/5 s:w-64 sm-land:w-4/5 s:mb-5 lg:p-10">
@@ -27,7 +27,7 @@ This comment will recieve an array of FAQs into to display them.
          
         </div>
         
-        <section id="contentID" >
+        <section id="content1" >
             <FeatureText
             class="px-10 mb-10 s:text-left"
             :text="answer"
@@ -58,6 +58,11 @@ export default {
         contentID: String,
         toggleID: String
 
+    },
+    computed: {
+        toggleProps(){
+            return `#toggle${this.toggleID}`
+        }
     }
 }
 </script>
@@ -86,6 +91,9 @@ section {
     overflow:hidden;
 }
 
+
+/*
+
 #toggle1:checked ~ #content1, 
 #toggle2:checked ~ #content2, 
 #toggle3:checked ~ #content3,
@@ -93,6 +101,11 @@ section {
 #toggle5:checked ~ #content5,
 #toggle6:checked ~ #content6 ,
 #toggle7:checked ~ #content7   {
+    height: 300px;
+}*/
+
+
+input[type="radio"][id^="toggle"]:checked ~ section[id^="content"]{
     height: 300px;
 }
 
