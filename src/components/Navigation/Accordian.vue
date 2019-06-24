@@ -15,7 +15,7 @@ This comment will recieve an array of FAQs into to display them.
             <label for="toggle1" class="lg:w-4/5 s:w-64 sm-land:w-4/5 s:mb-5 lg:p-10">
             <DisplaySmall
             class="text-bold "
-            text="Can a student order on whatsapp or email?"
+            :text="question"
             />
             </label>
 
@@ -30,7 +30,7 @@ This comment will recieve an array of FAQs into to display them.
         <section id="content1" >
             <FeatureText
             class="px-10 mb-10 s:text-left"
-            text="No. Orders are only placed through the GOA platform.  The platform makes it easy for students to place and follow up on orders. It also ensures that the bursaries budget mandates and requirements are adhered to."
+            :text="answer"
             />
         </section>
         </div>
