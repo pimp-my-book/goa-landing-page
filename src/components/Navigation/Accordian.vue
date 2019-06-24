@@ -1,6 +1,6 @@
 <!-- 
 COMPONENT: Accordian
-Props: question, answer, id
+Props: question, answer, toggleID, contentID
 
 This comment will recieve an array of FAQs into to display them.
   -->
@@ -9,7 +9,7 @@ This comment will recieve an array of FAQs into to display them.
     <div class="bg-white shadow-md mt-5 lg:w-3/4 lg:text-left s:text-center">
         <!-- Start of FAQ -->
 <div class="border-b border-gray-500">
-        <input id="toggle1" type="radio" name="toggle"/>
+        <input id="toggleID" type="radio" name="toggle"/>
         <div class="flex flex-row">
 
             <label for="toggle1" class="lg:w-4/5 s:w-64 sm-land:w-4/5 s:mb-5 lg:p-10">
@@ -27,7 +27,7 @@ This comment will recieve an array of FAQs into to display them.
          
         </div>
         
-        <section id="content1" >
+        <section id="contentID" >
             <FeatureText
             class="px-10 mb-10 s:text-left"
             :text="answer"
@@ -54,7 +54,10 @@ export default {
     },
     props:{
         question: String, 
-        answer: String
+        answer: String,
+        contentID: String,
+        toggleID: String
+
     }
 }
 </script>
