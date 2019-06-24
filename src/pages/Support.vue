@@ -9,9 +9,16 @@
         <DisplayXLarge
           text="FAQ"
           />
-        <div class="flex justify-center">
+        <div 
+     v-for="item in FAQ"
+        :key="item.id"
+        class="flex justify-center">
           
-          <Accordian/>
+          <Accordian
+             
+          :question="item.question"
+          :answer="item.answer"
+          />
         </div>
     
     </div>
@@ -23,6 +30,7 @@
 import BoarderHeader from '../components/Headers/BoarderHeader'
 import Accordian from '../components/Navigation/Accordian'
 import DisplayXLarge from '../components/Typography/DisplayXLarge'
+import {faqs} from '../faq'
 
 export default {
     name: 'Support',
@@ -30,6 +38,9 @@ export default {
         BoarderHeader,
         Accordian,
         DisplayXLarge
+    },
+    data(){
+     return {FAQ: faqs}
     },
     methods: {
     track(){
