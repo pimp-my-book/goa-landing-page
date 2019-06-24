@@ -1,3 +1,10 @@
+<!-- 
+COMPONENT: Accordian
+Props: question, answer, id
+
+This comment will recieve an array of FAQs into to display them.
+  -->
+<!--   -->
 <template>
     <div class="bg-white shadow-md mt-5 lg:w-3/4 lg:text-left s:text-center">
         <!-- Start of FAQ -->
