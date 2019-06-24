@@ -51,6 +51,10 @@ export default {
     components:{
         FeatureText,
         DisplaySmall
+    },
+    props:{
+        question: String, 
+        answer: String
     }
 }
 </script>
