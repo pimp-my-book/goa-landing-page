@@ -9,7 +9,7 @@ import '@/assets/css/tailwind.css'
 import router from './router'
 Vue.config.productionTip = false
 
-const isProd = process.env.NODE_ENV === 'production'
+//const isProd = process.env.NODE_ENV === 'production'
 
 
 Vue.component('b-collapse', Collapse)
