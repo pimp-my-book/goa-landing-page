@@ -21,30 +21,35 @@
    class="mb-5 text-blue-dark"
    />
    <FeatureText
-   text="We created an easy to use experience that allows students to order what they need and have records of their order history. They also get notified about the stages of their order."
+   text="Students simply place orders online through the GOA platform, no need to waste time at bookshops."
    />
   <!-- start of ul -->
   <div class="lg:p-12 lg:text-left lg:pr-32">
  <ul class="mx-auto">
    <li>
      <FeatureText
-   text="Order History"
+   text="View Order History"
    
    />
    </li>
    <li>
      <FeatureText
-   text="Restriction on Book Orders"
+   text="Track orders "
    />
    </li>
    <li>
      <FeatureText
-   text="Get Books for all degrees"
+   text="View/download invoices"
    />
    </li>
    <li>
       <FeatureText
-   text="Delivery at their destination of choice"
+   text="Returns & Exchanges"
+   />
+   </li>
+   <li>
+      <FeatureText
+   text="Deliveries on campus or residence"
    />
    </li>
    </ul>
@@ -81,41 +86,32 @@
 <!-- start of text-part of div -->
 <div class="lg:text-left lg:w-3/4 lg:pl-32 s:text-center">
      <DisplaySmall
-   text="Reduce Your Overall Spend"
+   text="Removing Wastage from your Allowances"
    class="mb-5 text-blue-dark"
    />
    <FeatureText
-   text="GOA was birthed with the purpose of reducing the amount you allow your students to spend on unnecessary items that are related to their educational success.  We easily allow you set a budget for students. You can also decide whether to supply your students new or used books"
+   text="Bursaries lose a lot of money due to wastage at the hands of students. Giving student’s cash is very risky and tempts students to abuse their allowances. Similarly providing an account at a bookstore cannot ensure that students only purchase prescribed textbooks or products."
    />
   <!-- start of ul -->
   <div class="lg:p-12 lg:text-left lg:pr-32">
  <ul class="mx-auto">
    <li>
      <FeatureText
-   text="Set a budget"
+   text="Set a budget limit"
    
    />
    </li>
    <li>
      <FeatureText
-   text="Approval Requests for over budget orders"
+   text="Set a product limit (Prescribed/Recommended/New/Used)"
    />
    </li>
    <li>
      <FeatureText
-   text="No cash in students bank accounts"
+   text="Approve Requests for over budget orders"
    />
    </li>
-   <li>
-      <FeatureText
-   text="no over/under paying"
-   />
-   </li>
-   <li>
-      <FeatureText
-   text="Return and resupply the books students used previously "
-   />
-   </li>
+   
    </ul>
           <!-- end of ul -->
 
@@ -160,7 +156,7 @@
    class="mb-5 text-blue-dark"
    />
    <FeatureText
-   text="Instead of having information all over the place and in many forms, we are able to give your records of purchases. Allowing you to understand what your students have spent on your rands."
+   text="Get access to real time information about your student’s orders. Pull reports that help you to understand exactly how your students are spending your money."
    />
   <!-- start of ul -->
   <div class="lg:p-12 lg:text-left lg:pr-32">
@@ -173,10 +169,14 @@
    </li>
    <li>
      <FeatureText
-   text="Student order histories"
+   text="Order History"
    />
    </li>
- 
+ <li>
+     <FeatureText
+   text="Indicators (Average spend per student, no. of items per student, average price, ETA’s and more)"
+   />
+   </li>
    </ul>
           <!-- end of ul -->
 
@@ -216,25 +216,25 @@
    class="mb-5 text-blue-dark"
    />
    <FeatureText
-   text="One thing that makes managing the activity of over a 100 eager students hard, is the actual management of the admin that comes with it. "
+   text="We remove the admin time and costs of trying to ensure that your students use your money appropriately."
    />
   <!-- start of ul -->
   <div class="lg:p-12 lg:text-left lg:pr-32">
  <ul class="mx-auto">
    <li>
      <FeatureText
-   text="No need to process payments with multiple students"
+   text="No need to pay multiple students"
    
    />
    </li>
    <li>
      <FeatureText
-   text="Do not stress about quotes"
+   text="No need to check and approve quotes"
    />
    </li>
    <li>
      <FeatureText
-   text="We complie detailed reports on your behalf"
+   text="Don’t stress about reports"
    />
    </li>
    </ul>

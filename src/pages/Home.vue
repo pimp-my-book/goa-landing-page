@@ -10,39 +10,46 @@
     <div class="container pb-32 pt-32  lg:pl-20 mx-auto">
       <div  class="mb-20 ">
         <DisplayLarge
-        text="All the tools you need to make admin simple."
+        text="Making Book Allowances Admin Go Away."
        class="mb-2"
         />
         <FeatureText
-        text="GOA enables to you actually to focus on enabling your students focus on performing academically. Our team ensures that your students' worries around getting textbooks and other educational material are well taken care of. "
+        text="Our clients have reduced their budgets by 30% while still providingstudents with all the tools which they need to succeed."
       />
       </div>
      <div class=" sm:flex lg:flex-row sm:flex-col items-center">
        <SmallCard
-       img="https://s3.amazonaws.com/goa-assets/Illustrations/Cash+income.svg"
+       img="https://goa-assets.s3.amazonaws.com/Illustrations/16.+Cash+income.svg"
         cardTitle="Insight Into Spending"
         class="ml-5 mb-5"
-        cardText="Students are able to easily observe their spending on orders. We also give Bursary Foundations the ability to control students' spending budgets."
+        cardText="Get real time information regarding student orders, spending and deliveries. Download reports for your clients and seniors."
        />
 
         <SmallCard
         class="ml-5 mb-5"
         img="https://s3.amazonaws.com/goa-assets/Illustrations/Award.svg"
         cardTitle="Dedicated Support Staff"
-        cardText="You can rest assured that our friendly staff are doing all the heavy lifting of managing students’ orders."
+        cardText="Your students no longer have to run around busy bookshops looking for textbooks. All their orders are placed online and staff are allocated to ensure correct & on time fulfillment."
        />
 
         <SmallCard
          class="ml-5 mb-5"
         img="https://s3.amazonaws.com/goa-assets/Illustrations/Safe.svg"
-        cardTitle="Centeralized Data"
-        cardText="All your students data is centralized with us. Which enables you to get an overview of what content they are purchasing. "
+        cardTitle="Control"
+        cardText="Our platform removes abuse of allocated funds by ensuring that your students only receive prescribed materials and approved items."
+       />
+
+       <SmallCard
+         class="ml-5 mb-5"
+        img="https://goa-assets.s3.amazonaws.com/Illustrations/48.+Cart.svg"
+        cardTitle="Wide Product Range"
+        cardText="We provide a wide range of textbooks (new & used), e-books, laptops, bags, medical accessories, engineering equipment and more. We have partnered with a wide range of vendors including publishers, bookstores & electronics distributors."
        />
       </div>
  </div>
 
 <LandingBody/>
-
+<BuyBackHeader/>
 <div class="flex justify-center mt-20 lg:pl-32 ">
 <LargeCard
 img="https://s3.amazonaws.com/goa-assets/Illustrations/stock.svg"
@@ -54,6 +61,8 @@ secondaryText="Book A Demo"
 />
 
 </div>
+
+
 </div>
       
 </template>
@@ -65,6 +74,7 @@ import LandingBody from "../components/Bodies/LandingBody";
 import Companies from "../components/Headers/Companies";
 import DisplayLarge from "../components/Typography/DisplayLarge";
 import FeatureText from "../components/Typography/FeatureText";
+import BuyBackHeader from "../components/Headers/BuyBackHeader";
 import {page} from 'vue-analytics'
 
 export default {
@@ -76,7 +86,8 @@ export default {
         LargeCard,
         Companies,
         DisplayLarge,
-        FeatureText
+        FeatureText,
+        BuyBackHeader
         
     }
     ,

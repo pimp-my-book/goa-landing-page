@@ -42,8 +42,8 @@ export default {
 
 <style>
 .Card{
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
 }
 
 
