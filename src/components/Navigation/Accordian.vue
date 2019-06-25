@@ -11,8 +11,9 @@ This comment will recieve an array of FAQs into to display them.
 <div
 slot="trigger"
 slot-scope="props"
-class="card-header"
+class="border-b border-gray-500"
 role="button"
+
 aria-controls="contentIdForA11y3"
 >
 <p>Component</p>
