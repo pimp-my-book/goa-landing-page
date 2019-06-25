@@ -62,7 +62,6 @@
 <script>
 import MainHeader from "../components/Headers/MainHeader";
 import SmallCard from "../components/Cards/SmallCard";
-import LargeCard from "../components/Cards/LargeCard";
 import LandingBody from "../components/Bodies/LandingBody";
 import Companies from "../components/Headers/Companies";
 import DisplayLarge from "../components/Typography/DisplayLarge";
@@ -76,7 +75,7 @@ export default {
         MainHeader,
         SmallCard,
         LandingBody,
-        LargeCard,
+        
         Companies,
         DisplayLarge,
         FeatureText,

@@ -1,6 +1,14 @@
 <template>
     <footer class="bg-green-darker mt-32 w-full  z-0 relative">
-        
+        <LargeCard
+img="https://s3.amazonaws.com/goa-assets/Illustrations/stock.svg"
+cardTitle="Make managing student need easier"
+show
+buttonURL="/contact"
+primaryText="Contact Sales"
+secondaryText="Book A Demo"
+/>
+
       <div class="container relative ">
           <div class="flex lg:flex-row s:flex-col  Links__Container absolute mt-32 pt-32">
            <FeatureText
@@ -37,13 +45,15 @@
 import FeatureText from "../Typography/FeatureText"
 import Credits from "../Typography/Credits"
 import Copyright from "../Typography/Copyright"
+import LargeCard from "../components/Cards/LargeCard";
 
 export default {
     name:'Footer',
     components: {
         FeatureText,
         Credits,
-        Copyright
+        Copyright,
+        LargeCard
     }
 }
 </script>
