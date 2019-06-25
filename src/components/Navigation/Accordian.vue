@@ -16,11 +16,14 @@ role="button"
 
 aria-controls="contentIdForA11y3"
 >
+<div class="flex flex-row">
 <p>Component</p>
 <img 
         class=" ml-20 s-max:hidden "
         for="toggle1"
         src="https://s3.amazonaws.com/goa-assets/Icons/Chevron+Circle.svg" alt="icon"/>
+</div>
+
 </div>
 <div>
     <p>blah blah blah blah blah blah</p>
