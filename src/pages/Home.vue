@@ -49,19 +49,12 @@
  </div>
 
 <LandingBody/>
-
+<BuyBackHeader/>
 <div class="flex justify-center mt-20 lg:pl-32 ">
-<LargeCard
-img="https://s3.amazonaws.com/goa-assets/Illustrations/stock.svg"
-cardTitle="Make managing student need easier"
-show
-buttonURL="/contact"
-primaryText="Contact Sales"
-secondaryText="Book A Demo"
-/>
+
 
 </div>
-<BuyBackHeader/>
+
 
 </div>
       
