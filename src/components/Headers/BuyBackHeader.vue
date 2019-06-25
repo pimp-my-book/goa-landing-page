@@ -4,7 +4,7 @@
     >
      <DisplayXLarge
      class="mt-10"
-     text="Sell Back your products"
+     text="Sell Back your books"
      />
      <img
      class="h-250"
