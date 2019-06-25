@@ -61,6 +61,8 @@ secondaryText="Book A Demo"
 />
 
 </div>
+<BuyBackHeader/>
+
 </div>
       
 </template>
@@ -72,6 +74,7 @@ import LandingBody from "../components/Bodies/LandingBody";
 import Companies from "../components/Headers/Companies";
 import DisplayLarge from "../components/Typography/DisplayLarge";
 import FeatureText from "../components/Typography/FeatureText";
+import BuyBackHeader from "../components/Headers/BuyBackHeader";
 import {page} from 'vue-analytics'
 
 export default {
@@ -83,7 +86,8 @@ export default {
         LargeCard,
         Companies,
         DisplayLarge,
-        FeatureText
+        FeatureText,
+        BuyBackHeader
         
     }
     ,
