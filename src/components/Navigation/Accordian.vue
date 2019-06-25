@@ -23,7 +23,7 @@ aria-controls="contentIdForA11y3"
             />
 <img 
         class="  s-max:hidden "
-        for="toggle1"
+        
         src="https://s3.amazonaws.com/goa-assets/Icons/Chevron+Circle.svg" alt="icon"/>
 </div>
 
@@ -50,14 +50,8 @@ export default {
     props:{
         question: String, 
         answer: String,
-        contentID: String,
-        toggleID: String
+        
 
-    },
-    computed: {
-        toggleProps(){
-            return `#toggle${this.toggleID}`
-        }
     }
 }
 </script>
