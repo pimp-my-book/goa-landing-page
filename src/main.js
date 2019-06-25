@@ -4,7 +4,7 @@ import VueAnalytics from 'vue-analytics'
 import {Collapse} from 'buefy/dist/components/collapse'
 import App from './App.vue'
 import '@/assets/css/tailwind.css'
-import 'buefy/dist/buefy.css'
+//import 'buefy/dist/buefy.css'
 
 import router from './router'
 Vue.config.productionTip = false

@@ -6,51 +6,36 @@ This comment will recieve an array of FAQs into to display them.
   -->
 <!--   -->
 <template>
-    <div class="bg-white shadow-md mt-5 lg:w-3/4 lg:text-left s:text-center">
-        <!-- Start of FAQ -->
-<div class="border-b border-gray-500">
-        <input id="toggle1" type="radio" name="toggle"/>
-        <div class="flex flex-row">
 
-            <label for="toggle1" class="lg:w-4/5 s:w-64 sm-land:w-4/5 s:mb-5 lg:p-10">
-            <DisplaySmall
-            class="text-bold "
-            :text="question"
-            />
-            </label>
-
-
-        <img 
+<b-collapse class="card bg-white shadow-md mt-5 lg:w-3/4 lg:text-left s:text-center" aria-id="contentIdForA11y3">
+<div
+slot="trigger"
+slot-scope="props"
+class="card-header"
+role="button"
+aria-controls="contentIdForA11y3"
+>
+<p>Component</p>
+<img 
         class=" ml-20 s-max:hidden "
         for="toggle1"
         src="https://s3.amazonaws.com/goa-assets/Icons/Chevron+Circle.svg" alt="icon"/>
-         
-        </div>
-        
-        <section id="content1" >
-            <FeatureText
-            class="px-10 mb-10 s:text-left"
-            :text="answer"
-            />
-        </section>
-        </div>
-
-         <!-- End of FAQ -->
-
-        
-        
-    </div>
+</div>
+<div>
+    <p>blah blah blah blah blah blah</p>
+</div>
+</b-collapse>
 </template>
 <script>
-import FeatureText from '../Typography/FeatureText'
-import DisplaySmall from '../Typography/DisplaySmall'
+//import FeatureText from '../Typography/FeatureText'
+//import DisplaySmall from '../Typography/DisplaySmall'
 
 
 export default {
     name: 'Accordian',
     components:{
-        FeatureText,
-        DisplaySmall
+       // FeatureText,
+       // DisplaySmall
     },
     props:{
         question: String, 
