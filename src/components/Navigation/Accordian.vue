@@ -28,9 +28,9 @@ aria-controls="contentIdForA11y3"
 </div>
 
 </div>
-<div>
+<div class="mt-5">
     <FeatureText
-            class="px-10 mb-10 s:text-left"
+            class=" mb-10 text-left"
             :text="answer"
             />
 </div>
