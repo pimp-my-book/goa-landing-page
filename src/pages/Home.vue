@@ -51,7 +51,14 @@
 <LandingBody/>
 <BuyBackHeader/>
 <div class="flex justify-center mt-20 lg:pl-32 ">
-
+<LargeCard
+img="https://s3.amazonaws.com/goa-assets/Illustrations/stock.svg"
+cardTitle="Make managing student need easier"
+show
+buttonURL="/contact"
+primaryText="Contact Sales"
+secondaryText="Book A Demo"
+/>
 
 </div>
 
@@ -62,6 +69,7 @@
 <script>
 import MainHeader from "../components/Headers/MainHeader";
 import SmallCard from "../components/Cards/SmallCard";
+import LargeCard from "../components/Cards/LargeCard";
 import LandingBody from "../components/Bodies/LandingBody";
 import Companies from "../components/Headers/Companies";
 import DisplayLarge from "../components/Typography/DisplayLarge";
@@ -75,7 +83,7 @@ export default {
         MainHeader,
         SmallCard,
         LandingBody,
-        
+        LargeCard,
         Companies,
         DisplayLarge,
         FeatureText,
