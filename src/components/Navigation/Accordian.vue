@@ -7,7 +7,7 @@ This comment will recieve an array of FAQs into to display them.
 <!--   -->
 <template>
 
-<b-collapse class="card bg-white shadow-md mt-5 lg:w-3/4 lg:text-left s:text-center" aria-id="contentIdForA11y3">
+<b-collapse class="card bg-white shadow-md mt-5 p-5 lg:w-3/4 lg:text-left s:text-center" aria-id="contentIdForA11y3">
 <div
 slot="trigger"
 slot-scope="props"
