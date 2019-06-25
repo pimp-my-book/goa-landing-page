@@ -16,13 +16,13 @@ role="button"
 
 aria-controls="contentIdForA11y3"
 >
-<div class="flex flex-row">
+<div class="Heading__Grid">
 <DisplaySmall
             class="text-bold "
             :text="question"
             />
 <img 
-        class=" ml-20 s-max:hidden "
+        class="  s-max:hidden "
         for="toggle1"
         src="https://s3.amazonaws.com/goa-assets/Icons/Chevron+Circle.svg" alt="icon"/>
 </div>
@@ -62,47 +62,9 @@ export default {
 }
 </script>
 <style scoped>
-input[type="radio"]{
-    position: absolute;
-    opacity: 0;
+.Heading__Grid{
+    display: grid;
+    grid-template-columns: 10fr 1fr;
 }
-
-input[type="radio"]:focus + label {
-    color:black;
-    background-color: aliceblue;
-
-}
-
-label {
-    position: relative;
-    display: block;
-    cursor: pointer;
-
-}
-
-section {
-    height: 0;
-    transition: 0.3s all;
-    overflow:hidden;
-}
-
-
-/*
-
-#toggle1:checked ~ #content1, 
-#toggle2:checked ~ #content2, 
-#toggle3:checked ~ #content3,
-#toggle4:checked ~ #content4,
-#toggle5:checked ~ #content5,
-#toggle6:checked ~ #content6 ,
-#toggle7:checked ~ #content7   {
-    height: 300px;
-}*/
-
-
-input[type="radio"][id^="toggle"]:checked ~ section[id^="content"]{
-    height: 300px;
-}
-
 </style>
 
