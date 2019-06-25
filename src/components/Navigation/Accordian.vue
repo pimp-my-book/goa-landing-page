@@ -17,7 +17,10 @@ role="button"
 aria-controls="contentIdForA11y3"
 >
 <div class="flex flex-row">
-<p>Component</p>
+<DisplaySmall
+            class="text-bold "
+            :text="question"
+            />
 <img 
         class=" ml-20 s-max:hidden "
         for="toggle1"
@@ -26,20 +29,23 @@ aria-controls="contentIdForA11y3"
 
 </div>
 <div>
-    <p>blah blah blah blah blah blah</p>
+    <FeatureText
+            class="px-10 mb-10 s:text-left"
+            :text="answer"
+            />
 </div>
 </b-collapse>
 </template>
 <script>
-//import FeatureText from '../Typography/FeatureText'
-//import DisplaySmall from '../Typography/DisplaySmall'
+import FeatureText from '../Typography/FeatureText'
+import DisplaySmall from '../Typography/DisplaySmall'
 
 
 export default {
     name: 'Accordian',
     components:{
-       // FeatureText,
-       // DisplaySmall
+       FeatureText,
+       DisplaySmall
     },
     props:{
         question: String, 
