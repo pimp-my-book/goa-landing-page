@@ -38,7 +38,7 @@ export const  faqs = [
     {
         id: 8,
         question: "How long does it take for a student to receive the product after they have ordered?",
-        answer: "1.2 – 7 days – If the product is in stock with one of our vendors 2.7 – 14 days – If the product is not in stock and has to be ordered from apublisher or supplier.3.Products that have to be ordered from overseas suppliers will take longer.Where possible e-books and other alternatives will be arranged to assist the student while they wait.Note: Students will receive regular updates on the portal."
+        answer: "1 – 7 days – If the product is in stock with one of our vendors 2.7 – 14 days – If the product is not in stock and has to be ordered from apublisher or supplier.3.Products that have to be ordered from overseas suppliers will take longer.Where possible e-books and other alternatives will be arranged to assist the student while they wait.Note: Students will receive regular updates on the portal."
     },
     {
         id: 9,
@@ -53,7 +53,7 @@ export const  faqs = [
     {
         id: 11,
         question: "What products can I order on GOA?",
-        answer: "Students can order any product which has been approved by their bursaryor sponsor. The GOA portal will only allow students to order products which their bursaries have approved and it will keep them within the bursaries spec and spend limits. Some of the popular products:Textbooks - New, Used and E-booksLaptops - Any make, spec or brand which has been approved by the bursary or sponsorCalculators Drawing BoardsMedical EquipmentLab CoatsBagsAccessories "
+        answer: "Students can order any product which has been approved by their bursaryor sponsor. The GOA portal will only allow students to order products which their bursaries have approved and it will keep them within the bursaries spec and spend limits. Some of the popular products:Textbooks - New, Used and E-books, Laptops - Any make, spec or brand which has been approved by the bursary or sponsor. Including Calculators, Drawing Boards, Medical Equipment, Lab Coats, Bags and Accessories "
     },
     {
         id: 12,
