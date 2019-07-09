@@ -19,3 +19,11 @@ $ yarn serve
 
 ## How is this app structured?
 
+Component Diagram:
+
+![goa-comp-diagram](./GOA Landing Page Component Structure.png)
+
+## Developed with:
+
+* [VueJS](http://vuejs.org)
+* [TailwindCSS](https://tailwindcss.com/docs/what-is-tailwind/)

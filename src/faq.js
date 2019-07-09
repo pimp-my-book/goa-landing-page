@@ -1,3 +1,6 @@
+//faq.js
+//Stores all the FAQS in an array for the FAQ Page
+
 export const  faqs = [
     
     {

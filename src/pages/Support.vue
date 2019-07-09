@@ -1,14 +1,17 @@
 <template>
 <div>
+  <!-- Boarder header -->
 <BoarderHeader
     HeaderText="Looking For Some Help?"
     BodyText="Below are some FAQs that might get your problem solved. If not we would happliy help you. "
     />
 
     <div class="container mx-auto ">
+      <!-- display heading -->
         <DisplayXLarge
           text="FAQ"
           />
+          <!-- FAQ Accordian -->
         <div 
      v-for="item in FAQ"
         :key="item.id"

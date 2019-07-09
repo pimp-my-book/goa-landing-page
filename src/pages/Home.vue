@@ -1,12 +1,14 @@
 <template>
 <div>
-    
+    <!-- Main header  -->
      <MainHeader/>
 
  <div class="container">
+   <!-- list of companies that use GOA -->
    <Companies/>
  </div>
 
+<!-- Start of cards that explain GOA's Benefits  -->
     <div class="container pb-32 pt-32  lg:pl-20 mx-auto">
       <div  class="mb-20 ">
         <DisplayLarge
@@ -47,9 +49,15 @@
        />
       </div>
  </div>
+<!--  End of GOA card benefits-->
 
+<!-- content for the body of the landing page -->
 <LandingBody/>
+
+<!-- Buyback section header -->
 <BuyBackHeader/>
+
+<!-- The large card contact sales -->
 <div class="flex justify-center mt-20 lg:pl-32 ">
 <LargeCard
 img="https://s3.amazonaws.com/goa-assets/Illustrations/stock.svg"
