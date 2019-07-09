@@ -1,3 +1,12 @@
+/**
+ * Copyright (c) 2015-present, Pimp My Book.
+ *
+ * 
+ */
+
+
+
+
 /*
 This is the router file that has links to 
 all the page components in the app.
