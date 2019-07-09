@@ -21,7 +21,7 @@ $ yarn serve
 
 Component Diagram:
 
-![goa-comp-diagram](GOA Landing Page Component Structure.png)
+![goa-comp-diagram](component-structure.png)
 
 ## Developed with:
 
