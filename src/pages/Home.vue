@@ -14,7 +14,7 @@
        class="mb-2"
         />
         <FeatureText
-        text="Our clients have reduced their budgets by 30% while still providingstudents with all the tools which they need to succeed."
+        text="Our clients have reduced their budgets by 30% while still providing students with all the tools which they need to succeed."
       />
       </div>
      <div class=" sm:flex lg:flex-row sm:flex-col items-center">
