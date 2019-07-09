@@ -1,3 +1,13 @@
+/*
+Main.js
+
+this is the entry to the APP
+
+tailwind is configured through this app
+as well as Vue analytics.
+A bufey collapse file hase been registerd globally here
+*/
+
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import VueAnalytics from 'vue-analytics'
