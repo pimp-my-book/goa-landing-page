@@ -7,7 +7,7 @@
   class="text-white Header__Text "
   />
   <FeatureText
-  text="GOA helps bursaries to manage and control cash allowances, while gaining control, removing wasteful expenditure, reducing overall book allowances budget and getting real time order data."
+  text="GOA helps bursaries to manage and control their book allowances, while gaining control, removing wasteful expenditure, reducing overall book allowances budget and getting real time order data."
   class="text-white-lighter mt-2 "
   
   />
