@@ -1,3 +1,11 @@
+<!--- 
+App.vue 
+
+This component injects the nav and footer into the entire app
+and has the router linked to it.
+-->
+
+
 <template>
   <div id="app">
    <NavigationBar/>
