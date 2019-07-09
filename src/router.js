@@ -1,3 +1,10 @@
+/*
+This is the router file that has links to 
+all the page components in the app.
+
+*/
+
+
 import VueRouter from 'vue-router'
 import VueAnalytics from 'vue-analytics'
 import Vue from 'vue'
