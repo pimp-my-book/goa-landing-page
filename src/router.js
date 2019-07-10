@@ -25,6 +25,7 @@ import SubmissionFailure from './components/Alerts/SubmissionFailure'
 import NotFound from './components/Bodies/NotFound'
 import HowItWorks from './pages/HowItWorks'
 import Support from './pages/Support'
+import Explainer from './pages/Explainer'
 
 const routes = [
     {
@@ -55,8 +56,8 @@ const routes = [
     },
     {
      path: '/how-it-works',
-     component:,
-     name: ''
+     component:Explainer,
+     name: 'Explainer'
     },
     {
       path: '/support',
