@@ -10,9 +10,15 @@
         <DisplayLarge
         text="How To Place An Order"
         />
+        <FeatureText
+        text="Note in order to place an order you should be logged in and be registered as a student on your bursary's roster."
+        />
     </div>
     <div>
-
+    
+<FeatureText
+        text="After logging in you will land on your dashboard. You Should be able to see a `Place Order` button in the side nav and on the page. Click either one to be redirect to the `Place Order` screen. "
+        />
     </div>
 
  </div>
@@ -28,7 +34,9 @@ export default {
     name: 'Explainer',
     components:{
         BoarderHeader,
-        DisplayLarge
+        DisplayLarge,
+        DisplaySmall,
+        FeatureText
     }
 }
 </script>
