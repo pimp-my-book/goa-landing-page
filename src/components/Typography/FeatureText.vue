@@ -2,7 +2,7 @@
     <p :class="[small ? 'text-sm font-body' : 'text-lg font-body' ]">
     <a
     :href="url" 
-    class="no-underline">    
+    class="no-underline ">    
     {{text}}
     </a>
     </p>

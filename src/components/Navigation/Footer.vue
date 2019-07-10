@@ -1,23 +1,19 @@
 <template>
-    <footer class="bg-green-darker mt-32 w-full  z-0 relative">
+    <footer class="bg-green-darker mt-32 w-full ">
         
       <div class="container relative ">
           <div class="flex lg:flex-row s:flex-col  Links__Container absolute mt-32 pt-32">
-           
-           <p class="font-body hover:text-green mr-4 mt-3 text-white">
-                                  <router-link class="text-white no-underline" to="/contact">
-
-                        Contact Us
-                         </router-link>
-                    </p>
-           
          
-          <router-link class="text-white no-underline" to="/support">
+           <FeatureText
+           text="Contact Us"
+           
+           class="mr-4 mt-3 text-white "
+           />
+           
             <FeatureText
            text="Support"
            class="mr-4 mt-3 text-white "
            />
-          </router-link>
            <FeatureText
            text="Privacy"
            class="mr-4 mt-3 text-white"
