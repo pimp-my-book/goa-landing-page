@@ -7,7 +7,12 @@
 
  <div class="container">
     <div>
-        
+        <DisplayLarge
+        text="How To Place An Order"
+        />
+    </div>
+    <div>
+
     </div>
 
  </div>
@@ -16,6 +21,8 @@
 <script>
 import BoarderHeader from '../components/Headers/BoarderHeader'
 import DisplayLarge from '../components/Typography/DisplayLarge'
+import DisplaySmall from '../components/Typography/DisplaySmall'
+import FeatureText from '../components/Typography/FeatureText'
 
 export default {
     name: 'Explainer',
