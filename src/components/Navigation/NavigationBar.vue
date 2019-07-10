@@ -24,6 +24,14 @@
                         </p>
                         </router-link>
                  </a>
+                 <a href="#" class="block mt-4 no-underline sm:inline-block sm:mt-0 text-white hover:text-bg-green-light mr-4">
+                   
+                       <router-link class="text-white no-underline" to="/how-it-works">
+                       <p class="font-body hover:text-green">
+                        How It Works
+                        </p>
+                        </router-link>
+                 </a>
                 <a href="#" class="block mt-4  no-underline sm:inline-block sm:mt-0 text-white hover:text-bg-green-light mr-4">
                     <router-link class="text-white no-underline" to="/contact">
                     <p class="font-body hover:text-green">
