@@ -49,7 +49,7 @@ const routes = [
         name: 'SubmissionFailure'
     },
     {
-      path: '/how-it-works',
+      path: '/features',
       component: HowItWorks,
       name:'HowItWorks'
     },
