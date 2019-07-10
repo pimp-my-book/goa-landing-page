@@ -21,6 +21,31 @@
         />
     </div>
 
+
+<div>
+    
+<FeatureText
+        text="Now you can go head an fill out the form by telling us what the Course Code, Book Title, ISBN, Book Author and Book Edition is for your order. If there is anything else you need to tell us, simply just tell us in the Note textarea. Once you're done click the place order button. "
+        />
+    </div>
+
+
+<div>
+    
+<FeatureText
+        text="To check the status of the order simply go to the Order History Page. This is where you can see the progress of all your orders."
+        />
+    </div>
+
+
+
+<div>
+    
+<FeatureText
+        text="For more info on how to do other stuff on GOA please visit of Docs page."
+        />
+    </div>
+
  </div>
        </div>
 </template>
