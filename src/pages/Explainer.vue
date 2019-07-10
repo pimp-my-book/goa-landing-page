@@ -20,7 +20,7 @@
         text="After logging in you will land on your dashboard. You Should be able to see a `Place Order` button in the side nav and on the page. Click either one to be redirect to the `Place Order` screen. "
         />
         <img
-        src="../assets/step_one.png"
+        src="../assets/step_one.svg"
         />
     </div>
 
@@ -30,6 +30,9 @@
 <FeatureText
         text="Now you can go head an fill out the form by telling us what the Course Code, Book Title, ISBN, Book Author and Book Edition is for your order. If there is anything else you need to tell us, simply just tell us in the Note textarea. Once you're done click the place order button. "
         />
+         <img
+        src="../assets/step_two.svg"
+        />
     </div>
 
 
@@ -37,6 +40,9 @@
     
 <FeatureText
         text="To check the status of the order simply go to the Order History Page. This is where you can see the progress of all your orders."
+        />
+         <img
+        src="../assets/step_three.svg"
         />
     </div>
 
