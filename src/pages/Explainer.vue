@@ -20,6 +20,7 @@
     <div>
     
 <FeatureText
+class="p-4"
         text="After logging in you will land on your dashboard. You Should be able to see a `Place Order` button in the side nav and on the page. Click either one to be redirect to the `Place Order` screen. "
         />
         <img
@@ -32,6 +33,7 @@
 <div>
     
 <FeatureText
+class="p-4"
         text="Now you can go head an fill out the form by telling us what the Course Code, Book Title, ISBN, Book Author and Book Edition is for your order. If there is anything else you need to tell us, simply just tell us in the Note textarea. Once you're done click the place order button. "
         />
          <img
