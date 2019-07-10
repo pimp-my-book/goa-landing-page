@@ -59,14 +59,14 @@
             <div class="nav__drawer--right">
                 <p class="text-white font-body mr-4 hover:text-green">
                     <a 
-                    href="http://webnmobidev.net/pmb/login"
+                    href="http://app.gogoa.co.za/login"
                     class="no-underline text-white">
                     Login
                     </a>
                 </p>
             </div>
             <div class="nav__drawer--right ">
-                <a href="http://webnmobidev.net/pmb/login"
+                <a href="http://app.gogoa.co.za/new_register"
                     class="no-underline text-white">
                <PrimaryButton 
                text="Sign Up" 
