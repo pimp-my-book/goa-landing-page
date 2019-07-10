@@ -6,7 +6,7 @@
        />
 
  <div class="container">
-    <div>
+    <div class="flex flex-col">
         <DisplayLarge
         text="How To Place An Order"
         />
@@ -14,6 +14,9 @@
         text="Note in order to place an order you should be logged in and be registered as a student on your bursary's roster."
         />
     </div>
+    
+<div class="flex flex-col">
+    
     <div>
     
 <FeatureText
@@ -56,6 +59,11 @@
     </div>
 
  </div>
+</div>
+
+
+
+
        </div>
 </template>
 <script>
