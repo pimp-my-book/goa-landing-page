@@ -18,9 +18,9 @@
             <div class=" text-md sm:flex-grow ">
                 <a href="#" class="block mt-4 no-underline sm:inline-block sm:mt-0 text-white hover:text-bg-green-light mr-4">
                    
-                       <router-link class="text-white no-underline" to="/how-it-works">
+                       <router-link class="text-white no-underline" to="/features">
                        <p class="font-body hover:text-green">
-                        How It Works
+                        Features
                         </p>
                         </router-link>
                  </a>
