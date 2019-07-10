@@ -6,7 +6,7 @@
        />
 
  <div class="container">
-    <div class="flex flex-col">
+    <div class="flex flex-col mt-5 mb-10">
         <DisplayLarge
         text="How To Place An Order"
         />
@@ -24,6 +24,7 @@
         />
         <img
         src="../assets/step_one.svg"
+        class="ml-12"
         />
     </div>
 
@@ -35,6 +36,7 @@
         />
          <img
         src="../assets/step_two.svg"
+        class="ml-12"
         />
     </div>
 
@@ -46,6 +48,7 @@
         />
          <img
         src="../assets/step_three.svg"
+        class="ml-12"
         />
     </div>
 
