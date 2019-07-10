@@ -54,6 +54,11 @@ const routes = [
       name:'HowItWorks'
     },
     {
+     path: '/how-it-works',
+     component:,
+     name: ''
+    },
+    {
       path: '/support',
       component: Support,
       name: 'Support'
