@@ -52,7 +52,6 @@
 <script>
 import BoarderHeader from '../components/Headers/BoarderHeader'
 import DisplayLarge from '../components/Typography/DisplayLarge'
-import DisplaySmall from '../components/Typography/DisplaySmall'
 import FeatureText from '../components/Typography/FeatureText'
 
 export default {
@@ -60,7 +59,7 @@ export default {
     components:{
         BoarderHeader,
         DisplayLarge,
-        DisplaySmall,
+        
         FeatureText
     }
 }
