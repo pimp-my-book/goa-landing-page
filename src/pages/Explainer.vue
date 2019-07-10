@@ -51,7 +51,7 @@ class="p-4"
          <img
         src="../assets/step_three.svg"
         class="ml-12"
-        />
+        /> 
     </div>
 
 
@@ -59,7 +59,7 @@ class="p-4"
 <div>
     
 <FeatureText
-        text="For more info on how to do other stuff on GOA please visit of Docs page."
+        text="For more info on how to do other stuff on GOA please visit our Docs page."
         />
     </div>
 
