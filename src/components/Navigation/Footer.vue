@@ -3,12 +3,15 @@
         
       <div class="container relative ">
           <div class="flex lg:flex-row s:flex-col  Links__Container absolute mt-32 pt-32">
-          <router-link class="text-white no-underline" to="/contact">
-           <FeatureText
-           text="Contact Us"
-           class="mr-4 mt-3 text-white "
-           />
-          </router-link>
+           
+           <p class="font-body hover:text-green mr-4 mt-3 text-white">
+                                  <router-link class="text-white no-underline" to="/contact">
+
+                        Contact Us
+                         </router-link>
+                    </p>
+           
+         
           <router-link class="text-white no-underline" to="/support">
             <FeatureText
            text="Support"

@@ -2,7 +2,7 @@
     <p class="text-sm font-body text-white lg:pl-32 ">
      &copy;{{new Date().getFullYear()}}, a 
      <a 
-     href="www.pimpmybook.co.za"
+     
      class="no-underline">
      <img 
      alt="PMB Logo"
