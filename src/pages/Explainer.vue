@@ -19,6 +19,9 @@
 <FeatureText
         text="After logging in you will land on your dashboard. You Should be able to see a `Place Order` button in the side nav and on the page. Click either one to be redirect to the `Place Order` screen. "
         />
+        <img
+        src="../assets/step_one.png"
+        />
     </div>
 
 
