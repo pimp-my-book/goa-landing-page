@@ -1,12 +1,15 @@
 <template>
-    <footer class="bg-green-darker mt-32 w-full  z-0 relative">
+    <footer class="bg-green-darker mt-32 w-full ">
         
       <div class="container relative ">
           <div class="flex lg:flex-row s:flex-col  Links__Container absolute mt-32 pt-32">
+         
            <FeatureText
            text="Contact Us"
+           
            class="mr-4 mt-3 text-white "
            />
+           
             <FeatureText
            text="Support"
            class="mr-4 mt-3 text-white "
