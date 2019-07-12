@@ -60,9 +60,9 @@ const routes = [
      name: 'Explainer'
     },
     {
-      path: '/support',
+      path: '/faq',
       component: Support,
-      name: 'Support'
+      name: 'faq'
     },
     {
         path: '*',
