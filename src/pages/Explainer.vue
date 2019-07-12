@@ -25,7 +25,7 @@ class="p-4"
         />
         <img
         src="../assets/step_one.svg"
-        class="lg:ml-12 s:ml-4 sl:ml-1"
+        class="lg:ml-12 "
         />
     </div>
 
@@ -38,7 +38,7 @@ class="p-4"
         />
          <img
         src="../assets/step_two.svg"
-        class="lg:ml-12 s:ml-4 sl:ml-1"
+        class="lg:ml-12 "
         />
     </div>
 
@@ -50,7 +50,7 @@ class="p-4"
         />
          <img
         src="../assets/step_three.svg"
-        class="lg:ml-12 s:ml-4 sl:ml-1"
+        class="lg:ml-12 "
         /> 
     </div>
 
