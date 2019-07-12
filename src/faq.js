@@ -9,6 +9,12 @@ export const  faqs = [
         answer: "No. Orders are only placed through the GOA platform.  The platform makes it easy for students to place and follow up on orders. It also ensures that the bursaries budget mandates and requirements are adhered to."
     },
     {
+        id: 13,
+        question:"Who do I email if I need help?",
+        answer: "For Accenture students: accenture@pimpmybook.co.za \nFor Moshal Students: moshal@pimpmybook.co.za \nFor Study Trust Students: studytrust@pimpmybook.co.za For Allan Gray Students: agorbis@pimpmybook.co.za For Jakes Gerwel Students: jgf@pimpmybook.co.za For Oasis Students: oasis@pimpmybook.co.za For Cryil Ramaphosa Foundation Students: cret@pimpmybook.co.za"
+  
+    },
+    {
         id: 2,
         question: "I’m done using the book can I return it for a different one?",
         answer: "Unfortunately not, the book cannot be returned as more than one book is prescribed for a course and cannot be exchanged for the next book. Book returns only take place at the end of the semester and this will be communicated to you by your bursary."
