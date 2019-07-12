@@ -13,11 +13,12 @@
   />
     </div>
     <div class="flex  mt-10 lg:mr-20 ml-10">
-        
+         <a href="http://app.gogoa.co.za/new_register"
+                    class="no-underline text-white">
         <PrimaryButton
         text="Sign Up"
-        url="http://app.gogoa.co.za/new_register"
         />
+        </a>
         <SecondaryButton
         text="How It Works"
         url="/how-it-works"
