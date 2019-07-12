@@ -11,7 +11,7 @@ export const  faqs = [
     {
         id: 13,
         question:"Who do I email if I need help?",
-        answer: "For Accenture students: accenture@pimpmybook.co.za \nFor Moshal Students: moshal@pimpmybook.co.za \nFor Study Trust Students: studytrust@pimpmybook.co.za For Allan Gray Students: agorbis@pimpmybook.co.za For Jakes Gerwel Students: jgf@pimpmybook.co.za For Oasis Students: oasis@pimpmybook.co.za "
+        answer: "For Accenture students: accenture@pimpmybook.co.za \nFor Moshal Students: moshal@pimpmybook.co.za \nFor Study Trust Students: studytrust@pimpmybook.co.za For Allan Gray Students: agorbis@pimpmybook.co.za For Jakes Gerwel Students: jgf@pimpmybook.co.za For Oasis Students: oasis@pimpmybook.co.za For Cryil Ramaphosa Foundation Students: cret@pimpmybook.co.za"
   
     },
     {
