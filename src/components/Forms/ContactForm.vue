@@ -6,7 +6,7 @@ netlify
 data-netlify="true"
 data-netlify-honeypot="bot-field"
 @submit.prevent="handleSubmit"
-class="w-full max-w-lg shadow-lg">
+class="w-full max-w-lg shadow-lg mt-10">
     <div class="text-center">
         <DisplayLarge
         text="We'd Like To Get To Know You Better"
