@@ -48,10 +48,10 @@
                     </p>
                     </router-link>
                 </a>
-                <a href="https://docs.gogoa.co.za" target="_blank" class="block mt-4 no-underline sm:inline-block sm:mt-0 text-white hover:text-bg-green-light mr-4">
+                <a href="https://help.gogoa.co.za" target="_blank" class="block mt-4 no-underline sm:inline-block sm:mt-0 text-white hover:text-bg-green-light mr-4">
                    
                     <p class="font-body hover:text-green">
-                        Docs
+                        Help
                     </p>
                     
                 </a>
