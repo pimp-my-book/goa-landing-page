@@ -15,8 +15,8 @@
     <div class="flex  mt-10 lg:mr-20 ml-10">
         
         <PrimaryButton
-        text="Book Demo"
-        url="/contact"
+        text="Sign Up"
+        url="http://app.gogoa.co.za/new_register"
         />
         <SecondaryButton
         text="How It Works"
