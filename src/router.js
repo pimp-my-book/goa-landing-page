@@ -50,9 +50,9 @@ const routes = [
         name: 'SubmissionFailure'
     },
     {
-      path: '/features',
+      path: '/bursaries',
       component: HowItWorks,
-      name:'HowItWorks'
+      name:'bursaries'
     },
     {
      path: '/how-it-works',
