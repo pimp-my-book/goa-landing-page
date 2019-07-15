@@ -41,10 +41,15 @@
            </router-link>
 
             <!-- TERMS OF SERVICE -->
+             <router-link
+         to="/terms"
+         class="no-underline"
+         >
            <FeatureText
            text="Terms of Service"
            class="mr-4 mt-3 text-white "
            />
+           </router-link>
           </div>
         
       </div>
