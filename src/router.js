@@ -26,6 +26,9 @@ import NotFound from './components/Bodies/NotFound'
 import HowItWorks from './pages/HowItWorks'
 import Support from './pages/Support'
 import Explainer from './pages/Explainer'
+import Terms from './pages/Terms'
+import Privacy from './pages/Privacy'
+
 
 const routes = [
     {
@@ -63,6 +66,16 @@ const routes = [
       path: '/faq',
       component: Support,
       name: 'faq'
+    },
+    {
+        path: '/terms',
+        component: Terms,
+        name: 'Terms'
+    },
+    {
+        path: '/privacy',
+        component: Privacy,
+        name: 'Privacy'
     },
     {
         path: '*',

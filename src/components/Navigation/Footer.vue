@@ -1,33 +1,61 @@
 <template>
     <footer class="bg-green-darker mt-32 w-full ">
         
-      <div class="container relative ">
+      <div class="container  ">
           <div class="flex lg:flex-row s:flex-col  Links__Container absolute mt-32 pt-32">
          
+         <!-- Contact -->
+         <router-link
+         to="/contact"
+         class="no-underline"
+         >
            <FeatureText
            text="Contact Us"
-           
+          
            class="mr-4 mt-3 text-white "
            />
+           </router-link>
            
+
+           <!-- help -->
+             <a
+         href="https://help.gogoa.co.za"
+         class="no-underline"
+         >
             <FeatureText
-           text="Support"
+           text="Help"
            class="mr-4 mt-3 text-white "
            />
+            </a>
+
+
+ <!-- privacy -->
+  <router-link
+         to="/privacy"
+         class="no-underline"
+         >
            <FeatureText
            text="Privacy"
            class="mr-4 mt-3 text-white"
            />
-           
+           </router-link>
+
+            <!-- TERMS OF SERVICE -->
+             <router-link
+         to="/terms"
+         class="no-underline"
+         >
            <FeatureText
            text="Terms of Service"
            class="mr-4 mt-3 text-white "
            />
+           </router-link>
           </div>
         
       </div>
 
-      <div class="container relative py-32 s:py-38">
+ <!-- CREDITS AND COPYWRIGHT -->
+      <div class="container  py-32 s:py-38">
           <div class="flex lg:flex-row s:flex-col pt-10 self-end Copyright__Container absolute mt-32 s:pt-20 lg:pt-32">
            <Credits/>
            
@@ -52,7 +80,7 @@ export default {
 </script>
 <style>
 footer {
-    clip-path: polygon(59% 21%, 100% 1%, 100% 100%, 0 100%, 0 49%);
+     clip-path: polygon(59% 21%, 100% 1%, 100% 100%, 0 100%, 0 49%); 
     height: 600px;
     /*transform: matrix(0.98, -0.2, 0.21, 0.98,0,0);*/
     
