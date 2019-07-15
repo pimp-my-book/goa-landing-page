@@ -6,6 +6,7 @@
          
          <router-link
          to="/contact"
+         class="no-underline"
          >
            <FeatureText
            text="Contact Us"
@@ -14,10 +15,15 @@
            />
            </router-link>
            
+             <a
+         href="https://help.gogoa.co.za"
+         class="no-underline"
+         >
             <FeatureText
-           text="Support"
+           text="Help"
            class="mr-4 mt-3 text-white "
            />
+            </a>
            <FeatureText
            text="Privacy"
            class="mr-4 mt-3 text-white"
