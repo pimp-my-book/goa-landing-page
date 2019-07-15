@@ -30,11 +30,15 @@
 
 
  <!-- privacy -->
+  <router-link
+         to="/privacy"
+         class="no-underline"
+         >
            <FeatureText
            text="Privacy"
            class="mr-4 mt-3 text-white"
            />
-           
+           </router-link>
 
             <!-- TERMS OF SERVICE -->
            <FeatureText
