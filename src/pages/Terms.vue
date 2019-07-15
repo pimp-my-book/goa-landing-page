@@ -12,12 +12,14 @@ text="Pimp My Book Terms of Service"
 />
 
 <DisplaySmall
+class="mt-5"
 text="1. Terms"
 />
 <FeatureText
 text="By accessing the website at https://gogoa.co.za, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law."
 />
 <DisplaySmall
+class="mt-5"
 text="2. Use License"
 />
 
@@ -61,6 +63,7 @@ text="use the materials for any commercial purpose, or for any public display (c
 </ol>
 
     <DisplaySmall
+    class="mt-5"
 text="3. Disclaimer"
 />
     
@@ -79,6 +82,7 @@ text="3. Disclaimer"
 </ol>
 
     <DisplaySmall
+    class="mt-5"
 text="4. Limitations"
 />
     
@@ -89,6 +93,7 @@ text="4. Limitations"
     
 
       <DisplaySmall
+      class="mt-5"
 text="5. Accuracy of materials"
 />
     
@@ -99,6 +104,7 @@ text="5. Accuracy of materials"
     />
 
     <DisplaySmall
+    class="mt-5"
 text="6. Links"
 />
     
@@ -109,11 +115,9 @@ text="6. Links"
     />
 
       <DisplaySmall
+      class="mt-5"
 text="7. Modifications"
 />
-    <FeatureText
-    text=""
-    />
 
     <FeatureText
     text="Pimp My Book may revise these terms of service for its website at any time without notice. By using this website you are agreeing to be bound by the then current version of these terms of service.
@@ -121,6 +125,7 @@ text="7. Modifications"
     />
 
 <DisplaySmall
+class="mt-5"
 text="8. Governing Law"
 />
 
