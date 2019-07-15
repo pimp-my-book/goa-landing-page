@@ -65,6 +65,16 @@ const routes = [
       name: 'faq'
     },
     {
+        path: '/terms',
+        component: Terms,
+        name: 'Terms'
+    },
+    {
+        path: '/privacy',
+        component: Privacy,
+        name: 'Privacy'
+    },
+    {
         path: '*',
         component: NotFound,
         name: 'NotFound'
