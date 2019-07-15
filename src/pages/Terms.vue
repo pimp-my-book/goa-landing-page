@@ -50,14 +50,15 @@ text="Pimp My Book Terms of Service"
 import BoarderHeader from '../components/Headers/BoarderHeader'
 import DisplayLarge from '../components/Typography/DisplayLarge'
 import FeatureText from '../components/Typography/FeatureText'
-
+import DisplaySmall from '../components/Typography/DisplaySmall'
 
 export default {
     name: 'Terms',
     components:{
         BoarderHeader,
         DisplayLarge,
-        FeatureText
+        FeatureText,
+        DisplaySmall
     }
 }
 </script>
