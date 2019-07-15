@@ -79,7 +79,11 @@ text="3. Disclaimer"
     />
     </li>
 </ol>
-<h3>4. Limitations</h3>
+
+    <DisplaySmall
+text="4. Limitations"
+/>
+    
 <p>In no event shall Pimp My Book or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on Pimp My Book's website, even if Pimp My Book or a Pimp My Book authorized representative has been notified orally or in writing of the possibility of such damage. Because some jurisdictions do not allow limitations on implied warranties, or limitations of liability for consequential or incidental damages, these limitations may not apply to you.</p>
 <h3>5. Accuracy of materials</h3>
 <p>The materials appearing on Pimp My Book's website could include technical, typographical, or photographic errors. Pimp My Book does not warrant that any of the materials on its website are accurate, complete or current. Pimp My Book may make changes to the materials contained on its website at any time without notice. However Pimp My Book does not make any commitment to update the materials.</p>
