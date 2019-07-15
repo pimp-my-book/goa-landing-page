@@ -67,12 +67,12 @@ text="3. Disclaimer"
 <ol type="a">
    <li>
        <FeatureText
-    text="The materials on Pimp My Book's website are provided on an 'as is' basis. Pimp My Book makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.</li>
+    text="The materials on Pimp My Book's website are provided on an 'as is' basis. Pimp My Book makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.
 "
     />
    <li>
        <FeatureText
-    text="Further, Pimp My Book does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its website or otherwise relating to such materials or on any sites linked to this site.</li>
+    text="Further, Pimp My Book does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its website or otherwise relating to such materials or on any sites linked to this site.
 "
     />
     </li>
@@ -94,7 +94,7 @@ text="5. Accuracy of materials"
     
 
     <FeatureText
-    text="The materials appearing on Pimp My Book's website could include technical, typographical, or photographic errors. Pimp My Book does not warrant that any of the materials on its website are accurate, complete or current. Pimp My Book may make changes to the materials contained on its website at any time without notice. However Pimp My Book does not make any commitment to update the materials.</p>
+    text="The materials appearing on Pimp My Book's website could include technical, typographical, or photographic errors. Pimp My Book does not warrant that any of the materials on its website are accurate, complete or current. Pimp My Book may make changes to the materials contained on its website at any time without notice. However Pimp My Book does not make any commitment to update the materials.
 "
     />
 
@@ -127,7 +127,7 @@ text="8. Governing Law"
 
 
      <FeatureText
-    text="    These terms and conditions are governed by and construed in accordance with the laws of South Africa and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location.</p>
+    text="    These terms and conditions are governed by and construed in accordance with the laws of South Africa and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location.
 "
     />
 
