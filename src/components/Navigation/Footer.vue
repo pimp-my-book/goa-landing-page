@@ -4,6 +4,7 @@
       <div class="container  ">
           <div class="flex lg:flex-row s:flex-col  Links__Container absolute mt-32 pt-32">
          
+         <!-- Contact -->
          <router-link
          to="/contact"
          class="no-underline"
@@ -15,6 +16,8 @@
            />
            </router-link>
            
+
+           <!-- help -->
              <a
          href="https://help.gogoa.co.za"
          class="no-underline"
@@ -24,11 +27,16 @@
            class="mr-4 mt-3 text-white "
            />
             </a>
+
+
+ <!-- privacy -->
            <FeatureText
            text="Privacy"
            class="mr-4 mt-3 text-white"
            />
            
+
+            <!-- TERMS OF SERVICE -->
            <FeatureText
            text="Terms of Service"
            class="mr-4 mt-3 text-white "
@@ -37,6 +45,7 @@
         
       </div>
 
+ <!-- CREDITS AND COPYWRIGHT -->
       <div class="container  py-32 s:py-38">
           <div class="flex lg:flex-row s:flex-col pt-10 self-end Copyright__Container absolute mt-32 s:pt-20 lg:pt-32">
            <Credits/>
