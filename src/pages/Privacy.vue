@@ -1,5 +1,10 @@
 <template>
-    <p>privacy</p>
+    <div>
+        <BoarderHeader
+    HeaderText="Privacy"
+    BodyText="Below is our privacy policy."
+    />
+    </div>
 </template>
 
 <script>
