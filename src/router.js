@@ -26,6 +26,9 @@ import NotFound from './components/Bodies/NotFound'
 import HowItWorks from './pages/HowItWorks'
 import Support from './pages/Support'
 import Explainer from './pages/Explainer'
+import Terms from './pages/Terms'
+import Privacy from './pages/Privacy'
+
 
 const routes = [
     {
