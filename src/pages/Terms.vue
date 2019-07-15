@@ -94,8 +94,16 @@ text="4. Limitations"
 text="5. Accuracy of materials"
 />
     
-<p>The materials appearing on Pimp My Book's website could include technical, typographical, or photographic errors. Pimp My Book does not warrant that any of the materials on its website are accurate, complete or current. Pimp My Book may make changes to the materials contained on its website at any time without notice. However Pimp My Book does not make any commitment to update the materials.</p>
-<h3>6. Links</h3>
+
+    <FeatureText
+    text="The materials appearing on Pimp My Book's website could include technical, typographical, or photographic errors. Pimp My Book does not warrant that any of the materials on its website are accurate, complete or current. Pimp My Book may make changes to the materials contained on its website at any time without notice. However Pimp My Book does not make any commitment to update the materials.</p>
+"
+    />
+
+    <DisplaySmall
+text="6. Links"
+/>
+    
 <p>Pimp My Book has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by Pimp My Book of the site. Use of any such linked website is at the user's own risk.</p>
 <h3>7. Modifications</h3>
 <p>Pimp My Book may revise these terms of service for its website at any time without notice. By using this website you are agreeing to be bound by the then current version of these terms of service.</p>
