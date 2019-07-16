@@ -28,7 +28,7 @@
      />
      <img 
      class="lg:h-90 mr-5 s:mt-5 md:w-3/4 md:h-200 lg:w-64"
-     src="https://s3.amazonaws.com/goa-assets/Images/companies/crf-logo.jpg"
+     src="https://s3.amazonaws.com/goa-assets/Images/companies/CRF+EDU.jpg"
      alt="Cyril Ramamphosa"
      />
     </div>
