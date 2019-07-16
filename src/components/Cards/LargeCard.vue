@@ -19,7 +19,7 @@
       :text="primaryText"
       regular
       :url="buttonURL"
-      class="mr-2"
+      class="mr-2 mb-2"
       />
       <SecondaryButton
       :text="secondaryText"
