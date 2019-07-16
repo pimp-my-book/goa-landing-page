@@ -23,7 +23,7 @@
        <SmallCard
        img="https://goa-assets.s3.amazonaws.com/Illustrations/16.+Cash+income.svg"
         cardTitle="Insight Into Spending"
-        class="ml-5 mb-5"
+        class="lg:ml-5 mb-5"
         cardText="Get real time information regarding student orders, spending and deliveries. Download reports for your clients and seniors."
        />
 
