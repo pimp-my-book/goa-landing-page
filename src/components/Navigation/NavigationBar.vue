@@ -9,12 +9,12 @@
             </a>
             </h1>
         </div>
-        <div class="block sm:hidden">
+        <div class="block lg:hidden">
             <span @click="toggle" class="flex items-center px-3 py-2">
                 <img src="../../assets/menu.svg"/>
                 </span>
         </div>
-        <div :class="open ? 'block':'hidden'" class="w-full flex-grow sm:flex sm:items-center sm:w-auto ">
+        <div :class="open ? 'block sm-600:block md:block sm-land:block':'hidden'" class="w-full flex-grow sm:hidden lg:flex lg:items-center lg:w-auto">
             <div class=" text-md sm:flex-grow ">
                 
                  <a href="#" class="block mt-4 no-underline sm:inline-block sm:mt-0 text-white hover:text-bg-green-light mr-4">

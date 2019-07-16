@@ -103,6 +103,7 @@
    </li>
    <li>
      <FeatureText
+     class="break-all"
    text="Set a product limit (Prescribed/Recommended/New/Used)"
    />
    </li>
@@ -289,5 +290,8 @@ ul li {
   padding: 10px;
 }
 
+.break-all {
+  word-break: break-all;
+}
 
 </style>

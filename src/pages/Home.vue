@@ -19,11 +19,11 @@
         text="Our clients have reduced their budgets by 30% while still providing students with all the tools which they need to succeed."
       />
       </div>
-     <div class=" sm:flex lg:flex-row sm:flex-col items-center">
+     <div class=" sm:flex lg:flex-row sm:flex-col s:flex s:flex-col items-center">
        <SmallCard
        img="https://goa-assets.s3.amazonaws.com/Illustrations/16.+Cash+income.svg"
         cardTitle="Insight Into Spending"
-        class="ml-5 mb-5"
+        class="lg:ml-5 mb-5"
         cardText="Get real time information regarding student orders, spending and deliveries. Download reports for your clients and seniors."
        />
 
