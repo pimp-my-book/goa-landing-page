@@ -12,7 +12,7 @@ this houses all the images of the companies u\who use GOA.
      text="We Keep Great Company"
      />
     </div>
-    <div class="flex x:flex-row lg:flex-row s:flex-col lapie:flex-wrap">
+    <div class="flex x:flex-row lg:flex-row s:flex-col lapie:flex-wrap justify-center">
      <img 
      class="lg:h-90 mr-5 s:mt-5 md:w-3/4 md:h-200 lg:w-64" 
      src="https://s3.amazonaws.com/goa-assets/Images/companies/AGOF-Logo.png"
@@ -56,6 +56,12 @@ export default {
 .grid{
     display: grid;
     grid-template-columns: 5fr 5fr;
+    align-content: end;
+}
+
+.grid__sub{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
     align-content: end;
 }
 </style>
