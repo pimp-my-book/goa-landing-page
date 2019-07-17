@@ -13,7 +13,7 @@
   </div>
   <div>
    <FeatureText
-   class="mt-5 p-3"
+   class="mt-5 p-3 xl:text-2xl"
    :text="cardText"
    small
    />
