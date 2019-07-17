@@ -9,6 +9,7 @@ this houses all the images of the companies u\who use GOA.
     <section class="mt-10 lg:pl-20 s:pl-5 md:pl-10 " >
     <div class="text-center mb-10">
      <DisplayLarge
+     class="xl:text-3xl"
      text="We Keep Great Company"
      />
     </div>
