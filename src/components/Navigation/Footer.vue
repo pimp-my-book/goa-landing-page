@@ -12,7 +12,7 @@
            <FeatureText
            text="Contact Us"
           
-           class="mr-4 mt-3 text-white "
+           class="mr-4 mt-3 text-white xl:text-2xl"
            />
            </router-link>
            
@@ -24,7 +24,7 @@
          >
             <FeatureText
            text="Help"
-           class="mr-4 mt-3 text-white "
+           class="mr-4 mt-3 text-white xl:text-2xl"
            />
             </a>
 
@@ -36,7 +36,7 @@
          >
            <FeatureText
            text="Privacy"
-           class="mr-4 mt-3 text-white"
+           class="mr-4 mt-3 text-white xl:text-2xl"
            />
            </router-link>
 
@@ -47,7 +47,7 @@
          >
            <FeatureText
            text="Terms of Service"
-           class="mr-4 mt-3 text-white "
+           class="mr-4 mt-3 text-white xl:text-2xl"
            />
            </router-link>
           </div>
