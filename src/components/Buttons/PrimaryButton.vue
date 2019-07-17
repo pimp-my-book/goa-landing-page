@@ -1,3 +1,17 @@
+<!--- 
+This is the primary button
+
+props: 
+url - need if you need forward to a link
+text - accepts button text
+regular - changes the button size
+
+actions:
+
+forward - redirects using the url prop
+
+-->
+
 <template>
     <button 
     type="submit"

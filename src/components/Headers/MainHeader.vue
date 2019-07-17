@@ -17,6 +17,7 @@
                     class="no-underline text-white">
         <PrimaryButton
         text="Sign Up"
+        
         />
         </a>
         <SecondaryButton
