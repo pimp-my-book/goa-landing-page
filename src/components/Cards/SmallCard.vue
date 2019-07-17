@@ -1,5 +1,5 @@
 <template>
-<div class= "shadow-lg lg:w-800 lg:h-750 s:w-4/5 rounded-lg  lg:mr-10">
+<div class= "shadow-lg lg:w-800 lg:h-600 s:w-4/5 rounded-lg  lg:mr-10">
   <img 
   class="mt-5"
   :src="img"
