@@ -1,3 +1,10 @@
+<!--
+Componanies component
+
+this houses all the images of the companies u\who use GOA.
+
+-->
+
 <template>
     <section class="mt-10 lg:pl-20 s:pl-5 md:pl-10" >
     <div class="text-center mb-10">
