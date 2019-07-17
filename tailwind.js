@@ -175,7 +175,7 @@ module.exports = {
     'lg': '992px',
     'x': '1024px',
     'lapie': [{'min': '1024px','max':'1366px'}],
-    'xl': [{'min': '1200px'}],
+    'xl': [{'min': '1500px'}],
   },
 
 
