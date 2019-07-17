@@ -2,7 +2,7 @@
     <header
 
     >
-     <DisplayXLarge
+     <DisplayLarge
      class="mt-10"
      text="Sell Back your books"
      />
@@ -19,13 +19,13 @@
     </header>
 </template>
 <script>
-import DisplayXLarge from "../Typography/DisplayXLarge"
+import DisplayLarge from "../Typography/DisplayLarge"
 import FeatureText from "../Typography/FeatureText"
 
 export default {
     name:'BuyBackHeader',
     components:{
-        DisplayXLarge,
+        DisplayLarge,
         FeatureText
     }
 }
