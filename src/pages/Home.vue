@@ -13,9 +13,10 @@
       <div  class="mb-20 ">
         <DisplayLarge
         text="Making Book Allowances Admin Go Away."
-       class="mb-2"
+       class="mb-2 xl:text-3xl"
         />
         <FeatureText
+        class="xl:text-2xl"
         text="Our clients have reduced their budgets by 30% while still providing students with all the tools which they need to succeed."
       />
       </div>
