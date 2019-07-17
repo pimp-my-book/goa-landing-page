@@ -2,7 +2,7 @@
     <footer class="bg-green-darker mt-32 w-full ">
         
       <div class="container  ">
-          <div class="flex lg:flex-row s:flex-col  Links__Container absolute mt-32 pt-32">
+          <div class="flex lg:flex-row s:flex-col  justify-center Links__Container absolute mt-32 pt-32">
          
          <!-- Contact -->
          <router-link
@@ -12,7 +12,7 @@
            <FeatureText
            text="Contact Us"
           
-           class="mr-4 mt-3 text-white "
+           class="mr-4 mt-3 text-white xl:text-2xl"
            />
            </router-link>
            
@@ -24,7 +24,7 @@
          >
             <FeatureText
            text="Help"
-           class="mr-4 mt-3 text-white "
+           class="mr-4 mt-3 text-white xl:text-2xl"
            />
             </a>
 
@@ -36,7 +36,7 @@
          >
            <FeatureText
            text="Privacy"
-           class="mr-4 mt-3 text-white"
+           class="mr-4 mt-3 text-white xl:text-2xl"
            />
            </router-link>
 
@@ -47,7 +47,7 @@
          >
            <FeatureText
            text="Terms of Service"
-           class="mr-4 mt-3 text-white "
+           class="mr-4 mt-3 text-white xl:text-2xl"
            />
            </router-link>
           </div>
@@ -82,7 +82,7 @@ export default {
 footer {
      clip-path: polygon(59% 21%, 100% 1%, 100% 100%, 0 100%, 0 49%); 
     height: 600px;
-    /*transform: matrix(0.98, -0.2, 0.21, 0.98,0,0);*/
+    
     
 }
 

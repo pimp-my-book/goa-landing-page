@@ -62,7 +62,7 @@
                 <p class="text-white font-body mr-4 hover:text-green">
                     <a 
                     href="http://app.gogoa.co.za/login"
-                    class="no-underline text-white">
+                    class="no-underline text-white  hover:text-green">
                     Login
                     </a>
                 </p>

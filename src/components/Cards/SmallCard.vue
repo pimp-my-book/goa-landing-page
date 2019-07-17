@@ -1,5 +1,5 @@
 <template>
-<div class= "shadow-lg lg:w-700 lg:h-490 s:w-4/5 rounded-lg x:w-screen lg:mr-10">
+<div class= "shadow-lg lg:w-800 lg:h-500 s:w-4/5 rounded-lg  lg:mr-10">
   <img 
   class="mt-5"
   :src="img"
@@ -13,7 +13,7 @@
   </div>
   <div>
    <FeatureText
-   class="mt-5 p-3"
+   class="mt-5 p-3 xl:text-2xl"
    :text="cardText"
    small
    />
