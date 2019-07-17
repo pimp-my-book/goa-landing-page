@@ -4,7 +4,7 @@
     <div class="lg:text-left sm:text-left ml-3 lg:flex lg:flex-wrap pt-32 lg:mr-20  sm:flex sm:flex-col">
    <DisplayXLarge 
   text="Making your funds go further."
-  class="text-white Header__Text "
+  class="text-white  "
   />
   <FeatureText
   text="GOA helps bursaries to manage and control their book allowances, while gaining control, removing wasteful expenditure, reducing overall book allowances budget and getting real time order data."
@@ -60,9 +60,6 @@ export default{
     
  }
 
- .Header__Text{
-     margin-right: 330px;
- }
 
 
 
