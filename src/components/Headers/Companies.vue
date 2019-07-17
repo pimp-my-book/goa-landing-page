@@ -53,17 +53,7 @@ export default {
 </script>
 
 <style scoped>
-.grid{
-    display: grid;
-    grid-template-columns: 5fr 5fr;
-    align-content: end;
-}
 
-.grid__sub{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    align-content: end;
-}
 </style>
 
 
