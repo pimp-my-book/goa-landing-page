@@ -3,7 +3,7 @@
     <!-- Main header  -->
      <MainHeader/>
 
- <div class="container">
+ <div >
    <!-- list of companies that use GOA -->
    <Companies/>
  </div>

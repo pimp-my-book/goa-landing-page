@@ -6,7 +6,7 @@ this houses all the images of the companies u\who use GOA.
 -->
 
 <template>
-    <section class="mt-10 lg:pl-20 s:pl-5 md:pl-10" >
+    <section class="mt-10 lg:pl-20 s:pl-5 md:pl-10 grid" >
     <div class="text-center mb-10">
      <DisplayLarge
      text="We Keep Great Company"
@@ -51,5 +51,14 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+.grid{
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    align-content: end;
+}
+</style>
+
 
 
