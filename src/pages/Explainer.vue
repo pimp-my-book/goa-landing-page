@@ -19,6 +19,7 @@ this component houses a tut on how to palce an  order on GOA.
         text="How To Place An Order"
         />
         <FeatureText
+        class=" xl:text-2xl"
         text="Note in order to place an order you should be logged in and be registered as a student on your bursary's roster."
         />
     </div>
@@ -28,7 +29,7 @@ this component houses a tut on how to palce an  order on GOA.
     <div>
     
 <FeatureText
-class="p-4"
+class="p-4 xl:text-2xl"
         text="After logging in you will land on your dashboard. You Should be able to see a `Place Order` button in the side nav and on the page. Click either one to be redirect to the `Place Order` screen. "
         />
         <img
@@ -41,7 +42,7 @@ class="p-4"
 <div>
     
 <FeatureText
-class="p-4"
+class="p-4 xl:text-2xl"
         text="Now you can go head an fill out the form by telling us what the Course Code, Book Title, ISBN, Book Author and Book Edition is for your order. If there is anything else you need to tell us, simply just tell us in the Note textarea. Once you're done click the place order button. "
         />
          <img
@@ -54,6 +55,7 @@ class="p-4"
 <div>
     
 <FeatureText
+class=" xl:text-2xl"
         text="To check the status of the order simply go to the Order History Page. This is where you can see the progress of all your orders."
         />
          <img
@@ -67,6 +69,7 @@ class="p-4"
 <div>
     
 <FeatureText
+class=" xl:text-2xl"
         text="For more info on how to do other stuff on GOA please visit our Docs page."
         />
         <a href="https://help.gogoa.co.za">
