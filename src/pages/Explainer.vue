@@ -1,3 +1,10 @@
+<!---
+Explainer Component:
+
+this component houses a tut on how to palce an  order on GOA.
+
+-->
+
 <template>
 <div>
     <BoarderHeader
