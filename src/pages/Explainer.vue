@@ -63,6 +63,7 @@ class="p-4"
         />
         <a href="https://help.gogoa.co.za">
 <PrimaryButton
+class="mt-5"
 text="Go to help"
 
 />
