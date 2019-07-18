@@ -61,6 +61,9 @@ class="p-4"
 <FeatureText
         text="For more info on how to do other stuff on GOA please visit our Docs page."
         />
+<PrimaryButton
+text="Go to help"
+/>
     </div>
 
  </div>
@@ -75,13 +78,14 @@ class="p-4"
 import BoarderHeader from '../components/Headers/BoarderHeader'
 import DisplayLarge from '../components/Typography/DisplayLarge'
 import FeatureText from '../components/Typography/FeatureText'
+import PrimaryButton from '../components/Buttons/PrimaryButton'
 
 export default {
     name: 'Explainer',
     components:{
         BoarderHeader,
         DisplayLarge,
-        
+        PrimaryButton,
         FeatureText
     }
 }
