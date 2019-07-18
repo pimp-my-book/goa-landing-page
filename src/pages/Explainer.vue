@@ -61,9 +61,12 @@ class="p-4"
 <FeatureText
         text="For more info on how to do other stuff on GOA please visit our Docs page."
         />
+        <a href="https://help.gogoa.co.za">
 <PrimaryButton
 text="Go to help"
+
 />
+</a>
     </div>
 
  </div>
