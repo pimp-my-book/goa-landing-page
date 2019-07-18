@@ -1,3 +1,17 @@
+ <!--
+
+Component: ContactForm
+
+This component is linked to netlify forms that allows 
+people to send us inquires.
+
+
+methods:
+
+It has a handleSubmit method that uses the fetch api to encode and sumbit
+the form.
+ -->
+ 
  <template>
 <form 
 name="Contact-Form"
