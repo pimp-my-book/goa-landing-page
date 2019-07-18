@@ -20,15 +20,15 @@ netlify
 data-netlify="true"
 data-netlify-honeypot="bot-field"
 @submit.prevent="handleSubmit"
-class="w-full max-w-lg shadow-lg mt-10">
+class="w-full max-w-lg xl:h-500 shadow-lg mt-10">
     <div class="text-center">
         <DisplayLarge
         text="We'd Like To Get To Know You Better"
         class="text-black"
         />
     </div>
-    <div class="flex flex-wrap -mx-3 mb-6 mt-5">
-        <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+    <div class="flex flex-wrap -mx-3 mb-6 mt-5 ">
+        <div class="w-full md:w-1/2  px-3 mb-6 md:mb-0">
         <FeatureText
         class="block uppercase tracking-wide text-gray-700 mb-2"
          text="First Name"
