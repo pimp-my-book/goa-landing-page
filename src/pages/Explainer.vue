@@ -15,6 +15,7 @@ this component houses a tut on how to palce an  order on GOA.
  
     <div class="flex flex-col justify-center mt-5 mb-10">
         <DisplayLarge
+        class=" xl:text-4xl"
         text="How To Place An Order"
         />
         <FeatureText
