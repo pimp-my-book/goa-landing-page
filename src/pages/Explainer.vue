@@ -5,8 +5,8 @@
        BodyText="Learn how to get up to speed with GOA and place orders"
        />
 
- <div class="container">
-    <div class="flex flex-col mt-5 mb-10">
+ 
+    <div class="flex flex-col justify-center mt-5 mb-10">
         <DisplayLarge
         text="How To Place An Order"
         />
@@ -69,7 +69,7 @@ class="p-4"
 
 
 
-       </div>
+       
 </template>
 <script>
 import BoarderHeader from '../components/Headers/BoarderHeader'
