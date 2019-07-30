@@ -83,7 +83,7 @@ class="p-4 xl:text-2xl"
         text="Run over your order one more time to make sure your order is correct, if not, simply click “Cancel” . If all is in order and ready to go, click “Place Order”"
         />
          <img
-        src="https://goa-assets.s3.amazonaws.com/Images/tutorials/place_order_step_two.svg"
+        src="https://goa-assets.s3.amazonaws.com/Images/tutorials/place_order_step_three.svg"
         class="lg:ml-12 "
         />
     </div>
