@@ -3,7 +3,9 @@
      Made with ❤️ in <img
      src="../../assets/sa_flag.png"
      />
-     & <img src="https://s3.amazonaws.com/goa-assets/Icons/flag-for-india_1f1ee-1f1f3.svg"/>
+     & <img
+     src="../../assets/indian_flag.png"
+     />
     </p>
 </template>
 <script>
