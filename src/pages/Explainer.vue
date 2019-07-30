@@ -34,7 +34,7 @@ class="p-4 xl:text-2xl"
         />
         <img
         src="https://goa-assets.s3.amazonaws.com/Images/tutorials/place_order_step_one.svg"
-        class="lg:ml-12 "
+        class="w-4/5"
         />
     </div>
 
@@ -47,7 +47,7 @@ class="p-4 xl:text-2xl"
         />
          <img
         src="https://goa-assets.s3.amazonaws.com/Images/tutorials/place_order_step_two.svg"
-        class="lg:ml-12 "
+        class="w-4/5"
         />
     </div>
 
@@ -84,7 +84,7 @@ class="p-4 xl:text-2xl"
         />
          <img
         src="https://goa-assets.s3.amazonaws.com/Images/tutorials/place_order_step_three.svg"
-        class="lg:ml-12 "
+        class="w-4/5"
         />
     </div>
     
@@ -97,7 +97,7 @@ class="p-4 xl:text-2xl"
         />
          <img
         src="https://goa-assets.s3.amazonaws.com/Images/tutorials/place_order_step_four.svg"
-        class="lg:ml-12 "
+        class="w-4/5 "
         />
     </div>
 
