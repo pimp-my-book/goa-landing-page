@@ -46,7 +46,7 @@ class="p-4 xl:text-2xl"
         text="Select an Order Type – Select whether you want to order a textbook, calculator, laptop, drawing board, lab coat, bag etc. Note that this will be limited to items that were approved by your bursary. Select Book for ordering a book."
         />
          <img
-        src="../assets/step_two.svg"
+        src="https://goa-assets.s3.amazonaws.com/Images/tutorials/place_order_step_two.svg"
         class="lg:ml-12 "
         />
     </div>
