@@ -28,7 +28,7 @@ this component houses a tut on how to palce an  order on GOA.
     
     <div>
     <FeatureText
-class="p-4 font-bold"
+class="p-4 font-bold xl:text-2xl"
         text="Step One"
         />
 <FeatureText
@@ -43,7 +43,10 @@ class="p-4 xl:text-2xl"
 
 
 <div>
-    
+    <FeatureText
+class="p-4 font-bold xl:text-2xl"
+        text="Step Two"
+        />
 <FeatureText
 class="p-4 xl:text-2xl"
         text="Select an Order Type – Select whether you want to order a textbook, calculator, laptop, drawing board, lab coat, bag etc. Note that this will be limited to items that were approved by your bursary. Select Book for ordering a book."
@@ -81,6 +84,11 @@ class=" xl:text-2xl"
 
     <div>
     
+    <FeatureText
+class="p-4 font-bold xl:text-2xl"
+        text="Step Three"
+        />
+
 <FeatureText
 class="p-4 xl:text-2xl"
         text="Run over your order one more time to make sure your order is correct, if not, simply click “Cancel” . If all is in order and ready to go, click “Place Order”"
