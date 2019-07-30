@@ -56,12 +56,19 @@ class="p-4 xl:text-2xl"
     
 <FeatureText
 class=" xl:text-2xl"
-        text="To check the status of the order simply go to the Order History Page. This is where you can see the progress of all your orders."
+        text="Select a Course Code – GOA will select all the courses that are linked to the qualification and university which you selected when you registered. If you cannot find one of your courses you can select “add a course” and add the course."
         />
-         <img
-        src="../assets/step_three.svg"
-        class="lg:ml-12 "
-        /> 
+
+        <FeatureText
+class=" xl:text-2xl"
+        text="Select a Book – Once you have selected a course GOA will automatically put a list of books which are prescribed for that course at your university. You can select the book which you want to order. If you cannot find the book which you want to order select “add a new book”."
+        />
+
+        <FeatureText
+class=" xl:text-2xl"
+        text="Add A New Book – If you cant find the book that you want to order in our list, select “add a new book”. GOA will ask you to provide details of the book."
+        />
+       
     </div>
 
 
