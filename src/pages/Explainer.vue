@@ -122,7 +122,7 @@ class="p-4 xl:text-2xl"
 
 
 <FeatureText
-class=" xl:text-2xl"
+class=" xl:text-2xl mt-5"
         text="For more info on how to do other stuff on GOA please visit our Docs page."
         />
         <a href="https://help.gogoa.co.za">
