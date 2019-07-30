@@ -106,7 +106,10 @@ class="p-4 xl:text-2xl"
     
 
        <div>
-    
+      <FeatureText
+class="p-4 font-bold xl:text-2xl"
+        text="Step Four"
+        />
 <FeatureText
 class="p-4 xl:text-2xl"
         text="If you added a new book and course, make sure you enter your lecturers details and your course outline to verify your order."
