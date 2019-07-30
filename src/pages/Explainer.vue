@@ -27,7 +27,10 @@ this component houses a tut on how to palce an  order on GOA.
 <div class="flex flex-col">
     
     <div>
-    
+    <FeatureText
+class="p-4 font-bold"
+        text="Step One"
+        />
 <FeatureText
 class="p-4 xl:text-2xl"
         text="After logging in you will land on your dashboard. You Should be able to see a `Place Order` button in the side nav and on the page. Click either one to be redirect to the `Place Order` screen. "
