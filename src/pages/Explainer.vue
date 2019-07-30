@@ -43,7 +43,7 @@ class="p-4 xl:text-2xl"
     
 <FeatureText
 class="p-4 xl:text-2xl"
-        text="Now you can go head an fill out the form by telling us what the Course Code, Book Title, ISBN, Book Author and Book Edition is for your order. If there is anything else you need to tell us, simply just tell us in the Note textarea. Once you're done click the place order button. "
+        text="Select an Order Type – Select whether you want to order a textbook, calculator, laptop, drawing board, lab coat, bag etc. Note that this will be limited to items that were approved by your bursary. Select Book for ordering a book."
         />
          <img
         src="../assets/step_two.svg"
