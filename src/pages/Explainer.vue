@@ -88,6 +88,20 @@ class="p-4 xl:text-2xl"
         />
     </div>
     
+
+       <div>
+    
+<FeatureText
+class="p-4 xl:text-2xl"
+        text="If you added a new book and course, make sure you enter your lecturers details and your course outline to verify your order."
+        />
+         <img
+        src="https://goa-assets.s3.amazonaws.com/Images/tutorials/place_order_step_four.svg"
+        class="lg:ml-12 "
+        />
+    </div>
+
+
 <FeatureText
 class=" xl:text-2xl"
         text="For more info on how to do other stuff on GOA please visit our Docs page."
