@@ -36,7 +36,7 @@ class="p-4 xl:text-2xl"
         text="After logging in you will land on your dashboard. You Should be able to see a `Place Order` button in the side nav and on the page. Click either one to be redirect to the `Place Order` screen. "
         />
         <img
-        src="https://goa-assets.s3.amazonaws.com/Images/tutorials/place_order_step_one.svg"
+        src="../assets/Browser-Frame.png"
         class="w-4/5"
         />
     </div>

@@ -15,8 +15,6 @@ export default {
 }
 </script>
 <style scoped>
-
-
 .Credits{
     padding-right:2000px; 
 }
