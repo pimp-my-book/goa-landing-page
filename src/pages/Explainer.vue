@@ -36,7 +36,7 @@ class="p-4 xl:text-2xl"
         text="After logging in you will land on your dashboard. You Should be able to see a `Place Order` button in the side nav and on the page. Click either one to be redirect to the `Place Order` screen. "
         />
         <img
-        src="../assets/Browser-Frame.png"
+        src="https://goa-assets.s3.amazonaws.com/Images/tutorials/place_order_step_one.png"
         class="w-4/5"
         />
     </div>
@@ -52,7 +52,7 @@ class="p-4 xl:text-2xl"
         text="Select an Order Type – Select whether you want to order a textbook, calculator, laptop, drawing board, lab coat, bag etc. Note that this will be limited to items that were approved by your bursary. Select Book for ordering a book."
         />
          <img
-        src="https://goa-assets.s3.amazonaws.com/Images/tutorials/place_order_step_two.svg"
+        src="https://goa-assets.s3.amazonaws.com/Images/tutorials/place_order_step_two.png"
         class="w-4/5"
         />
     </div>
@@ -99,7 +99,7 @@ class="p-4 xl:text-2xl"
         text="Run over your order one more time to make sure your order is correct, if not, simply click “Cancel” . If all is in order and ready to go, click “Place Order”"
         />
          <img
-        src="https://goa-assets.s3.amazonaws.com/Images/tutorials/place_order_step_three.svg"
+        src="https://goa-assets.s3.amazonaws.com/Images/tutorials/place_order_step_three.png"
         class="w-4/5"
         />
     </div>
@@ -115,7 +115,7 @@ class="p-4 xl:text-2xl"
         text="If you added a new book and course, make sure you enter your lecturers details and your course outline to verify your order."
         />
          <img
-        src="https://goa-assets.s3.amazonaws.com/Images/tutorials/place_order_step_four.svg"
+        src="https://goa-assets.s3.amazonaws.com/Images/tutorials/place_order_step_four.png"
         class="w-4/5 "
         />
     </div>
