@@ -1,5 +1,5 @@
 <template>
-    <header class="w-full lg:h-64 s:h-82 bg-green-gradient text-center lg:rounded-header-border s:header-border-sm">
+    <header class="w-full lg:h-64 s:h-250 sl:h-250 bg-green-gradient text-center lg:rounded-header-border s:header-border-sm">
    <DisplayXLarge
    :text="HeaderText"
    class="text-white pt-5"
