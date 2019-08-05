@@ -253,7 +253,7 @@
      <img 
      class="w-img h-img lg:hidden"
      alt="Check complete" 
-     src="https://goa-assets.s3.amazonaws.com/Illustrations/undraw_deliveries_131a.svg"
+     src="https://goa-assets.s3.amazonaws.com/Illustrations/undraw_Savings_dwkw.svg"
      />
    </div>
 <!-- End of img -->
@@ -275,7 +275,7 @@
      <img 
      class="w-img h-img lg:block s:hidden"
      alt="students" 
-     src="https://goa-assets.s3.amazonaws.com/Illustrations/undraw_deliveries_131a.svg"
+     src="https://goa-assets.s3.amazonaws.com/Illustrations/undraw_Savings_dwkw.svg"
      />
    </div>
 <!-- End of img -->
