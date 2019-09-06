@@ -18,6 +18,19 @@
         <FeatureText class="p-5" :text="About.p4" />
       </div>
     </div>
+    <div>
+      <DisplayLarge text="Our Team" class="mb-5" />
+
+      <iframe
+        class="airtable-embed"
+        src="https://airtable.com/embed/shrBBIrIZ6arTUhSm?backgroundColor=pink&viewControls=on"
+        frameborder="0"
+        onmousewheel
+        width="100%"
+        height="533"
+        style="background: transparent; border: 1px solid #ccc;"
+      />
+    </div>
   </div>
 </template>
 <script>
