@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header class="h-250">
     <img
       alt="library of books"
       class="w-full"
