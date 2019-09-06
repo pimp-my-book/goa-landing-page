@@ -11,20 +11,24 @@
     </header>
     <div class="p-5">
       <DisplayLarge text="Our Story" />
-      <SmallCard text />
+      <div></div>
     </div>
   </div>
 </template>
 <script>
 import DisplayLarge from "../components/Typography/DisplayLarge";
+import FeatureText from "../components/Typography/FeatureText";
 import AboutImg from "../assets/about.svg";
-import SmallCard from "../components/Cards/SmallCard";
+import { about } from "../copy";
 
 export default {
   name: "About",
   components: {
     DisplayLarge,
-    SmallCard
+    FeatureText
+  },
+  data() {
+    return { About: about };
   },
   computed: {
     styles() {
