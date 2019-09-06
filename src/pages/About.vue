@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header :style="styles" class></header>
+    <header :style="styles" class="bg-scroll bg-center bg-no-repeat bg-cover h-350"></header>
     <div class="p-20">
       <DisplayLarge text="Our Story" />
     </div>
