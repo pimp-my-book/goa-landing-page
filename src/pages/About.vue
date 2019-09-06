@@ -11,7 +11,12 @@
     </header>
     <div class="p-5">
       <DisplayLarge text="Our Story" />
-      <div></div>
+      <div class="flex flex-col p-5 m-5">
+        <FeatureText :text="About.p1" />
+        <FeatureText :text="About.p2" />
+        <FeatureText :text="About.p3" />
+        <FeatureText :text="About.p4" />
+      </div>
     </div>
   </div>
 </template>
