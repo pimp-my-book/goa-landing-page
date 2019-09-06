@@ -1,9 +1,6 @@
 <template>
   <div>
-    <header
-      :style="styles"
-      class="bg-scroll lg:p-32 s:p-20 opacity-25 bg-center bg-no-repeat bg-cover bg-red h-350"
-    >
+    <header :style="styles" class="bg-scroll lg:p-32 s:p-20 bg-center bg-no-repeat bg-cover h-350">
       <DisplayLarge
         class="text-white"
         text="We make educational materials and supporting technologies affordable and accessible to students."
