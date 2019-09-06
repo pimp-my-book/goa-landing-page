@@ -2,7 +2,7 @@
   <div>
     <header
       :style="styles"
-      class="bg-scroll p-32 opacity-25 bg-center bg-no-repeat bg-cover bg-red h-350"
+      class="bg-scroll lg:p-32 s:p-20 opacity-25 bg-center bg-no-repeat bg-cover bg-red h-350"
     >
       <DisplayLarge
         class="text-white"
@@ -12,10 +12,10 @@
     <div class="p-5">
       <DisplayLarge text="Our Story" />
       <div class="flex flex-col p-5 m-5">
-        <FeatureText :text="About.p1" />
-        <FeatureText :text="About.p2" />
-        <FeatureText :text="About.p3" />
-        <FeatureText :text="About.p4" />
+        <FeatureText class="p-5" :text="About.p1" />
+        <FeatureText class="p-5" :text="About.p2" />
+        <FeatureText class="p-5" :text="About.p3" />
+        <FeatureText class="p-5" :text="About.p4" />
       </div>
     </div>
   </div>
