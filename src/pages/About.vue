@@ -9,18 +9,22 @@
         text="We make educational materials and supporting technologies affordable and accessible to students."
       />
     </header>
-    <div class="p-20">
+    <div class="p-5">
       <DisplayLarge text="Our Story" />
+      <SmallCard text />
     </div>
   </div>
 </template>
 <script>
 import DisplayLarge from "../components/Typography/DisplayLarge";
 import AboutImg from "../assets/about.svg";
+import SmallCard from "../components/Cards/SmallCard";
+
 export default {
   name: "About",
   components: {
-    DisplayLarge
+    DisplayLarge,
+    SmallCard
   },
   computed: {
     styles() {
