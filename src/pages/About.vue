@@ -16,7 +16,7 @@
 </template>
 <script>
 import DisplayLarge from "../components/Typography/DisplayLarge";
-
+import AboutImg from "../assets/about.svg";
 export default {
   name: "About",
   components: {
@@ -25,7 +25,7 @@ export default {
   computed: {
     styles() {
       return {
-        "background-image": `url('https://images.unsplash.com/photo-1431608660976-4fe5bcc2112c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')`
+        "background-image": `url(${AboutImg})`
       };
     }
   }
