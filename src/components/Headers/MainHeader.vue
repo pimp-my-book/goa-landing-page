@@ -9,7 +9,7 @@
         class="text-white-lighter mt-2 xl:text-3xl"
       />
     </div>
-    <div class="flex mt-10 s:pl-10 lg:mr-20 ml-10">
+    <div class="flex mt-10 s:pl-10 lg:mr-20">
       <a href="http://app.gogoa.co.za/new_register" class="no-underline text-white">
         <PrimaryButton text="Sign Up" />
       </a>
