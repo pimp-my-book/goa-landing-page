@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2015-present, Pimp My Book.
+ * Copyright (c) 2019-present, Pimp My Book.
  *
  * 
  */
@@ -19,7 +19,7 @@ import VueAnalytics from 'vue-analytics'
 import Vue from 'vue'
 //import App from './App.vue'
 import Home from './pages/Home'
-import Contact from  './pages/Contact'
+import Contact from './pages/Contact'
 import SubmissionSuccess from './components/Alerts/SubmissionSuccess'
 import SubmissionFailure from './components/Alerts/SubmissionFailure'
 import NotFound from './components/Bodies/NotFound'
@@ -28,14 +28,14 @@ import Support from './pages/Support'
 import Explainer from './pages/Explainer'
 import Terms from './pages/Terms'
 import Privacy from './pages/Privacy'
-
+import About from './pages/About'
 
 const routes = [
     {
-        path:'/', 
+        path: '/',
         component: Home,
-        
-    }, 
+
+    },
     {
         path: '/contact',
         component: Contact,
@@ -44,7 +44,7 @@ const routes = [
     {
         path: '/submission-failure',
         component: SubmissionSuccess,
-        name:'SubmissionSuccess'
+        name: 'SubmissionSuccess'
 
     },
     {
@@ -53,19 +53,19 @@ const routes = [
         name: 'SubmissionFailure'
     },
     {
-      path: '/bursaries',
-      component: HowItWorks,
-      name:'bursaries'
+        path: '/bursaries',
+        component: HowItWorks,
+        name: 'bursaries'
     },
     {
-     path: '/how-it-works',
-     component:Explainer,
-     name: 'Explainer'
+        path: '/how-it-works',
+        component: Explainer,
+        name: 'Explainer'
     },
     {
-      path: '/faq',
-      component: Support,
-      name: 'faq'
+        path: '/faq',
+        component: Support,
+        name: 'faq'
     },
     {
         path: '/terms',
@@ -78,17 +78,22 @@ const routes = [
         name: 'Privacy'
     },
     {
+        path: '/about',
+        component: About,
+        name: 'About'
+    },
+    {
         path: '*',
         component: NotFound,
         name: 'NotFound'
     }
-        
+
 ]
 
 
 Vue.use(VueAnalytics, {
-    id:'UA-131906194-1'
-  })
+    id: 'UA-131906194-1'
+})
 
 
 const router = new VueRouter({
