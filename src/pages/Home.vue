@@ -17,7 +17,7 @@
           text="Our clients have reduced their budgets by 30% while still providing students with all the tools which they need to succeed."
         />
       </div>
-      <div class="lg:flex lg:flex-row">
+      <div class="card-grid__Row">
         <SmallCard
           img="https://goa-assets.s3.amazonaws.com/Illustrations/16.+Cash+income.svg"
           cardTitle="Insight Into Spending"
