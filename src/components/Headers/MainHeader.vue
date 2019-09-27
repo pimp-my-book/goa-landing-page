@@ -38,7 +38,7 @@ export default {
 .Header {
   width: 100%;
   height: 729px;
-  background-image: url("https://s3.amazonaws.com/goa-assets/Images/Home__Header-min.png");
+  background-image: url("https://goa-assets.s3.amazonaws.com/Images/Home__Header-min_compressed.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
