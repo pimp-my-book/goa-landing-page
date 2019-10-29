@@ -27,18 +27,27 @@ the form.
     </div>
     <div class="flex flex-wrap -mx-3 mb-6 mt-5">
       <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-        <FeatureText class="block tracking-wide text-gray-700 mb-2" text="First Name" />
+        <FeatureText
+          class="block text-left ml-20 tracking-wide text-gray-700 mb-2"
+          text="First Name"
+        />
         <Input placeholder="Miles" name="firstName" type="text" required v-model="form.firstName" />
       </div>
       <div class="w-full md:w-1/2 px-3">
-        <FeatureText class="block tracking-wide text-gray-700 mb-2" text="Last Name" />
+        <FeatureText
+          class="block text-left ml-20 tracking-wide text-gray-700 mb-2"
+          text="Last Name"
+        />
         <Input placeholder="Davis" name="lastName" type="text" required v-model="form.lastName" />
       </div>
     </div>
 
     <div class="flex flex-wrap -m3 mb-6 mt-5">
       <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-        <FeatureText class="block tracking-wide text-gray-700 pr-10 mb-2" text="Bursary Name" />
+        <FeatureText
+          class="block text-left ml-20 tracking-wide text-gray-700 pr-10 mb-2"
+          text="Bursary Name"
+        />
         <Input
           placeholder="Purple Cow"
           name="bursaryName"
@@ -48,7 +57,10 @@ the form.
         />
       </div>
       <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-        <FeatureText class="block tracking-wide text-gray-700 pr-10 mb-2" text="Email Address" />
+        <FeatureText
+          class="block text-left ml-20 tracking-wide text-gray-700 pr-10 mb-2"
+          text="Email Address"
+        />
         <Input
           placeholder="miles@purplecow.co.za"
           name="emailAddress"
@@ -62,7 +74,7 @@ the form.
     <div class="flex flex-wrap -m3 mb-6 mt-5">
       <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
         <FeatureText
-          class="block tracking-wide text-gray-700 pr-10 mb-2"
+          class="block text-left ml-20 tracking-wide text-gray-700 pr-10 mb-2"
           text="Website (Optional)"
         />
         <Input
@@ -75,7 +87,7 @@ the form.
       </div>
       <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
         <FeatureText
-          class="block tracking-wide text-gray-700 pr-10 mb-2"
+          class="block text-left ml-20 tracking-wide text-gray-700 pr-10 mb-2"
           text="Number of Students"
         />
         <Input
@@ -90,7 +102,10 @@ the form.
 
     <div class="flex flex-wrap -m3 mb-6 mt-5">
       <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-        <FeatureText class="block tracking-wide text-gray-700 pr-10 mb-2" text="Telephone Number" />
+        <FeatureText
+          class="block text-left ml-20 tracking-wide text-gray-700 pr-10 mb-2"
+          text="Telephone Number"
+        />
         <Input
           placeholder="0987 432 123"
           name="telNumber"
