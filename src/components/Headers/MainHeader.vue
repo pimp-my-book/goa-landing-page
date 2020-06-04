@@ -3,9 +3,9 @@
     <div
       class="lg:text-left p-5 sm:text-left ml-3 lg:flex lg:flex-col pt-32 lg:mr-20 sm:flex sm:flex-col"
     >
-      <DisplayXLarge text="Making your funds go further." class="text-white xl:text-7xl" />
+      <DisplayXLarge text="It's better to know." class="text-white xl:text-7xl" />
       <FeatureText
-        text="Giving bursaries control, insightful expenditure reports and removing wastage from your allowances."
+        text="AskThuto is an Online Marketplace that connects Bursary Students to Approved Vendors, removes wastage by students and lets you know EXACTLY how your money was spent."
         class="text-white-lighter mt-2 xl:text-3xl"
       />
     </div>
