@@ -2,7 +2,7 @@
   <nav class="border-top flex items-center justify-between flex-wrap bg-green-darker p-6">
     <div class="flex items-center flex-no-shrink text">
       <h1 class="font-display text-white">
-        <a class="no-underline text-white" href="/">GOA</a>
+        <a class="no-underline text-white" href="/">AskThuto</a>
       </h1>
     </div>
     <div class="block lg:hidden">
