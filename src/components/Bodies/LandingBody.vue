@@ -1,10 +1,10 @@
 <template>
      <div class="container mx-auto ">
    <!-- Start of container -->
-   <div class=" sm:flex lg:flex-row sm:flex-col">
-<!-- Start of flex-row 1-->
+  <div class=" sm:flex lg:flex-row sm:flex-col">
+  <!-- Start of flex-row 1-->
 
-<!-- start of text-part of div -->
+  <!-- start of text-part of div -->
 <div class="m-2 lg:text-left lg:w-3/4 lg:pl-32 s:text-center">
   <DisplaySmall
     text="Products"
@@ -36,53 +36,62 @@
   <!-- end of ul -->
 
   <!-- START [Icon-Grid] -->
-  <IconGrid />
+  <IconGrid v-bind:links='[
+    { url: "https://ask-thuto-assets.s3.amazonaws.com/home/icon-grid-home/backpack.svg" },
+    { url: "https://ask-thuto-assets.s3.amazonaws.com/home/icon-grid-home/calculator.svg" },
+    { url: "https://ask-thuto-assets.s3.amazonaws.com/home/icon-grid-home/stationery.svg" },
+    { url: "https://ask-thuto-assets.s3.amazonaws.com/home/icon-grid-home/tablet.svg" },
+    { url: "https://ask-thuto-assets.s3.amazonaws.com/home/icon-grid-home/book.svg" },
+    { url: "https://ask-thuto-assets.s3.amazonaws.com/home/icon-grid-home/ebook.svg" },
+    { url: "https://ask-thuto-assets.s3.amazonaws.com/home/icon-grid-home/laptop.svg" },
+    { url: "https://ask-thuto-assets.s3.amazonaws.com/home/icon-grid-home/stethoscope.svg" },
+  ]' />
   <!-- END [Icon-Grid] -->
 
   <!-- End of text-part of div -->
   </div>
-
+   
    </div>
    <!-- end of flex-row 1 -->
 
 
   <div class=" sm:flex lg:flex-row sm:flex-col">
-<!-- Start of flex-row 2-->
-<!-- start of text-part of div -->
+  <!-- Start of flex-row 2-->
+    <!-- start of text-part of div -->
     <div class="m-2 lg:text-left lg:w-3/4 lg:pl-32 s:text-center">
-     <DisplaySmall
+      <DisplaySmall
         text="Vendors"
-   class="mb-5 text-blue-dark"
-   />
-   <FeatureText
+        class="mb-5 text-blue-dark"
+      />
+      <FeatureText
         text="Get the best of both worlds. Some of our vendors have more than 150 years in the sector while others are introducing innovative solutions to the education sector."
-   />
-  <!-- start of ul -->
-  <div class="lg:p-12 lg:text-left lg:pr-32">
- <ul class="mx-auto">
-   <li>
-     <FeatureText
+      />
+      <!-- start of ul -->
+      <div class="lg:p-12 lg:text-left lg:pr-32">
+      <ul class="mx-auto">
+        <li>
+          <FeatureText
             text="No need to check multiple vendors"
-   />
-   </li>
-   <li>
-     <FeatureText
-     class="break-all"
+          />
+        </li>
+        <li>
+          <FeatureText
+            class="break-all"
             text="No need to pay multiple vendors"
-   />
-   </li>
-   <li>
-     <FeatureText
+          />
+        </li>
+        <li>
+          <FeatureText
             text="Budget control across multiple vendors"
-   />
-   </li>
-   </ul>
-          <!-- end of ul -->
+          />
+        </li>
+      </ul>
+              <!-- end of ul -->
+      </div>
+    <!-- End of text-part of div -->
+    </div>
   </div>
-     <!-- End of text-part of div -->
-   </div>
-   </div>
-   <!-- end of flex-row 2 -->
+  <!-- end of flex-row 2 -->
 
    <div class=" sm:flex lg:flex-row sm:flex-col">
 <!-- Start of flex-row 3-->
