@@ -4,62 +4,43 @@
    <div class=" sm:flex lg:flex-row sm:flex-col">
 <!-- Start of flex-row 1-->
 
-<!-- start of img -->
-     <div>
-     <img 
-     class="w-img h-img"
-     alt="students" 
-     src="https://s3.amazonaws.com/goa-assets/Illustrations/undraw_High_five_u364.svg"
-     />
-   </div>
-<!-- End of img -->
-
 <!-- start of text-part of div -->
-<div class="lg:text-left lg:w-3/4 lg:pl-32 s:text-center">
-     <DisplaySmall
-   text="Your Students’ Needs Sorted"
-   class="mb-5 text-blue-dark"
-   />
-   <FeatureText
-   text="Students simply place orders online through the GOA platform, no need to waste time at bookshops."
-   />
+<div class="m-2 lg:text-left lg:w-3/4 lg:pl-32 s:text-center">
+  <DisplaySmall
+    text="Products"
+    class="mb-5 text-blue-dark"
+  />
+  <FeatureText
+    text="There are a thousand other cool stuff that your students would rather have. Our goal is to ensure that your money is invested in products that will help your students to succeed."
+  />
   <!-- start of ul -->
   <div class="lg:p-12 lg:text-left lg:pr-32">
- <ul class="mx-auto">
-   <li>
-     <FeatureText
-   text="View Order History"
-   
-   />
-   </li>
-   <li>
-     <FeatureText
-   text="Track orders "
-   />
-   </li>
-   <li>
-     <FeatureText
-   text="View/download invoices"
-   />
-   </li>
-   <li>
-      <FeatureText
-   text="Returns & Exchanges"
-   />
-   </li>
-   <li>
-      <FeatureText
-   text="Deliveries on campus or residence"
-   />
-   </li>
-   </ul>
-          <!-- end of ul -->
-
+    <ul class="mx-auto">
+      <li>
+        <FeatureText
+          text="Pre-select the products your students need"
+        />
+      </li>
+      <li>
+        <FeatureText
+          text="Confirm university prescription for your products"
+        />
+      </li>
+      <li>
+        <FeatureText
+          text="Guarantee that your students actually purchased that item "
+        />
+      </li>
+    </ul>
   </div>
-    
- 
-     <!-- End of text-part of div -->
-   </div>
+  <!-- end of ul -->
+
+  <!-- START [Icon-Grid] -->
+  <IconGrid />
+  <!-- END [Icon-Grid] -->
+
+  <!-- End of text-part of div -->
+  </div>
 
 
 
@@ -274,12 +255,14 @@
 
 import DisplaySmall from "../Typography/DisplaySmall";
 import FeatureText from "../Typography/FeatureText";
+import IconGrid from "../Grids/IconGrid";
 
 export default {
     name: 'LandingBody',
     components: {
         DisplaySmall,
-        FeatureText
+        FeatureText,
+        IconGrid
     }
 }
 </script>
