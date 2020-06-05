@@ -12,7 +12,7 @@
     <div class="container pb-32 pt-32  lg:pl-20 mx-auto">
       <div  class="mb-20 ">
         <DisplayLarge
-        text="Making Book Allowances Admin Go Away."
+        text="Stop paying MORE and MORE for LESS and LESS"
        class="mb-2 xl:text-3xl"
         />
         <FeatureText
@@ -22,32 +22,26 @@
       </div>
      <div class=" sm:flex lg:flex-row sm:flex-col s:flex s:flex-col items-center">
        <SmallCard
-       img="https://goa-assets.s3.amazonaws.com/Illustrations/16.+Cash+income.svg"
-        cardTitle="Insight Into Spending"
+       img="https://ask-thuto-assets.s3.amazonaws.com/home/document-magnified.svg"
+        cardTitle="Know how your money was spent"
         class="lg:ml-5 mb-5"
         cardText="Get real time information regarding student orders, spending and deliveries. Download reports for your clients and seniors."
        />
 
         <SmallCard
         class="ml-5 mb-5"
-        img="https://s3.amazonaws.com/goa-assets/Illustrations/Award.svg"
+        img="https://ask-thuto-assets.s3.amazonaws.com/home/dedicated-staff.svg"
         cardTitle="Dedicated Support Staff"
-        cardText="Your students no longer have to run around busy bookshops looking for textbooks. All their orders are placed online and staff are allocated to ensure correct & on time fulfillment."
+        cardText="Your students should not have to wait in long lines or talk to computers that don’t know their names. AskThuto gives your students personal support as they figure out what they need to succeed."
        />
 
         <SmallCard
          class="ml-5 mb-5"
-        img="https://s3.amazonaws.com/goa-assets/Illustrations/Safe.svg"
-        cardTitle="Control"
-        cardText="Our platform removes abuse of allocated funds by ensuring that your students only receive prescribed materials and approved items."
+        img="https://ask-thuto-assets.s3.amazonaws.com/home/stop-wastage.svg"
+        cardTitle="Prevent Wastage"
+        cardText="AskThuto monitors what your students are buying and eliminates wasteful expenditure."
        />
 
-       <SmallCard
-         class="ml-5 mb-5"
-        img="https://goa-assets.s3.amazonaws.com/Illustrations/48.+Cart.svg"
-        cardTitle="Wide Product Range"
-        cardText="We provide a wide range of textbooks (new & used), e-books, laptops, bags, medical accessories, engineering equipment and more. We have partnered with a wide range of vendors including publishers, bookstores & electronics distributors."
-       />
       </div>
  </div>
 <!--  End of GOA card benefits-->
