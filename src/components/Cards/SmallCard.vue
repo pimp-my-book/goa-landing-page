@@ -1,6 +1,6 @@
 <template>
   <div class="shadow-lg lg:w-800 lg:h-500 s:w-4/5 rounded-lg lg:mr-10">
-    <img class="mt-5" :src="img" />
+    <embed width="100px" height="100px" class="mt-5" :src="img" />
     <div>
       <DisplaySmall class="mt-5 text-blue-dark" :text="cardTitle" />
     </div>
