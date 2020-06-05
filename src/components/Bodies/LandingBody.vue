@@ -5,7 +5,7 @@
   <!-- Start of flex-row 1-->
 
   <!-- start of text-part of div -->
-<div class="m-2 lg:text-left lg:w-3/4 lg:pl-32 s:text-center">
+<div class="m-4 lg:text-left lg:pl-26 s:text-center">
   <DisplaySmall
     text="Products"
     class="mb-5 text-blue-dark"
@@ -58,7 +58,7 @@
   <div class=" sm:flex lg:flex-row sm:flex-col">
   <!-- Start of flex-row 2-->
     <!-- start of text-part of div -->
-    <div class="m-2 lg:text-left lg:w-3/4 lg:pl-32 s:text-center">
+    <div class="m-4 lg:text-left lg:pl-26 s:text-center">
       <DisplaySmall
         text="Vendors"
         class="mb-5 text-blue-dark"
@@ -86,7 +86,43 @@
           />
         </li>
       </ul>
-              <!-- end of ul -->
+      <!-- end of ul -->
+      <!-- START [Icon-Grid] -->
+      <div class="vendors-grid-container">
+        <div>
+          <embed
+            class="vendor-item-short"
+            width="200px"
+            height="100px"
+            src="https://ask-thuto-assets.s3.amazonaws.com/home/vendors/adams.jpg"
+          />
+        </div>
+        <div>
+          <embed
+            class="vendor-item-wide"
+            width="400px"
+            height="100px"
+            src="https://ask-thuto-assets.s3.amazonaws.com/home/vendors/protea.png"
+          />
+        </div>
+        <div>
+          <embed
+            class="vendor-item-short"
+            width="200px"
+            height="100px"
+            src="https://ask-thuto-assets.s3.amazonaws.com/home/vendors/pmb.jpg"
+          />
+        </div>
+        <div>
+          <embed
+            class="vendor-item-wide"
+            width="400px"
+            height="100px"
+            src="https://ask-thuto-assets.s3.amazonaws.com/home/vendors/caxton.jpg"
+          />
+        </div>
+      </div>
+  <!-- END [Icon-Grid] -->
       </div>
     <!-- End of text-part of div -->
     </div>
@@ -250,6 +286,36 @@ ul li {
 
 .break-all {
   word-break: break-all;
+}
+
+.vendors-grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+  margin: auto;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+
+.vendors-grid-container > div {
+  text-align: center;
+}
+
+
+@media screen and (max-width: 420px) {
+  .vendors-grid-container{
+      grid-template-columns: auto;
+      padding-top: 50px
+  }
+
+  .vendor-item-wide{
+    width: 270px
+  }
+
+  .vendor-item-short{
+    width: 200px
+  }
 }
 
 </style>
