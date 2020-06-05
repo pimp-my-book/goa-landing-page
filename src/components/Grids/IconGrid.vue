@@ -1,25 +1,44 @@
 <template>
-    <div class="container mx-auto">
-        <div class="grid grid-cols-3 gap-4">
-            <div>
-                1
-            </div>
-            <div>
-                2
-            </div>
-            <div>
-                3
-            </div>
+    <div class="sm:flex lg:flex-row sm:flex-col content-center">
+        <div class="icon-grid-container">
+            <IconGridItem v-for="link in links" :key="link.url" v-bind:img="link.url"/>
         </div>
     </div>
 </template>
 
 <script>
+import IconGridItem from "./IconGridItem"
+
 export default {
-    name: "IconGrid"
+    name: "IconGrid",
+    components: {
+        IconGridItem
+    },
+    props: {
+        links: Array
+    }
 };
 </script>
 
 <style>
+    .icon-grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 10px;
+        padding: 10px;
+        margin: auto;
+        padding: 20px;
+        padding-bottom: 50px;
+    }
 
+    .icon-grid-container > div {
+        text-align: center;
+    }
+
+    @media screen and (max-width: 420px) {
+        .icon-grid-container{
+            grid-template-columns: auto auto;
+            padding-top: 50px
+        }
+    }
 </style>
