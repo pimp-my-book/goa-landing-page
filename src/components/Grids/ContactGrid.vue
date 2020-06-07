@@ -35,16 +35,16 @@ export default {
     .contact-grid-container {
         display: grid;
         grid-template-columns: auto auto;
-        grid-gap: 10px;
-        padding: 10px;
-        margin: auto;
-        padding: 20px;
-        padding-top: 50px;
-        padding-bottom: 70px;
+        padding-top: 25px;
+        padding-bottom: 100px;
+        width: 100%;
+        max-width: 1366px
     }
 
     .contact-grid-item {
-        margin-left: 100px;
+        margin: auto;
+        width: 100%;
+        max-width: 380px;
         padding: 30px;
     }
 
@@ -53,19 +53,12 @@ export default {
         font-size: 20px;
     }
 
-    @media screen and (max-width: 420px) {
+    @media screen and (max-width: 770px) {
         .contact-grid-container{
             grid-template-columns: auto;
-            padding-top: 50px
-        }
-
-        .contact-grid-item {
-            margin-left: 0px !important;
-        }
-    }
-    @media screen and (max-width: 770px) and (min-width: 430px) {
-        .contact-grid-item {
-            margin-left: 10px !important;
+            padding-top: 50px;
+            grid-gap: 50px;
+            width: 95%
         }
     }
 </style>

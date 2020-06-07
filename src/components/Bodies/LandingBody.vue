@@ -9,7 +9,7 @@
         <DisplaySmall text="Products" class="mb-5 text-blue-dark" />
         <FeatureText
           class="p-2"
-          text="There are a thousand other cool stuff that your students would rather have. Our goal is to ensure that your money is invested in products that will help your students to succeed."
+          text="There are thousands of other cool stuff that your students would rather have. Our goal is to ensure that your money is invested in products that will help your students to succeed."
         />
         <!-- start of ul -->
         <div class="lg:p-12 lg:text-left lg:pr-32">
@@ -116,7 +116,7 @@
       <!-- Start of flex-row 3-->
 
       <!-- start of text-part of div -->
-      <div class="m-4 lg:text-left lg:pl-26 s:text-center">
+      <div class="m-4 lg:text-left lg:pl-26 s:text-center w-full">
         <DisplaySmall text="Contact Us Now" class="mb-5 text-blue-dark" />
         <FeatureText
           class="p-2"
@@ -175,7 +175,7 @@ ul li {
   text-align: center;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 770px) {
   .vendors-grid-container {
     grid-template-columns: auto;
     padding-top: 50px;

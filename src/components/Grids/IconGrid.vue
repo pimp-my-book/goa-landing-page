@@ -29,6 +29,7 @@ export default {
         margin: auto;
         padding: 20px;
         padding-bottom: 50px;
+        overflow-x: hidden !important
     }
 
     .icon-grid-container > div {

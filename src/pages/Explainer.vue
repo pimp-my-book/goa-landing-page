@@ -144,18 +144,13 @@ export default {
     opacity: 0.4
   }
 
-  @media screen and (max-width: 420px) {
+  @media screen and (max-width: 770px) {
     .cost-grid-container {
-      grid-template-columns: auto
+      grid-template-columns: auto;
+      grid-gap: 50px
     }
     .cost-grid-item {
       padding-top: 50px
-    }
-  }
-
-  @media screen and (max-width: 770px) and (min-width: 430px) {
-    .cost-grid-container {
-      grid-template-columns: auto auto;
     }
   }
 </style>

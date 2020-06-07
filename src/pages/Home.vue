@@ -22,7 +22,7 @@
           img="https://ask-thuto-assets.s3.amazonaws.com/home/document-magnified.svg"
           cardTitle="Know how your money was spent"
           class="lg:ml-5 mb-5"
-          cardText="Get real time information regarding student orders, spending and deliveries. Download reports for your clients and seniors."
+          cardText="Get detailed reports on what your students are buying."
         />
 
         <SmallCard
