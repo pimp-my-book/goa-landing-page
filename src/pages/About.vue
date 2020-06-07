@@ -12,7 +12,6 @@
         <FeatureText class="p-5" :text="About.p1" />
         <FeatureText class="p-5" :text="About.p2" />
         <FeatureText class="p-5" :text="About.p3" />
-        <FeatureText class="p-5" :text="About.p4" />
       </div>
     </div>
     <div>
