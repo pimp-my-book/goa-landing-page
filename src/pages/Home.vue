@@ -1,73 +1,62 @@
 <template>
-<div>
+  <div>
     <!-- Main header  -->
-     <MainHeader/>
+    <MainHeader />
 
- <div >
-   <!-- list of companies that use GOA -->
-   <Companies/>
- </div>
+    <div>
+      <!-- list of companies that use GOA -->
+      <Companies />
+    </div>
 
-<!-- Start of cards that explain GOA's Benefits  -->
-    <div class="container pb-32 pt-32  lg:pl-20 mx-auto">
-      <div  class="mb-20 ">
-        <DisplayLarge
-        text="Stop paying MORE and MORE for LESS and LESS"
-       class="mb-2 xl:text-3xl"
-        />
+    <!-- Start of cards that explain GOA's Benefits  -->
+    <div class="container pb-8 pt-32 lg:pl-20 mx-auto">
+      <div class="mb-20">
+        <DisplayLarge text="Stop paying MORE and MORE for LESS and LESS" class="p-2 mb-2 xl:text-3xl" />
         <FeatureText
-        class="xl:text-2xl"
-        text="Our clients have reduced their budgets by 30% while still providing students with all the tools which they need to succeed."
+          class="xl:text-2xl p-2"
+          text="Our clients have reduced their budgets by 30% while still providing students with all the tools which they need to succeed."
+        />
+      </div>
+      <div class="sm:flex lg:flex-row sm:flex-col s:flex s:flex-col items-center">
+        <SmallCard
+          img="https://ask-thuto-assets.s3.amazonaws.com/home/document-magnified.svg"
+          cardTitle="Know how your money was spent"
+          class="lg:ml-5 mb-5"
+          cardText="Get real time information regarding student orders, spending and deliveries. Download reports for your clients and seniors."
+        />
+
+        <SmallCard
+          class="ml-5 mb-5"
+          img="https://ask-thuto-assets.s3.amazonaws.com/home/dedicated-staff.svg"
+          cardTitle="Dedicated Support Staff"
+          cardText="Your students should not have to wait in long lines or talk to computers that don’t know their names. AskThuto gives your students personal support as they figure out what they need to succeed."
+        />
+
+        <SmallCard
+          class="ml-5 mb-5"
+          img="https://ask-thuto-assets.s3.amazonaws.com/home/stop-wastage.svg"
+          cardTitle="Prevent Wastage"
+          cardText="AskThuto monitors what your students are buying and eliminates wasteful expenditure."
+        />
+      </div>
+    </div>
+    <!--  End of GOA card benefits-->
+
+    <!-- content for the body of the landing page -->
+    <LandingBody />
+
+    <!-- The large card contact sales -->
+    <div class="flex justify-center mt-2 lg:pl-32">
+      <LargeCard
+        img="https://s3.amazonaws.com/goa-assets/Illustrations/stock.svg"
+        cardTitle="Make managing student needs easier"
+        show
+        buttonURL="/contact"
+        primaryText="Contact Sales"
+        secondaryText="Book A Demo"
       />
-      </div>
-     <div class=" sm:flex lg:flex-row sm:flex-col s:flex s:flex-col items-center">
-       <SmallCard
-       img="https://ask-thuto-assets.s3.amazonaws.com/home/document-magnified.svg"
-        cardTitle="Know how your money was spent"
-        class="lg:ml-5 mb-5"
-        cardText="Get real time information regarding student orders, spending and deliveries. Download reports for your clients and seniors."
-       />
-
-        <SmallCard
-        class="ml-5 mb-5"
-        img="https://ask-thuto-assets.s3.amazonaws.com/home/dedicated-staff.svg"
-        cardTitle="Dedicated Support Staff"
-        cardText="Your students should not have to wait in long lines or talk to computers that don’t know their names. AskThuto gives your students personal support as they figure out what they need to succeed."
-       />
-
-        <SmallCard
-         class="ml-5 mb-5"
-        img="https://ask-thuto-assets.s3.amazonaws.com/home/stop-wastage.svg"
-        cardTitle="Prevent Wastage"
-        cardText="AskThuto monitors what your students are buying and eliminates wasteful expenditure."
-       />
-
-      </div>
- </div>
-<!--  End of GOA card benefits-->
-
-<!-- content for the body of the landing page -->
-<LandingBody/>
-
-<!-- Buyback section header -->
-<BuyBackHeader/>
-
-<!-- The large card contact sales -->
-<div class="flex justify-center mt-20 lg:pl-32 ">
-<LargeCard
-img="https://s3.amazonaws.com/goa-assets/Illustrations/stock.svg"
-cardTitle="Make managing student needs easier"
-show
-buttonURL="/contact"
-primaryText="Contact Sales"
-secondaryText="Book A Demo"
-/>
-
-</div>
-
-
-</div>
-      
+    </div>
+  </div>
 </template>
 <script>
 import MainHeader from "../components/Headers/MainHeader";
@@ -78,36 +67,30 @@ import Companies from "../components/Headers/Companies";
 import DisplayLarge from "../components/Typography/DisplayLarge";
 import FeatureText from "../components/Typography/FeatureText";
 import BuyBackHeader from "../components/Headers/BuyBackHeader";
-import {page} from 'vue-analytics'
+import { page } from "vue-analytics";
 
 export default {
-    name:'Home',
-    components:{
-        MainHeader,
-        SmallCard,
-        LandingBody,
-        LargeCard,
-        Companies,
-        DisplayLarge,
-        FeatureText,
-        BuyBackHeader
-        
-    }
-    ,
+  name: "Home",
+  components: {
+    MainHeader,
+    SmallCard,
+    LandingBody,
+    LargeCard,
+    Companies,
+    DisplayLarge,
+    FeatureText,
+    BuyBackHeader
+  },
   methods: {
-    track(){
-     page('/')
+    track() {
+      page("/");
     }
   }
-}
+};
 </script>
 
 <style>
-.CardDiv{
- width: 30vw;
+.CardDiv {
+  width: 30vw;
 }
 </style>
-
-
-
-
