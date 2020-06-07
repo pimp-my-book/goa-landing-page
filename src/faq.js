@@ -2,11 +2,40 @@
 //Stores all the FAQS in an array for the FAQ Page
 
 export const  faqs = [
-    
+    {
+        id: 14,
+        question: "How much savings do bursaries make?",
+        answer: "Our current clients save about 30% on their overall budget"
+    },
+    {
+        id: 15,
+        question: "Can our students buy second hand textbooks through AskThuto?",
+        answer: "Yes, some of our vendors supply used textbooks."
+    },
+    {
+        id: 16,
+        question: "Can our students sell back their textbooks to AskThuto?",
+        answer: "Not directly to AskThuto but to our vendors who wish to buy the books."
+    },
+    {
+        id: 17,
+        question: "Can students chose which vendor they want to buy from?",
+        answer: "Yes a student can choose which vendor they wish to buy from. There is a courier charge if the vendor must deliver the book to the student."
+    },
+    {
+        id: 18,
+        question: "How does Askthuto make sure that students do not buy products which they shouldn’t be buying?",
+        answer: "Bursaries select product categories and AskThuto only allows students to purchase those products. AsktTuto also ensures that vendors only supply those products. For textbooks AskThuto checks prescribed booklists to ensure that the student is buying a prescribed book."
+    },
+    {
+        id: 19,
+        question: "How does AskhThuto ensure that the student does not spend more than their bursaries budget?",
+        answer: "AskThuto limits the student's spend limit to the amount allocated by their bursary. Should the student require more products than what their allocated budget allows for, AskThuto will first seek approval from the bursary before releasing the order to vendors."
+    },
     {
         id: 1,
         question: "Can a student order on whatsapp or email?",
-        answer: "No. Orders are only placed through the GOA platform.  The platform makes it easy for students to place and follow up on orders. It also ensures that the bursaries budget mandates and requirements are adhered to."
+        answer: "No. Orders are only placed through the AskThuto platform.  The platform makes it easy for students to place and follow up on orders. It also ensures that the bursaries budget mandates and requirements are adhered to."
     },
     {
         id: 13,
@@ -27,7 +56,7 @@ export const  faqs = [
     {
         id: 4,
         question: "Can I order on Whatsapp or via email?",
-        answer: "Unfortunately not, all orders are processed on gogoa.co.za. Only queries can be communicated on whatsapp/email."
+        answer: "Unfortunately not, all orders are processed on askthuto.co.za. Only queries can be communicated on whatsapp/email."
     },
     {
         id: 5,
@@ -52,22 +81,22 @@ export const  faqs = [
     {
         id: 9,
         question: "How are the products delivered to the students?",
-        answer: "Products are delivered directly to the student using a courier or the student will be asked to collect from one of our vendors on/near their campus.Delivery information will be provided to the student on the GOA platform."
+        answer: "Products are delivered directly to the student using a courier or the student will be asked to collect from one of our vendors on/near their campus.Delivery information will be provided to the student on the AskThuto platform."
     },
     {
         id: 10,
-        question: "Does GOA have stores on campus?",
-        answer: "No. GOA has a team of customer service agents in Cape Town and Johannesburg. GOA has partner vendors on campuses who supply stock and assists with collection and delivery of products.Our partner vendors on campus are: Pimp My Book, Protea Books, Adams Books and Rehab. Through these partners we have physical presence at all Universities in Gauteng, Kwazulu Natal, Eastern Cape, Free State and the Western Cape."
+        question: "Does AskThuto have stores on campus?",
+        answer: "No. AskThuto has a team of customer service agents in Cape Town and Johannesburg. AskThuto has partner vendors on campuses who supply stock and assists with collection and delivery of products.Our partner vendors on campus are: Pimp My Book, Protea Books, Adams Books and Rehab. Through these partners we have physical presence at all Universities in Gauteng, Kwazulu Natal, Eastern Cape, Free State and the Western Cape."
     },
     {
         id: 11,
-        question: "What products can I order on GOA?",
-        answer: "Students can order any product which has been approved by their bursaryor sponsor. The GOA portal will only allow students to order products which their bursaries have approved and it will keep them within the bursaries spec and spend limits. Some of the popular products:Textbooks - New, Used and E-books, Laptops - Any make, spec or brand which has been approved by the bursary or sponsor. Including Calculators, Drawing Boards, Medical Equipment, Lab Coats, Bags and Accessories "
+        question: "What products can I order on AskThuto?",
+        answer: "Students can order any product which has been approved by their bursaryor sponsor. The AskThuto portal will only allow students to order products which their bursaries have approved and it will keep them within the bursaries spec and spend limits. Some of the popular products:Textbooks - New, Used and E-books, Laptops - Any make, spec or brand which has been approved by the bursary or sponsor. Including Calculators, Drawing Boards, Medical Equipment, Lab Coats, Bags and Accessories "
     },
     {
         id: 12,
-        question: "Are GOA’s prices competitive?",
-        answer: "GOA prices are competitive and market related. GOA charges the retail price of the product as you would find it in the stores of our vendors. These prices will be displayed on the portal once a vendor is selected for the order. GOA charges an additional fee of 10% to cover the admin, delivery and platform fees. This fee is normally absorbed by the savings that our clients make through the removal of wasteful expenditure."
+        question: "Are AskThuto’s prices competitive?",
+        answer: "AskThuto prices are competitive and market related. AskThuto charges the retail price of the product as you would find it in the stores of our vendors. These prices will be displayed on the portal once a vendor is selected for the order. AskThuto charges an additional fee of 10% to cover the admin, delivery and platform fees. This fee is normally absorbed by the savings that our clients make through the removal of wasteful expenditure."
     },
 
 ] 
