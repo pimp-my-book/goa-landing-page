@@ -63,7 +63,7 @@
               <FeatureText text="No need to check multiple vendors" />
             </li>
             <li>
-              <FeatureText class="break-all" text="No need to pay multiple vendors" />
+              <FeatureText text="No need to pay multiple vendors" />
             </li>
             <li>
               <FeatureText text="Budget control across multiple vendors" />
