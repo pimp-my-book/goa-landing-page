@@ -9,9 +9,9 @@
     </div>
 
     <!-- Start of cards that explain GOA's Benefits  -->
-    <div class="container pb-8 pt-32 lg:pl-20 mx-auto">
+    <div class="container pb-8 pt-32 w-full mx-auto">
       <div class="mb-20">
-        <DisplayLarge text="Stop paying MORE and MORE for LESS and LESS" class="p-2 mb-2 xl:text-3xl" />
+        <DisplayLarge text="Stop paying MORE and MORE for LESS and LESS" class="mb-2 xl:text-3xl" />
         <FeatureText
           class="xl:text-2xl p-2"
           text="Our clients have reduced their budgets by 30% while still providing students with all the tools which they need to succeed."
@@ -21,19 +21,19 @@
         <SmallCard
           img="https://ask-thuto-assets.s3.amazonaws.com/home/document-magnified.svg"
           cardTitle="Know how your money was spent"
-          class="lg:ml-5 mb-5"
+          class="p-2 lg:ml-5 mb-5"
           cardText="Get detailed reports on what your students are buying."
         />
 
         <SmallCard
-          class="ml-5 mb-5"
+          class="p-2 ml-5 mb-5"
           img="https://ask-thuto-assets.s3.amazonaws.com/home/dedicated-staff.svg"
           cardTitle="Dedicated Support Staff"
           cardText="Your students should not have to wait in long lines or talk to computers that don’t know their names. AskThuto gives your students personal support as they figure out what they need to succeed."
         />
 
         <SmallCard
-          class="ml-5 mb-5"
+          class="p-2 ml-5 mb-5"
           img="https://ask-thuto-assets.s3.amazonaws.com/home/stop-wastage.svg"
           cardTitle="Prevent Wastage"
           cardText="AskThuto monitors what your students are buying and eliminates wasteful expenditure."
