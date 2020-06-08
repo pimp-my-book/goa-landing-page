@@ -58,7 +58,7 @@ export default {
             grid-template-columns: auto;
             padding-top: 50px;
             grid-gap: 50px;
-            width: 95%
+            width: 100%
         }
     }
 </style>

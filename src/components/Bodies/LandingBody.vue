@@ -116,7 +116,7 @@
       <!-- Start of flex-row 3-->
 
       <!-- start of text-part of div -->
-      <div class="m-4 lg:text-left lg:pl-26 s:text-center w-full">
+      <div class="m-4 lg:text-left lg:pl-26 s:text-center w-full mx-auto">
         <DisplaySmall text="Contact Us Now" class="mb-5 text-blue-dark" />
         <FeatureText
           class="p-2"
