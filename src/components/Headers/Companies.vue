@@ -6,9 +6,12 @@ this houses all the images of the companies u\who use GOA.
 -->
 
 <template>
-  <section class="mt-10 lg:pl-20 s:pl-5 md:pl-10">
+  <section class="max-w-screen-xl w-full mt-10 p-2">
     <div class="text-center mb-8 p-2">
-      <DisplayLarge class="xl:text-3xl" text="Want to know why the best chose us?" />
+      <p class="xl:text-3xl text-2xl font-display">
+        Now you know why the best chose the
+        <span style="color: #4eca5d">smart</span> way
+      </p>
     </div>
     <div class="flex x:flex-row lg:flex-row s:flex-col lapie:flex-wrap justify-center">
       <img
