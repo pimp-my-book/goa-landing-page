@@ -52,13 +52,15 @@ this component houses a tut on how to palce an  order on GOA.
     ]'
     />
     <div class="flex flex-col justify-center mt-10 mb-10">
-      <DisplayLarge class="xl:text-4xl" text="Cost of using AskThuto" />
+      <DisplayLarge class="xl:text-4xl" text="AskThuto Pricing" />
     </div>
     <div class="cost-grid-container sm:flex lg:flex-row sm:flex-col content-center mx-auto">
       <div class="cost-grid-item mx-auto text-lg rounded-lg shadow-lg p-6">
         <p class="leading-normal text-left">
-          <strong>Platform Fee</strong><br/>
-          R600 - R1000 per student per annum<br/>
+          <strong>Normal Retail Price</strong><br/><br/>
+          Textbooks: Supplier Cost + (+/-25%) Mark Up - Bulk Discounts<br/><br/>
+          Laptops: Cost + 15% Mark Up - Bulk Discount<br/><br/>
+          Other Products: Margin Varies<br/>
           <br/>
           <strong>Includes</strong><br/>
           <ul class="mb-4">
@@ -66,32 +68,12 @@ this component houses a tut on how to palce an  order on GOA.
             <li>Unlimited use of platform</li>
             <li>Controls to track and review activity</li>
             <li>Expenditure reports</li>
-            <li>Saving on overall budget (removing wasteful expenditure)</li>
+            <li>+/-30% saving on overall budget (removing wasteful expenditure)</li>
           </ul>
         </p>
           <div class="py-3 divider-line"></div>
         <strong>Success Fee</strong><br/>
         % of saving from waste reduction
-      </div>
-      <div class="cost-grid-item mx-auto text-lg rounded-lg shadow-lg p-6">
-        <p class="leading-normal text-left">
-          <strong>Sourcing Fee</strong><br/>
-          Cost from Publisher/Supplier + Markup<br/>
-          <br/>
-          <strong>Includes</strong><br/>
-          <ul class="mb-4">
-            <li>Bulk Discount</li>
-          </ul>
-        </p>
-          <div class="py-3 divider-line"></div>
-        <p class="leading-normal text-left">
-          <strong>Sourcing Cost 3rd Party</strong><br/>
-          Retail selling price of 3rd party vendor<br/>
-          <ul>
-            <li>Control even when using 3rd party stores</li>
-            <li>No admin cost of dealing with multiple stores</li>
-          </ul>
-        </p>
       </div>
     </div>
   </div>
@@ -118,11 +100,10 @@ export default {
 
   .cost-grid-container {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
     grid-gap: 10px;
     padding: 10px;
     margin: auto;
-    padding: 20px;
     max-width: 1000px;
   }
 
@@ -133,8 +114,7 @@ export default {
   .cost-grid-item {
     width: 100%;
     height: 100%;
-    max-width: 330px;
-    max-height: 695px
+    max-width: 420px
   }
 
   .divider-line {
@@ -144,13 +124,9 @@ export default {
     opacity: 0.4
   }
 
-  @media screen and (max-width: 770px) {
-    .cost-grid-container {
-      grid-template-columns: auto;
-      grid-gap: 50px
-    }
+  @media screen and (max-width: 720px) {
     .cost-grid-item {
-      padding-top: 50px
+      max-width: 330px
     }
   }
 </style>
