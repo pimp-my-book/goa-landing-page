@@ -31,9 +31,15 @@ this houses all the images of the companies u\who use GOA.
         src="https://s3.amazonaws.com/goa-assets/Images/companies/CRF+EDU.jpg"
         alt="Cyril Ramamphosa"
       />
+      <img
+        class="lg:h-90 mr-5 s:mt-5 md:w-3/4 md:h-200 lg:w-64"
+        src="https://ask-thuto-assets.s3.amazonaws.com/home/companies-grid/jakes_gerwel.jpg"
+        alt="Jakes Gerwel"
+      />
     </div>
   </section>
 </template>
+
 <script>
 import DisplayLarge from "../Typography/DisplayLarge";
 
