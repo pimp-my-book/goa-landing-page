@@ -3,9 +3,11 @@
     <div
       class="lg:text-left p-5 sm:text-left ml-3 lg:flex lg:flex-col pt-32 lg:mr-20 sm:flex sm:flex-col"
     >
-      <DisplayXLarge text="It's better to know." class="text-white xl:text-7xl" />
+      <p class="text-5xl font-display text-white">
+        Book allowances the <span style="color: #4eca5d">smart</span> way
+      </p>
       <FeatureText
-        text="AskThuto is an Online Marketplace that connects Bursary Students to Approved Vendors, removes wastage by students and lets you know EXACTLY how your money was spent."
+        text="Get full control over your book allowance budget, remove wastage and give your student a personalized service."
         class="text-white-lighter mt-2 xl:text-3xl"
       />
     </div>
