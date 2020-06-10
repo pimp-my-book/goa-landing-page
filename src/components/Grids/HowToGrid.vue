@@ -40,7 +40,7 @@ export default {
         text-align: center;
     }
 
-    @media screen and (max-width: 770px) {
+    @media screen and (max-width: 720px) {
         .how-grid-container{
             grid-template-columns: auto;
             grid-gap: 50px

@@ -9,11 +9,11 @@
     </div>
 
     <!-- Start of cards that explain GOA's Benefits  -->
-    <div class="container pb-8 pt-32 w-full mx-auto">
+    <div class="container pb-8 pt-10 w-full mx-auto">
       <div class="mb-20">
         <DisplayLarge text="Stop paying MORE and MORE for LESS and LESS" class="mb-2 xl:text-3xl" />
         <FeatureText
-          class="xl:text-2xl p-2"
+          class="xl:text-2xl p-4"
           text="Our clients have reduced their budgets by 30% while still providing students with all the tools which they need to succeed."
         />
       </div>

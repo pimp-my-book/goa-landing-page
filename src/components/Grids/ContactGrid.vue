@@ -53,7 +53,7 @@ export default {
         font-size: 20px;
     }
 
-    @media screen and (max-width: 770px) {
+    @media screen and (max-width: 720px) {
         .contact-grid-container{
             grid-template-columns: auto;
             padding-top: 50px;

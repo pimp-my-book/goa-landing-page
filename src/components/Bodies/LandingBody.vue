@@ -175,7 +175,7 @@ ul li {
   text-align: center;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 720px) {
   .vendors-grid-container {
     grid-template-columns: auto;
     padding-top: 50px;

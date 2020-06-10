@@ -32,7 +32,7 @@ export default {
         text-align: center;
     }
 
-    @media screen and (max-width: 770px) {
+    @media screen and (max-width: 720px) {
         .how-to-grid-item {
             padding: 30px;
             width: 330px;
