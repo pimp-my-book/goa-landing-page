@@ -13,14 +13,12 @@
   </div>
 </template>
 <script>
-import BoarderHeader from "../components/Headers/BoarderHeader";
 import HowBody from "../components/Bodies/HowBody";
 import LargeCard from "../components/Cards/LargeCard";
 
 export default {
   name: "HowItWorks",
   components: {
-    BoarderHeader,
     HowBody,
     LargeCard
   },

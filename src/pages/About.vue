@@ -33,7 +33,6 @@
 </template>
 <script>
 import DisplayLarge from "../components/Typography/DisplayLarge";
-import FeatureText from "../components/Typography/FeatureText";
 import AboutImg from "../assets/about.svg";
 import { about } from "../copy";
 
@@ -41,7 +40,6 @@ export default {
   name: "About",
   components: {
     DisplayLarge,
-    FeatureText
   },
   data() {
     return { About: about };
