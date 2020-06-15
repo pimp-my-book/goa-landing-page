@@ -8,9 +8,9 @@
   <!-- END [BoarderHeader] -->
   <div class="p-8 lg:text-left lg:pl-26 s:text-center w-full mx-auto">
     <!-- START [Title & Description] -->
-    <DisplaySmall text="Contact Us Now" class="mb-5 text-blue-dark" />
+    <DisplaySmall text="Contact Us Now" class="mb-5 text-blue-dark text-center" />
     <FeatureText
-      class="p-2"
+      class="p-2 text-center"
       text="We would love to learn more about what you do and to explore how we can help you."
     />
     <!-- END [Title & Description] -->
