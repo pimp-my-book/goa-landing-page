@@ -1,11 +1,5 @@
 <template>
   <div>
-    <!-- boarder header -->
-    <BoarderHeader
-      HeaderText="Need More Clarity?"
-      BodyText="As a student getting textbooks can be an irritating task. Below we aim to simplify it."
-    />
-    <!-- the how it works body content -->
     <HowBody />
     <div class="flex justify-center mt-20 lg:pl-32">
       <!--  a large card to contact sales-->
