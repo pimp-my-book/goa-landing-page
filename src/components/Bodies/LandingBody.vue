@@ -27,20 +27,9 @@
         </div>
         <!-- end of ul -->
 
-        <!-- START [Icon-Grid] -->
-        <IconGrid
-          v-bind:links='[
-    { url: "https://ask-thuto-assets.s3.amazonaws.com/home/icon-grid-home/backpack.svg" },
-    { url: "https://ask-thuto-assets.s3.amazonaws.com/home/icon-grid-home/calculator.svg" },
-    { url: "https://ask-thuto-assets.s3.amazonaws.com/home/icon-grid-home/stationery.svg" },
-    { url: "https://ask-thuto-assets.s3.amazonaws.com/home/icon-grid-home/tablet.svg" },
-    { url: "https://ask-thuto-assets.s3.amazonaws.com/home/icon-grid-home/book.svg" },
-    { url: "https://ask-thuto-assets.s3.amazonaws.com/home/icon-grid-home/ebook.svg" },
-    { url: "https://ask-thuto-assets.s3.amazonaws.com/home/icon-grid-home/laptop.svg" },
-    { url: "https://ask-thuto-assets.s3.amazonaws.com/home/icon-grid-home/stethoscope.svg" },
-  ]'
-        />
-        <!-- END [Icon-Grid] -->
+        <!-- START [ProductsGrid] -->
+        <ProductsGrid/>
+        <!-- END [ProductsGrid] -->
 
         <!-- End of text-part of div -->
       </div>
@@ -144,6 +133,7 @@ import FeatureText from "../Typography/FeatureText";
 import IconGrid from "../Grids/IconGrid";
 import ContactGrid from "../Grids/ContactGrid";
 import Companies from "../Headers/Companies";
+import ProductsGrid from "../Grids/ProductsGrid";
 
 export default {
   name: "LandingBody",
@@ -152,7 +142,8 @@ export default {
     FeatureText,
     IconGrid,
     ContactGrid,
-    Companies
+    Companies,
+    ProductsGrid
   }
 };
 </script>
