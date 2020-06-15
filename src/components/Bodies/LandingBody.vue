@@ -110,8 +110,12 @@
         <!-- End of text-part of div -->
       </div>
     </div>
-    <!-- end of flex-row 2 -->
 
+    <div>
+      <Companies/>
+    </div>
+
+    <!-- end of flex-row 2 -->
     <div class="sm:flex lg:flex-row sm:flex-col">
       <!-- Start of flex-row 3-->
 
@@ -139,6 +143,7 @@ import DisplaySmall from "../Typography/DisplaySmall";
 import FeatureText from "../Typography/FeatureText";
 import IconGrid from "../Grids/IconGrid";
 import ContactGrid from "../Grids/ContactGrid";
+import Companies from "../Headers/Companies";
 
 export default {
   name: "LandingBody",
@@ -146,7 +151,8 @@ export default {
     DisplaySmall,
     FeatureText,
     IconGrid,
-    ContactGrid
+    ContactGrid,
+    Companies
   }
 };
 </script>

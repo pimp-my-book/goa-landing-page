@@ -3,11 +3,6 @@
     <!-- Main header  -->
     <MainHeader />
 
-    <div>
-      <!-- list of companies that use GOA -->
-      <Companies />
-    </div>
-
     <!-- Start of cards that explain GOA's Benefits  -->
     <div class="container pb-8 pt-10 w-full mx-auto">
       <div class="mb-20">
@@ -63,7 +58,6 @@ import MainHeader from "../components/Headers/MainHeader";
 import SmallCard from "../components/Cards/SmallCard";
 import LargeCard from "../components/Cards/LargeCard";
 import LandingBody from "../components/Bodies/LandingBody";
-import Companies from "../components/Headers/Companies";
 import DisplayLarge from "../components/Typography/DisplayLarge";
 import FeatureText from "../components/Typography/FeatureText";
 import { page } from "vue-analytics";
@@ -75,7 +69,6 @@ export default {
     SmallCard,
     LandingBody,
     LargeCard,
-    Companies,
     DisplayLarge,
     FeatureText
   },

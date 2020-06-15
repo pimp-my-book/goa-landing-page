@@ -6,7 +6,7 @@ this houses all the images of the companies u\who use GOA.
 -->
 
 <template>
-  <section class="max-w-screen-xl w-full mt-10 p-2">
+  <section class="max-w-screen-xl w-full mb-12 p-2">
     <div class="text-center mb-8 p-2">
       <p class="xl:text-3xl text-2xl font-display">
         Now you know why the best chose the
