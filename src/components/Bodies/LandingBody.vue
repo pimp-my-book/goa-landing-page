@@ -130,7 +130,6 @@
 <script>
 import DisplaySmall from "../Typography/DisplaySmall";
 import FeatureText from "../Typography/FeatureText";
-import IconGrid from "../Grids/IconGrid";
 import ContactGrid from "../Grids/ContactGrid";
 import Companies from "../Headers/Companies";
 import ProductsGrid from "../Grids/ProductsGrid";
@@ -140,7 +139,6 @@ export default {
   components: {
     DisplaySmall,
     FeatureText,
-    IconGrid,
     ContactGrid,
     Companies,
     ProductsGrid

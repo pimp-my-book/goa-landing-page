@@ -54,13 +54,9 @@ this houses all the images of the companies u\who use GOA.
 </template>
 
 <script>
-import DisplayLarge from "../Typography/DisplayLarge";
 
 export default {
-  name: "Companies",
-  components: {
-    DisplayLarge
-  }
+  name: "Companies"
 };
 </script>
 
