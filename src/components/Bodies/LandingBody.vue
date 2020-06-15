@@ -36,66 +36,16 @@
     </div>
     <!-- end of flex-row 1 -->
 
-    <div class="sm:flex lg:flex-row sm:flex-col">
+    <div class="sm:flex lg:flex-row sm:flex-col mb-10">
       <!-- Start of flex-row 2-->
       <!-- start of text-part of div -->
-      <div class="m-4 lg:text-left lg:pl-26 s:text-center">
-        <DisplaySmall text="Vendors" class="mb-5 text-blue-dark" />
-        <FeatureText
-          class="p-2"
-          text="Get the best of both worlds. Some of our vendors have more than 150 years in the sector while others are introducing innovative solutions to the education sector."
-        />
-        <!-- start of ul -->
-        <div class="lg:p-12 lg:text-left lg:pr-32">
-          <ul class="mx-auto">
-            <li>
-              <FeatureText text="No need to check multiple vendors" />
-            </li>
-            <li>
-              <FeatureText text="No need to pay multiple vendors" />
-            </li>
-            <li>
-              <FeatureText text="Budget control across multiple vendors" />
-            </li>
-          </ul>
-          <!-- end of ul -->
-          <!-- START [Icon-Grid] -->
-          <div class="vendors-grid-container">
-            <div>
-              <embed
-                class="vendor-item-short"
-                width="200px"
-                height="100px"
-                src="https://ask-thuto-assets.s3.amazonaws.com/home/vendors/adams.jpg"
-              />
-            </div>
-            <div>
-              <embed
-                class="vendor-item-wide"
-                width="400px"
-                height="100px"
-                src="https://ask-thuto-assets.s3.amazonaws.com/home/vendors/protea.png"
-              />
-            </div>
-            <div>
-              <embed
-                class="vendor-item-short"
-                width="200px"
-                height="100px"
-                src="https://ask-thuto-assets.s3.amazonaws.com/home/vendors/pmb.jpg"
-              />
-            </div>
-            <div>
-              <embed
-                class="vendor-item-wide"
-                width="400px"
-                height="100px"
-                src="https://ask-thuto-assets.s3.amazonaws.com/home/vendors/caxton.jpg"
-              />
-            </div>
-          </div>
-          <!-- END [Icon-Grid] -->
-        </div>
+      <div class="mx-auto text-left w-full">
+        <DisplaySmall text="Our Track Record" class="mb-5 text-blue-dark" />
+
+        <!-- START [VendorsGrid] -->
+        <VendorsGrid/>
+        <!-- END [VendorsGrid] -->
+
         <!-- End of text-part of div -->
       </div>
     </div>
@@ -133,6 +83,7 @@ import FeatureText from "../Typography/FeatureText";
 import ContactGrid from "../Grids/ContactGrid";
 import Companies from "../Headers/Companies";
 import ProductsGrid from "../Grids/ProductsGrid";
+import VendorsGrid from "../Grids/VendorsGrid";
 
 export default {
   name: "LandingBody",
@@ -141,7 +92,8 @@ export default {
     FeatureText,
     ContactGrid,
     Companies,
-    ProductsGrid
+    ProductsGrid,
+    VendorsGrid
   }
 };
 </script>
@@ -154,34 +106,5 @@ ul li {
 
 .break-all {
   word-break: break-all;
-}
-
-.vendors-grid-container {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-gap: 10px;
-  padding: 10px;
-  margin: auto;
-  padding: 20px;
-  padding-bottom: 50px;
-}
-
-.vendors-grid-container > div {
-  text-align: center;
-}
-
-@media screen and (max-width: 720px) {
-  .vendors-grid-container {
-    grid-template-columns: auto;
-    padding-top: 50px;
-  }
-
-  .vendor-item-wide {
-    width: 270px;
-  }
-
-  .vendor-item-short {
-    width: 200px;
-  }
 }
 </style>
