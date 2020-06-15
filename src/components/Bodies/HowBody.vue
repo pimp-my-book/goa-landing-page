@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto mt-32">
+  <div class="container mx-auto mt-10">
     <!--- start of row 1  -->
     <div class="sm:flex lg:flex-row sm:flex-col">
       <!-- start of img -->
