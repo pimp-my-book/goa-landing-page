@@ -28,7 +28,7 @@
         <!-- end of ul -->
 
         <!-- START [ProductsGrid] -->
-        <ProductsGrid/>
+        <ProductsGrid />
         <!-- END [ProductsGrid] -->
 
         <!-- End of text-part of div -->
@@ -43,16 +43,24 @@
         <DisplaySmall text="Our Track Record" class="mb-5 text-blue-dark" />
 
         <!-- START [VendorsGrid] -->
-        <VendorsGrid/>
+        <VendorsGrid />
         <!-- END [VendorsGrid] -->
 
         <!-- End of text-part of div -->
       </div>
     </div>
 
+    <!-- START [Companies] -->
     <div>
-      <Companies/>
+      <Companies />
     </div>
+    <!-- END [Companies] -->
+
+    <!-- START [PayItForward] -->
+    <div class="mb-12">
+      <PayItForward/>
+    </div>
+    <!-- END [PayItForward] -->
 
     <!-- end of flex-row 2 -->
     <div class="sm:flex lg:flex-row sm:flex-col">
@@ -84,6 +92,7 @@ import ContactGrid from "../Grids/ContactGrid";
 import Companies from "../Headers/Companies";
 import ProductsGrid from "../Grids/ProductsGrid";
 import VendorsGrid from "../Grids/VendorsGrid";
+import PayItForward from "../Containers/PayItForward";
 
 export default {
   name: "LandingBody",
@@ -93,7 +102,8 @@ export default {
     ContactGrid,
     Companies,
     ProductsGrid,
-    VendorsGrid
+    VendorsGrid,
+    PayItForward
   }
 };
 </script>
