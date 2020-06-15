@@ -5,32 +5,27 @@ export const  faqs = [
     {
         id: 14,
         question: "How much savings do bursaries make?",
-        answer: "Our current clients save about 30% on their overall budget"
+        answer: "Our current clients save about 30% on their overall budget."
     },
     {
         id: 15,
         question: "Can our students buy second hand textbooks through AskThuto?",
-        answer: "Yes, some of our vendors supply used textbooks."
+        answer: "Yes we do supply used textbooks through our sister company, Pimp My Book."
     },
     {
         id: 16,
         question: "Can our students sell back their textbooks to AskThuto?",
-        answer: "Not directly to AskThuto but to our vendors who wish to buy the books."
-    },
-    {
-        id: 17,
-        question: "Can students chose which vendor they want to buy from?",
-        answer: "Yes a student can choose which vendor they wish to buy from. There is a courier charge if the vendor must deliver the book to the student."
+        answer: "Yes. We have a pay it forward service where we collect used textbooks and sell them on behalf of our bursary clients."
     },
     {
         id: 18,
-        question: "How does Askthuto make sure that students do not buy products which they shouldn’t be buying?",
-        answer: "Bursaries select product categories and AskThuto only allows students to purchase those products. AsktTuto also ensures that vendors only supply those products. For textbooks AskThuto checks prescribed booklists to ensure that the student is buying a prescribed book."
+        question: "How does AskThuto make sure that students do not buy products which they shouldn’t be buying?",
+        answer: "Each course is linked to the textbook that is prescribed by the University for that Course. When student orders on our platform, it first checks that the student is ordering a prescribed book."
     },
     {
         id: 19,
         question: "How does AskhThuto ensure that the student does not spend more than their bursaries budget?",
-        answer: "AskThuto limits the student's spend limit to the amount allocated by their bursary. Should the student require more products than what their allocated budget allows for, AskThuto will first seek approval from the bursary before releasing the order to vendors."
+        answer: "AskThuto limits the students spend limit to the amount allocated by their bursary. Should the student require more products than their allocated budget AskThuto will first seek approval from the bursary before releasing the order to vendors."
     },
     {
         id: 1,
