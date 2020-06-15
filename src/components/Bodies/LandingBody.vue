@@ -57,7 +57,7 @@
     <!-- END [Companies] -->
 
     <!-- START [PayItForward] -->
-    <div class="mb-12">
+    <div class="mb-20">
       <PayItForward/>
     </div>
     <!-- END [PayItForward] -->
