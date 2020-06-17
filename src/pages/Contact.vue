@@ -16,7 +16,6 @@
 </div>
 </template>
 <script>
-import BoarderHeader from "../components/Headers/BoarderHeader";
 import ContactGrid from "../components/Grids/ContactGrid";
 import DisplaySmall from "../components/Typography/DisplaySmall";
 import FeatureText from "../components/Typography/FeatureText";
@@ -24,7 +23,6 @@ import FeatureText from "../components/Typography/FeatureText";
 export default {
     name: 'Contact',
     components:{
-        BoarderHeader,
         ContactGrid,
         DisplaySmall,
         FeatureText
