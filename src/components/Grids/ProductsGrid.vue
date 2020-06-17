@@ -1,5 +1,5 @@
 <template>
-    <div id="products" class="mb-10 mt-2">
+    <div id="products" class="mb-5 mt-10">
         <p class="text-4xl font-display text-center mb-8">
             <span style="color: #4eca5d">30%</span> reduction in book allowance costs
         </p>

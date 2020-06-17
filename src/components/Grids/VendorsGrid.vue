@@ -19,7 +19,7 @@
             <span class="text-xl"><strong>3. About the company</strong></span><br/>
             <br/>
             13 years experience in book retail<br/>
-            100% black women owned<br/>
+            100% black owned<br/>
             Tech driven
         </div>
         <div class="vendors-grid-item rounded-lg shadow-lg" style="background-color: rgb(78, 202, 93, 0.5)">

@@ -34,6 +34,7 @@
           cardText="AskThuto monitors what your students are buying and eliminates wasteful expenditure."
         />
       </div>
+      <ProductsGrid/>
     </div>
     <!--  End of GOA card benefits-->
 
@@ -60,6 +61,7 @@ import LargeCard from "../components/Cards/LargeCard";
 import LandingBody from "../components/Bodies/LandingBody";
 import DisplayLarge from "../components/Typography/DisplayLarge";
 import FeatureText from "../components/Typography/FeatureText";
+import ProductsGrid from "../components/Grids/ProductsGrid";
 import { page } from "vue-analytics";
 
 export default {
@@ -70,7 +72,8 @@ export default {
     LandingBody,
     LargeCard,
     DisplayLarge,
-    FeatureText
+    FeatureText,
+    ProductsGrid
   },
   methods: {
     track() {

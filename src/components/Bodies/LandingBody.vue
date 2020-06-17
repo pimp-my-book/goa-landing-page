@@ -27,9 +27,20 @@
         </div>
         <!-- end of ul -->
 
-        <!-- START [ProductsGrid] -->
-        <ProductsGrid />
-        <!-- END [ProductsGrid] -->
+        <!-- START [IconGrid] -->
+        <IconGrid
+          v-bind:links='[
+            { url: "https://ask-thuto-assets.s3.amazonaws.com/home/icon-grid-home/backpack.svg" },
+            { url: "https://ask-thuto-assets.s3.amazonaws.com/home/icon-grid-home/calculator.svg" },
+            { url: "https://ask-thuto-assets.s3.amazonaws.com/home/icon-grid-home/stationery.svg" },
+            { url: "https://ask-thuto-assets.s3.amazonaws.com/home/icon-grid-home/tablet.svg" },
+            { url: "https://ask-thuto-assets.s3.amazonaws.com/home/icon-grid-home/book.svg" },
+            { url: "https://ask-thuto-assets.s3.amazonaws.com/home/icon-grid-home/ebook.svg" },
+            { url: "https://ask-thuto-assets.s3.amazonaws.com/home/icon-grid-home/laptop.svg" },
+            { url: "https://ask-thuto-assets.s3.amazonaws.com/home/icon-grid-home/stethoscope.svg" },
+          ]'
+        />
+        <!-- END [IconGrid] -->
 
         <!-- End of text-part of div -->
       </div>
@@ -90,9 +101,9 @@ import DisplaySmall from "../Typography/DisplaySmall";
 import FeatureText from "../Typography/FeatureText";
 import ContactGrid from "../Grids/ContactGrid";
 import Companies from "../Headers/Companies";
-import ProductsGrid from "../Grids/ProductsGrid";
 import VendorsGrid from "../Grids/VendorsGrid";
 import PayItForward from "../Containers/PayItForward";
+import IconGrid from "../Grids/IconGrid";
 
 export default {
   name: "LandingBody",
@@ -101,9 +112,9 @@ export default {
     FeatureText,
     ContactGrid,
     Companies,
-    ProductsGrid,
     VendorsGrid,
-    PayItForward
+    PayItForward,
+    IconGrid
   }
 };
 </script>
