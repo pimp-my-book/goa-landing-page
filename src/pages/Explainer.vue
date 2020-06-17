@@ -31,23 +31,15 @@ this component houses a tut on how to palce an  order on GOA.
         },
         {
             url: "https://ask-thuto-assets.s3.amazonaws.com/how_to_order/05_vendor_deliver.svg",
-            header: "5. Vendor delivers to student"
-        },
-        {
-            url: "https://ask-thuto-assets.s3.amazonaws.com/how_to_order/06_collect_vendor.svg",
-            header: "6. Student Collects at Vendor"
+            header: "5. AskThuto delivers directly to students"
         },
         {
             url: "https://ask-thuto-assets.s3.amazonaws.com/how_to_order/07_client_reports.svg",
-            header: "7. Client gets live reports"
+            header: "6. Client gets live reports"
         },
         {
             url: "https://ask-thuto-assets.s3.amazonaws.com/how_to_order/08_pay_askthuto.svg",
-            header: "8. Client Pays AskThuto"
-        },
-        {
-            url: "https://ask-thuto-assets.s3.amazonaws.com/how_to_order/09_askthuto_pays_vendor.svg",
-            header: "9. Askthuto pays Vendor"
+            header: "7. Client Pays AskThuto"
         }
     ]'
     />
@@ -57,10 +49,7 @@ this component houses a tut on how to palce an  order on GOA.
     <div class="cost-grid-container sm:flex lg:flex-row sm:flex-col content-center mx-auto">
       <div class="cost-grid-item mx-auto text-lg rounded-lg shadow-lg p-6">
         <p class="leading-normal text-left">
-          <strong>Normal Retail Price</strong><br/><br/>
-          Textbooks: Supplier Cost + (+/-25%) Mark Up - Bulk Discounts<br/><br/>
-          Laptops: Cost + 15% Mark Up - Bulk Discount<br/><br/>
-          Other Products: Margin Varies<br/>
+          <strong>Normal Retail Price</strong><br/>
           <br/>
           <strong>Includes</strong><br/>
           <ul class="mb-4">
