@@ -1,14 +1,8 @@
 <template>
 <div>
-<!-- START [BoarderHeader] -->
-  <BoarderHeader
-    HeaderText="Looking For More Info?"
-    BodyText="If you are a bursary and would like to get insight into what GOA can do for your organisation, below is a contact form that you can fill out and send to us. Then someone will get in touch with you to help you with an queries."
-  />
-  <!-- END [BoarderHeader] -->
   <div class="p-8 lg:text-left lg:pl-26 s:text-center w-full mx-auto">
     <!-- START [Title & Description] -->
-    <DisplaySmall text="Contact Us Now" class="mb-5 text-blue-dark text-center" />
+    <DisplaySmall text="Contact Us Now" class="mb-5 mt-10 text-blue-dark text-center" />
     <FeatureText
       class="p-2 text-center"
       text="We would love to learn more about what you do and to explore how we can help you."
