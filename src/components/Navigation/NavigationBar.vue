@@ -2,7 +2,7 @@
   <nav class="border-top flex items-center justify-between flex-wrap bg-green-darker p-6">
     <div class="flex items-center flex-no-shrink text">
       <h1 class="font-display text-white">
-        <a class="no-underline text-white" href="/">GOA</a>
+        <a class="no-underline text-white" href="/">AskThuto</a>
       </h1>
     </div>
     <div class="block lg:hidden">
@@ -38,13 +38,6 @@
           <router-link class="text-white no-underline" to="/faq">
             <p class="font-body hover:text-green">FAQ</p>
           </router-link>
-        </a>
-        <a
-          href="https://help.gogoa.co.za"
-          target="_blank"
-          class="block mt-4 no-underline sm:inline-block sm:mt-0 text-white hover:text-bg-green-light mr-4"
-        >
-          <p class="font-body hover:text-green">Help</p>
         </a>
 
         <a

@@ -1,79 +1,49 @@
 <template>
-    <div class= "shadow-lg-card   LargeCard rounded-lg lg:mr-10">
-  <img 
-  class="mt-5"
-  :src="img"
-  alt="money"
-   />
-  <div>
-   <DisplaySmall 
-   class="mt-5 text-blue-dark"
-   :text="cardTitle"
-   />
+  <div class="shadow-lg-card LargeCard rounded-lg lg:mr-10">
+    <img class="mt-5" :src="img" alt="money" />
+    <div>
+      <DisplaySmall class="mt-5 text-blue-dark" :text="cardTitle" />
+    </div>
+    <div class="flex lg:flex-row lg:mt-5 p-5 x:mr-10 justify-center lg:ml-32">
+      <div v-if="show">
+        <div :v-if="show">
+          <PrimaryButton :text="primaryText" regular :url="buttonURL" class="mr-2 mb-2" />
+          <SecondaryButton :text="secondaryText" :url="buttonURL" regular />
+        </div>
+      </div>
+      <div v-else>
+        <PrimaryButton :text="primaryText" regular class="mr-10" :url="buttonURL" />
+      </div>
+    </div>
   </div>
-  <div class="flex lg:flex-row lg:mt-5 p-5 x:mr-10 justify-center lg:ml-32">
-     
-     <div v-if="show">
-         <div :v-if="show">
-  <PrimaryButton
-      :text="primaryText"
-      regular
-      :url="buttonURL"
-      class="mr-2 mb-2"
-      />
-      <SecondaryButton
-      :text="secondaryText"
-      :url="buttonURL"
-      regular
-      />
-         </div>
-    
-     </div>
-     <div v-else>
-         <PrimaryButton
-      :text="primaryText"
-      regular
-      class="mr-10 "
-      :url="buttonURL"
-      />
-     </div>
-      
-   
-
-  </div>
-</div>
 </template>
 <script>
-
-import DisplaySmall from "../Typography/DisplaySmall"
-import PrimaryButton from "../Buttons/PrimaryButton"
-import SecondaryButton from "../Buttons/SecondaryButton"
+import DisplaySmall from "../Typography/DisplaySmall";
+import PrimaryButton from "../Buttons/PrimaryButton";
+import SecondaryButton from "../Buttons/SecondaryButton";
 
 export default {
-    name: 'LargeCard',
-    components: {
-        DisplaySmall,
-        PrimaryButton,
-        SecondaryButton
-    },
-   
-    props: {
-        img: String,
-        cardTitle: String,
-        show: Boolean,
-        primaryText: String,
-        secondaryText:String,
-        buttonURL:String
-    }
-}
+  name: "LargeCard",
+  components: {
+    DisplaySmall,
+    PrimaryButton,
+    SecondaryButton
+  },
+  props: {
+    img: String,
+    cardTitle: String,
+    show: Boolean,
+    primaryText: String,
+    secondaryText: String,
+    buttonURL: String
+  }
+};
 </script>
 
 <style>
-.LargeCard{
-    width: 650px;
-    height: 250px;
+.LargeCard {
+  width: 650px;
+  height: 250px;
 }
-
-
 </style>
 

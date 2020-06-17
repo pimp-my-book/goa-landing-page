@@ -6,54 +6,87 @@ this houses all the images of the companies u\who use GOA.
 -->
 
 <template>
-    <section class="mt-10 lg:pl-20 s:pl-5 md:pl-10 " >
-    <div class="text-center mb-10">
-     <DisplayLarge
-     class="xl:text-3xl"
-     text="We Keep Great Company"
-     />
+  <section class="max-w-screen-xl w-full mb-12 p-2">
+    <div class="text-center mb-8 p-2">
+      <p class="xl:text-3xl text-2xl font-display">
+        Now you know why the best chose the
+        <span style="color: #4eca5d">smart</span> way
+      </p>
     </div>
-    <div class="flex x:flex-row lg:flex-row s:flex-col lapie:flex-wrap justify-center">
-     <img 
-     class="lg:h-90 mr-5 s:mt-5 md:w-3/4 md:h-200 lg:w-64" 
-     src="https://s3.amazonaws.com/goa-assets/Images/companies/AGOF-Logo.png"
-     alt="Alan Gray"
-     />
-     <img 
-     class="lg:h-90 mr-5 s:mt-5 md:w-3/4 md:h-150 lg:w-64"
-     src="https://s3.amazonaws.com/goa-assets/Images/companies/Acc_Logo_Black_Purple_RGB.PNG"
-     alt="Accenture"
-     />
-     <img 
-     class="lg:h-90 mr-5 s:mt-5 md:w-3/4 md:h-250 lg:w-64"
-     src="https://s3.amazonaws.com/goa-assets/Images/companies/oasis.png"
-     alt="Oasis"
-     />
-     <img 
-     class="lg:h-90 mr-5 s:mt-5 md:w-3/4 md:h-200 lg:w-64 "
-     src="https://s3.amazonaws.com/goa-assets/Images/companies/Moshal_weloveIT_logo254-90.png"
-     alt="Moshal"
-     />
-     <img 
-     class="lg:h-90 mr-5 s:mt-5 md:w-3/4 md:h-200 lg:w-64"
-     src="https://s3.amazonaws.com/goa-assets/Images/companies/CRF+EDU.jpg"
-     alt="Cyril Ramamphosa"
-     />
+    <div class="w-full p-2 companies-grid-container">
+      <div class="p-2">
+        <img
+          class="companies-block-landscape"
+          src="https://s3.amazonaws.com/goa-assets/Images/companies/AGOF-Logo.png"
+          alt="Alan Gray Orbis Foundation"
+        />
+      </div>
+      <div class="p-2">
+        <img
+          class="companies-block-landscape"
+          src="https://s3.amazonaws.com/goa-assets/Images/companies/Acc_Logo_Black_Purple_RGB.PNG"
+          alt="Accenture"
+        />
+      </div>
+      <div class="p-2">
+        <img
+          class="companies-block-landscape"
+          src="https://s3.amazonaws.com/goa-assets/Images/companies/CRF+EDU.jpg"
+          alt="Cyril Ramaphosa Education Trust"
+        />
+      </div>
+      <div class="p-2">
+        <img
+          class="companies-block-landscape"
+          src="https://s3.amazonaws.com/goa-assets/Images/companies/Moshal_weloveIT_logo254-90.png"
+          alt="Moshal Scholarship"
+        />
+      </div>
+      <div class="p-2">
+        <img
+          class="companies-block"
+          src="https://ask-thuto-assets.s3.amazonaws.com/home/companies-grid/jakes_gerwel.jpg"
+          alt="Jakes Gerwel Fellowship"
+        />
+      </div>
     </div>
-    </section>
+  </section>
 </template>
+
 <script>
-import DisplayLarge from '../Typography/DisplayLarge'
 
 export default {
-    name:'Companies',
-    components:{
-        DisplayLarge
-    }
-}
+  name: "Companies"
+};
 </script>
 
+<style>
+.companies-grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  row-gap: 10px;
+  margin: auto;
+  padding: 20px
+}
 
+.companies-block {
+  width: 100%;
+  max-width: 150px;
+  height: 150px;
+  margin: auto;
+}
 
+.companies-block-landscape {
+  width: 100%;
+  max-width: 256px;
+  height: 110px;
+  margin: auto;
+}
 
-
+@media screen and (max-width: 720px) {
+  .companies-grid-container {
+    grid-template-columns: auto;
+  }
+}
+</style>
