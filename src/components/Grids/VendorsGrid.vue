@@ -4,7 +4,7 @@
             <span class="text-xl"><strong>1. Customers</strong></span><br/>
             <br/>
             Top bursary clients<br/>
-            6000 textbooks delivered<br/>
+            30 000 textbooks delivered<br/>
             Delivered nationally
         </div>
         <div class="vendors-grid-item rounded-lg shadow-lg" style="background-color: rgb(78, 202, 93, 0.5)">
