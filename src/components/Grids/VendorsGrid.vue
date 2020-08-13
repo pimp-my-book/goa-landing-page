@@ -1,13 +1,13 @@
 <template>
     <div class="vendors-grid-container">
-        <div class="vendors-grid-item rounded-lg shadow-lg" style="background-color: rgb(78, 202, 93, 0.5)">
+        <div class="vendors-grid-item rounded-lg shadow-lg" style="background-color: #a2c8f9">
             <span class="text-xl"><strong>1. Customers</strong></span><br/>
             <br/>
             Top bursary clients<br/>
             30 000 textbooks delivered<br/>
             Delivered nationally
         </div>
-        <div class="vendors-grid-item rounded-lg shadow-lg" style="background-color: rgb(78, 202, 93, 0.5)">
+        <div class="vendors-grid-item rounded-lg shadow-lg" style="background-color: #a2c8f9">
             <span class="text-xl"><strong>2. Suppliers</strong></span><br/>
             <br/>
             Lexis Nexis, Juta, Pearson, Oxford,<br/>
@@ -15,14 +15,14 @@
             SMD Technologies, Mustek,<br/>
             Pimp My Book & More
         </div>
-        <div class="vendors-grid-item rounded-lg shadow-lg" style="background-color: rgb(78, 202, 93, 0.5)">
+        <div class="vendors-grid-item rounded-lg shadow-lg" style="background-color: #a2c8f9">
             <span class="text-xl"><strong>3. About the company</strong></span><br/>
             <br/>
             13 years experience in book retail<br/>
             100% black owned<br/>
             Tech driven
         </div>
-        <div class="vendors-grid-item rounded-lg shadow-lg" style="background-color: rgb(78, 202, 93, 0.5)">
+        <div class="vendors-grid-item rounded-lg shadow-lg" style="background-color: #a2c8f9">
             <span class="text-xl"><strong>4. Team</strong></span><br/>
             <br/>
             Dedicated student support staff<br/>
