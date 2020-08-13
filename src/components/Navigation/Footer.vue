@@ -53,28 +53,15 @@
           </div>
         
       </div>
-
- <!-- CREDITS AND COPYWRIGHT -->
-      <div class="container  py-32 s:py-38">
-          <div class="flex lg:flex-row s:flex-col pt-10 self-end Copyright__Container absolute mt-32 s:pt-20 lg:pt-32">
-           <Credits/>
-           
-           <Copyright/>
-          </div>
-      </div>
     </footer>
 </template>
 <script>
 import FeatureText from "../Typography/FeatureText"
-import Credits from "../Typography/Credits"
-import Copyright from "../Typography/Copyright"
 
 export default {
     name:'Footer',
     components: {
-        FeatureText,
-        Credits,
-        Copyright
+        FeatureText
     }
 }
 </script>
