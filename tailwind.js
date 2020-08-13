@@ -130,7 +130,8 @@ let colors = {
   'ablue': '#1777f2',
   'ablue-light': '#4592f4',
   'ablue-lighter': '#73adf7',
-  'ablue-lightest': '#a2c8f9'
+  'ablue-lightest': '#a2c8f9',
+  'ablue-gradient': 'linear-gradient(179.9deg, #1777f2 23.23%, #00d4ff 99.68%)'
 }
 
 module.exports = {
