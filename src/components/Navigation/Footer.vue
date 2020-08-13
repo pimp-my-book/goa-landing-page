@@ -1,5 +1,5 @@
 <template>
-    <footer class="bg-green-darker mt-32 w-full ">
+    <footer class="bg-ablue mt-32 w-full ">
         
       <div class="container  ">
           <div class="flex lg:flex-row s:flex-col  justify-center Links__Container absolute mt-32 pt-32">
