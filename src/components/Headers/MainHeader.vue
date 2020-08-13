@@ -15,7 +15,7 @@
       <a href="http://app.gogoa.co.za/new_register" class="no-underline text-white">
         <PrimaryButton text="Sign Up" />
       </a>
-      <SecondaryButton text="How It Works" url="/how-it-works" class="ml-3" />
+      <SecondaryButton text="How It Works" url="/how-it-works" regular=True class="ml-3" />
     </div>
   </header>
 </template>
