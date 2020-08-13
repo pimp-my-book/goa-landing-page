@@ -999,7 +999,7 @@ module.exports = {
     function({addComponents}){
       const boarders = {
         ".border-top": {
-          borderTop: "#4ECA5D 8px solid"
+          borderTop: "#ffffff 8px solid"
         }
       };
       addComponents(boarders);
