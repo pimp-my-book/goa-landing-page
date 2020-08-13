@@ -8,7 +8,7 @@
       <div v-if="show">
         <div :v-if="show">
           <PrimaryButton :text="primaryText" regular :url="buttonURL" class="mr-2 mb-2" />
-          <SecondaryButton :text="secondaryText" :url="buttonURL" regular />
+          <SecondaryButton :text="secondaryText" :url="buttonURL" :regular=False />
         </div>
       </div>
       <div v-else>
