@@ -1,5 +1,5 @@
 <template>
-  <nav class="border-top flex items-center justify-between flex-wrap bg-green-darker p-6">
+  <nav class="border-top flex items-center justify-between flex-wrap bg-ablue p-6">
     <div class="flex items-center flex-no-shrink text">
       <h1 class="font-display text-white">
         <a class="no-underline text-white" href="/">AskThuto</a>
@@ -20,7 +20,7 @@
           class="block mt-4 no-underline sm:inline-block sm:mt-0 text-white hover:text-bg-green-light mr-4"
         >
           <router-link class="text-white no-underline" to="/how-it-works">
-            <p class="font-body hover:text-green">How It Works</p>
+            <p class="font-body">How It Works</p>
           </router-link>
         </a>
         <a
@@ -28,7 +28,7 @@
           class="block mt-4 no-underline sm:inline-block sm:mt-0 text-white hover:text-bg-green-light mr-4"
         >
           <router-link class="text-white no-underline" to="/contact">
-            <p class="font-body hover:text-green">Contact</p>
+            <p class="font-body">Contact</p>
           </router-link>
         </a>
         <a
@@ -36,7 +36,7 @@
           class="block mt-4 no-underline sm:inline-block sm:mt-0 text-white hover:text-bg-green-light mr-4"
         >
           <router-link class="text-white no-underline" to="/faq">
-            <p class="font-body hover:text-green">FAQ</p>
+            <p class="font-body">FAQ</p>
           </router-link>
         </a>
 
@@ -45,7 +45,7 @@
           class="block mt-4 no-underline sm:inline-block sm:mt-0 text-white hover:text-bg-green-light mr-4"
         >
           <router-link class="text-white no-underline" to="/bursaries">
-            <p class="font-body hover:text-green">Bursaries</p>
+            <p class="font-body">Bursaries</p>
           </router-link>
         </a>
         <a
@@ -53,15 +53,15 @@
           class="block mt-4 no-underline sm:inline-block sm:mt-0 text-white hover:text-bg-green-light mr-4"
         >
           <router-link class="text-white no-underline" to="/about">
-            <p class="font-body hover:text-green">About</p>
+            <p class="font-body">About</p>
           </router-link>
         </a>
       </div>
       <div class="nav__drawer--right">
-        <p class="text-white font-body mr-4 hover:text-green">
+        <p class="text-white font-body mr-4">
           <a
             href="http://app.gogoa.co.za/login"
-            class="no-underline text-white hover:text-green"
+            class="no-underline text-white"
           >Login</a>
         </p>
       </div>
