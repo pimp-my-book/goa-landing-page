@@ -1,5 +1,5 @@
 <template>
-  <nav class="border-top flex items-center justify-between flex-wrap bg-black p-6">
+  <nav class="border-top flex items-center justify-between flex-wrap bg-black-light p-6">
     <div class="flex items-center flex-no-shrink text">
       <h1 class="font-display text-white">
         <a class="no-underline text-white" href="/">AskThuto</a>
