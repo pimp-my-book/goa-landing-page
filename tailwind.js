@@ -46,7 +46,7 @@ let defaultConfig = require('tailwindcss/defaultConfig')()
 let colors = {
   'transparent': 'transparent',
 
-  'black': '#22292f',
+  'black': '#000000', /* #22292f */
   'grey-darker': '#434343',
   'grey-dark': '#52524E',
   'grey': '#9A9B94',
@@ -1000,7 +1000,7 @@ module.exports = {
     function({addComponents}){
       const boarders = {
         ".border-top": {
-          borderTop: "#ffffff 8px solid"
+          borderTop: "#1777f2 8px solid"
         }
       };
       addComponents(boarders);
