@@ -1,9 +1,17 @@
 <template>
   <nav class="border-top flex items-center justify-between flex-wrap bg-black-light p-6">
-    <div class="flex items-center flex-no-shrink text">
-      <h1 class="font-display text-white">
-        <a class="no-underline text-white" href="/">AskThuto</a>
-      </h1>
+    <div class="flex items-center flex-no-shrink m-0 p-0">
+      <img class="h-auto w-4/5" src="https://ask-thuto-assets.s3.amazonaws.com/home/Askthuto+Logo_Face+Only_Small_Close_Border.png"/>
+    </div>
+    <div class="flex items-center text-left flex-no-shrink text font-sec font-bold">
+      <a class="no-underline" href="/">
+        <h1 class="text-white">
+          askthuto
+        </h1>
+        <span class="text-white text-xs font-medium">
+          Efficient Educational Allowances
+        </span>
+      </a>
     </div>
     <div class="block lg:hidden">
       <span @click="toggle" class="flex items-center px-3 py-2">
