@@ -6,7 +6,7 @@
     BodyText="Below are some FAQs that might get your problem solved. If not we would happliy help you. "
     />
 
-    <div class="container mx-auto ">
+    <div class="container mx-auto pt-5">
       <!-- display heading -->
         <DisplayXLarge
           text="FAQ"
