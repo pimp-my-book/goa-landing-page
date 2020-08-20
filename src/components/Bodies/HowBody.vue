@@ -7,7 +7,7 @@
         <img
           class="w-img h-img"
           alt="students"
-          src="https://goa-assets.s3.amazonaws.com/Illustrations/undraw_analyze_17kw.svg"
+          src="https://ask-thuto-assets.s3.amazonaws.com/bursaries/01_undraw_analyze_17kw.svg"
         />
       </div>
       <!-- End of img -->
@@ -29,7 +29,7 @@
         <img
           class="w-img h-img lg:hidden"
           alt="activity"
-          src="https://goa-assets.s3.amazonaws.com/Illustrations/undraw_task_31wc.svg"
+          src="https://ask-thuto-assets.s3.amazonaws.com/bursaries/02_undraw_task_31wc.svg"
         />
       </div>
       <!-- End of img -->
@@ -48,7 +48,7 @@
         <img
           class="w-img h-img s:hidden lg:block"
           alt="activity"
-          src="https://goa-assets.s3.amazonaws.com/Illustrations/undraw_task_31wc.svg"
+          src="https://ask-thuto-assets.s3.amazonaws.com/bursaries/02_undraw_task_31wc.svg"
         />
       </div>
       <!-- End of img -->
@@ -63,7 +63,7 @@
         <img
           class="w-img h-img"
           alt="students"
-          src="https://goa-assets.s3.amazonaws.com/Illustrations/undraw_metrics_gtu7.svg"
+          src="https://ask-thuto-assets.s3.amazonaws.com/bursaries/03_undraw_metrics_gtu7.svg"
         />
       </div>
       <!-- End of img -->
@@ -85,7 +85,7 @@
         <img
           class="w-img h-img lg:hidden"
           alt="activity"
-          src="https://goa-assets.s3.amazonaws.com/Illustrations/undraw_accept_request_vdsd.svg"
+          src="https://ask-thuto-assets.s3.amazonaws.com/bursaries/04_undraw_accept_request_vdsd.svg"
         />
       </div>
       <!-- End of img -->
@@ -104,7 +104,7 @@
         <img
           class="w-img h-img s:hidden lg:block"
           alt="activity"
-          src="https://goa-assets.s3.amazonaws.com/Illustrations/undraw_accept_request_vdsd.svg"
+          src="https://ask-thuto-assets.s3.amazonaws.com/bursaries/04_undraw_accept_request_vdsd.svg"
         />
       </div>
       <!-- End of img -->
@@ -119,7 +119,7 @@
         <img
           class="w-img h-img"
           alt="students"
-          src="https://s3.amazonaws.com/goa-assets/Illustrations/undraw_hello_aeia.svg"
+          src="https://ask-thuto-assets.s3.amazonaws.com/bursaries/05_undraw_authentication_fsn5.svg"
         />
       </div>
       <!-- End of img -->
@@ -142,7 +142,7 @@
         <img
           class="w-img h-img lg:hidden"
           alt="Check complete"
-          src="https://s3.amazonaws.com/goa-assets/Illustrations/undraw_add_to_cart_vkjp.svg"
+          src="https://ask-thuto-assets.s3.amazonaws.com/bursaries/06_undraw_add_to_cart_vkjp.svg"
         />
       </div>
       <!-- End of img -->
@@ -161,7 +161,7 @@
         <img
           class="w-img h-img lg:block s:hidden"
           alt="students"
-          src="https://s3.amazonaws.com/goa-assets/Illustrations/undraw_add_to_cart_vkjp.svg"
+          src="https://ask-thuto-assets.s3.amazonaws.com/bursaries/06_undraw_add_to_cart_vkjp.svg"
         />
       </div>
       <!-- End of img -->
@@ -175,7 +175,7 @@
         <img
           class="w-img h-img"
           alt="students"
-          src="https://s3.amazonaws.com/goa-assets/Illustrations/undraw_deliveries_131a.svg"
+          src="https://ask-thuto-assets.s3.amazonaws.com/bursaries/07_undraw_deliveries_131a.svg"
         />
       </div>
       <!-- End of img -->
@@ -198,7 +198,7 @@
         <img
           class="w-img h-img lg:hidden"
           alt="Check complete"
-          src="https://goa-assets.s3.amazonaws.com/Illustrations/undraw_Savings_dwkw.svg"
+          src="https://ask-thuto-assets.s3.amazonaws.com/bursaries/08_undraw_bookmarks_r6up.svg"
         />
       </div>
       <!-- End of img -->
@@ -217,7 +217,7 @@
         <img
           class="w-img h-img lg:block s:hidden"
           alt="students"
-          src="https://goa-assets.s3.amazonaws.com/Illustrations/undraw_Savings_dwkw.svg"
+          src="https://ask-thuto-assets.s3.amazonaws.com/bursaries/08_undraw_bookmarks_r6up.svg"
         />
       </div>
       <!-- End of img -->
@@ -231,7 +231,7 @@
         <img
           class="w-img h-img"
           alt="students"
-          src="https://goa-assets.s3.amazonaws.com/Illustrations/undraw_financial_data_es63.svg"
+          src="https://ask-thuto-assets.s3.amazonaws.com/bursaries/09_undraw_data_trends_b0wg.svg"
         />
       </div>
       <!-- End of img -->

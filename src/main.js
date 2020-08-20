@@ -25,10 +25,7 @@ Vue.config.productionTip = false
 Vue.component('b-collapse', Collapse)
 Vue.use(VueRouter)
 Vue.use(VueAnalytics, {
-
   id:'UA-131906194-1'
-
-
 })
 
 new Vue({

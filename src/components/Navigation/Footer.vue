@@ -1,5 +1,5 @@
 <template>
-    <footer class="bg-green-darker mt-32 w-full ">
+    <footer class="bg-ablue mt-32 w-full ">
         
       <div class="container  ">
           <div class="flex lg:flex-row s:flex-col  justify-center Links__Container absolute mt-32 pt-32">
@@ -53,35 +53,22 @@
           </div>
         
       </div>
-
- <!-- CREDITS AND COPYWRIGHT -->
-      <div class="container  py-32 s:py-38">
-          <div class="flex lg:flex-row s:flex-col pt-10 self-end Copyright__Container absolute mt-32 s:pt-20 lg:pt-32">
-           <Credits/>
-           
-           <Copyright/>
-          </div>
-      </div>
     </footer>
 </template>
 <script>
 import FeatureText from "../Typography/FeatureText"
-import Credits from "../Typography/Credits"
-import Copyright from "../Typography/Copyright"
 
 export default {
     name:'Footer',
     components: {
-        FeatureText,
-        Credits,
-        Copyright
+        FeatureText
     }
 }
 </script>
 <style>
 footer {
      clip-path: polygon(59% 21%, 100% 1%, 100% 100%, 0 100%, 0 49%); 
-    height: 600px;
+    height: 400px;
     
     
 }

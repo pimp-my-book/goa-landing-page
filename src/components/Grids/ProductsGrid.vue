@@ -1,7 +1,7 @@
 <template>
     <div id="products" class="mb-5 mt-10">
         <p class="text-4xl font-display text-center mb-8">
-            <span style="color: #4eca5d">30%</span> reduction in book allowance costs
+            <span style="color: #4592f4">30%</span> reduction in book allowance costs
         </p>
         <div class="products-grid-container text-left">
             <div class="products-grid-item rounded-lg shadow-lg">
@@ -34,7 +34,7 @@
                 <br/>
                 No cost reduction<br/>
             </div>
-            <div class="products-grid-item rounded-lg shadow-lg" style="background-color: rgb(78, 202, 93, 0.5)">
+            <div class="products-grid-item rounded-lg shadow-lg" style="background-color: #a2c8f9">
                 <span class="text-xl"><strong>Askthuto</strong></span><br/>
                 <br/>
                 Full Control<br/>

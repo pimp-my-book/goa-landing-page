@@ -46,7 +46,9 @@ let defaultConfig = require('tailwindcss/defaultConfig')()
 let colors = {
   'transparent': 'transparent',
 
-  'black': '#22292f',
+  'black': '#000000',
+  'black-light': '#22292f',
+
   'grey-darker': '#434343',
   'grey-dark': '#52524E',
   'grey': '#9A9B94',
@@ -124,7 +126,13 @@ let colors = {
   'pink-lighter': '#ffbbca',
   'pink-lightest': '#ffebef',
 
-
+  'ablue-darkest': '#092f60',
+  'ablue-darker': '#0d4791',
+  'ablue-dark': '#125fc1',
+  'ablue': '#1777f2',
+  'ablue-light': '#4592f4',
+  'ablue-lighter': '#73adf7',
+  'ablue-lightest': '#a2c8f9'
 }
 
 module.exports = {
@@ -201,6 +209,7 @@ module.exports = {
   fonts: {
     'display':['Paytone One'] ,
     'body': ['Poppins'],
+    'sec': ['Quicksand'],
     'sans': [
       'system-ui',
       'BlinkMacSystemFont',
@@ -993,7 +1002,7 @@ module.exports = {
     function({addComponents}){
       const boarders = {
         ".border-top": {
-          borderTop: "#4ECA5D 8px solid"
+          borderTop: "#ffffff 8px solid"
         }
       };
       addComponents(boarders);

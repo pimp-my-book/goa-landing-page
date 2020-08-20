@@ -10,7 +10,7 @@ this houses all the images of the companies u\who use GOA.
     <div class="text-center mb-8 p-2">
       <p class="xl:text-3xl text-2xl font-display">
         Now you know why the best chose the
-        <span style="color: #4eca5d">smart</span> way
+        <span style="color: #4592f4">smart</span> way
       </p>
     </div>
     <div class="w-full p-2 companies-grid-container">

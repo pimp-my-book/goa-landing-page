@@ -1,9 +1,9 @@
 <template>
   <header
-    class="w-full lg:h-64 s:h-250 sl:h-350 bg-green-gradient text-center lg:rounded-header-border s:header-border-sm"
+    class="w-full lg:h-64 s:h-250 sl:h-350 text-center lg:rounded-header-border s:header-border-sm"
   >
     <DisplayXLarge :text="HeaderText" class="text-white pt-5" />
-    <FeatureText :text="BodyText" class="text-black pt-5 lg:px-32 xl:text-3xl" />
+    <FeatureText :text="BodyText" class="text-white pt-5 lg:px-32 xl:text-3xl" />
   </header>
 </template>    
 <script>
@@ -25,7 +25,6 @@ export default {
 
 <style scoped>
 header {
-  background: linear-gradient(179.9deg, #a0ffab 23.23%, #94b5e3 99.68%);
+  background: linear-gradient(179.9deg, #1777f2 23.23%, #22292f 99.68%);
 }
 </style>
-
